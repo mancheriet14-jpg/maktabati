@@ -1,0 +1,814 @@
+{
+  "common": {
+    "listSeparator": ", ",
+    "home": "Accueil",
+    "offers": "Offres",
+    "profile": "Profil",
+    "wishlist": "Favoris",
+    "cart": "Panier",
+    "login": "Connexion",
+    "signup": "Créer un compte",
+    "logout": "Déconnexion",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "continueShopping": "Continuer vos achats",
+    "startShopping": "Commencer vos achats",
+    "viewAll": "Voir tout",
+    "all": "Tout",
+    "allProducts": "Tous les produits",
+    "backToHome": "Retour à l'accueil",
+    "returnHome": "Retour à la page d'accueil",
+    "browseProducts": "Parcourir les produits"
+  },
+  "header": {
+    "searchPlaceholder": "Rechercher un produit..."
+  },
+  "footer": {
+    "taglineSuffix": "Votre destination pour un shopping en ligne intelligent.",
+    "categories": "Catégories",
+    "quickLinks": "Liens rapides",
+    "contactUs": "Contactez-nous",
+    "algeria": "Algérie",
+    "rights": "Tous droits réservés."
+  },
+  "nav": {
+    "home": "Accueil",
+    "offers": "Offres",
+    "profile": "Profil"
+  },
+  "sort": {
+    "newest": "Plus récents",
+    "priceAsc": "Prix : croissant",
+    "priceDesc": "Prix : décroissant",
+    "rating": "Mieux notés",
+    "label": "Trier :"
+  },
+  "filters": {
+    "maxPrice": "Prix maximum :",
+    "allPlaceholder": "Tout",
+    "brandsPrefix": "Marques : "
+  },
+  "home": {
+    "offersSection": "Offres",
+    "shopByCategories": "Achetez par catégories principales"
+  },
+  "category": {
+    "notFound": "Catégorie introuvable.",
+    "shopBags": "Acheter des sacs scolaires",
+    "shopBySubCategories": "Acheter par sous-catégories",
+    "shopByBrand": "Acheter par marque",
+    "noProducts": "Aucun produit correspondant pour le moment."
+  },
+  "subCategory": {
+    "notFound": "Sous-catégorie introuvable."
+  },
+  "bagCollection": {
+    "notFound": "Collection introuvable.",
+    "noProducts": "Aucun produit dans cette collection pour le moment."
+  },
+  "product": {
+    "notFound": "Produit introuvable.",
+    "selectOptionFirst": "Veuillez d'abord sélectionner une option",
+    "addedToCart": "Produit ajouté au panier",
+    "addedToCartShort": "Ajouté au panier",
+    "addedToCartButton": "Ajouté au panier",
+    "addToCart": "Ajouter au panier",
+    "addButton": "Ajouter au panier",
+    "buyNow": "Acheter maintenant",
+    "sku": "Réf. produit : ",
+    "outOfStock": "Rupture de stock",
+    "available": "En stock",
+    "lowStock": "Plus que {{count}} en stock",
+    "discount": "Remise {{count}}%",
+    "decrease": "Diminuer",
+    "increase": "Augmenter",
+    "mustLoginWishlist": "Vous devez vous connecter pour utiliser les favoris",
+    "removedFromWishlist": "Produit retiré des favoris",
+    "addedToWishlist": "Produit ajouté aux favoris",
+    "description": "Description",
+    "productInfo": "Informations sur le produit",
+    "similarProducts": "Produits similaires",
+    "chooseOption": "Choisir une option",
+    "variantOutOfStock": "(épuisé)",
+    "startsFrom": "À partir de ",
+    "notRatedYet": "Pas encore noté"
+  },
+  "reviews": {
+    "title": "Avis sur le produit",
+    "writeReview": "Laisser un avis",
+    "yourName": "Votre nom",
+    "namePlaceholder": "Entrez votre nom",
+    "yourRating": "Votre note",
+    "yourComment": "Votre commentaire",
+    "commentPlaceholder": "Partagez votre opinion sur ce produit...",
+    "submit": "Envoyer l'avis",
+    "submitting": "Envoi en cours...",
+    "submitSuccess": "Votre avis a été envoyé avec succès",
+    "submitError": "Une erreur s'est produite lors de l'envoi de l'avis",
+    "commentRequired": "Veuillez écrire un commentaire",
+    "nameRequired": "Veuillez entrer votre nom",
+    "noReviews": "Aucun avis pour l'instant. Soyez le premier à évaluer ce produit !",
+    "countLabel": "{{count}} avis",
+    "reviewsWord": "avis",
+    "stars": "étoiles",
+    "customer": "Client",
+    "locale": "fr",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirmDeleteTitle": "Supprimer l'avis",
+    "confirmDeleteText": "Êtes-vous sûr de vouloir supprimer cet avis ? Cette action est irréversible.",
+    "confirmDeleteBtn": "Oui, supprimer",
+    "editSuccess": "Votre avis a été modifié avec succès",
+    "editError": "Une erreur s'est produite lors de la modification de l'avis",
+    "deleteSuccess": "Votre avis a été supprimé avec succès",
+    "deleteError": "Une erreur s'est produite lors de la suppression de l'avis",
+    "loginToManage": "Connectez-vous pour gérer votre avis",
+    "expand": "Ouvrir",
+    "collapse": "Fermer"
+  },
+  "cart": {
+    "empty": "Votre panier est vide.",
+    "title": "Panier",
+    "clear": "Vider le panier",
+    "itemRemoved": "Produit retiré",
+    "cartCleared": "Panier vidé",
+    "confirmClear": "Voulez-vous vider tout le panier ?",
+    "confirmClearBtn": "Oui, vider le panier",
+    "summary": "Résumé de la commande",
+    "deliveryWilaya": "Wilaya de livraison",
+    "selectWilaya": "Choisir la wilaya pour la livraison",
+    "couponPlaceholder": "Code promo",
+    "couponInfo": "Le code promo sera activé plus tard",
+    "apply": "Appliquer",
+    "goodsCost": "Coût des articles",
+    "deliveryCost": "Frais de livraison",
+    "total": "Total",
+    "checkout": "Commander"
+  },
+  "checkout": {
+    "title": "Commander",
+    "customerInfo": "Informations client",
+    "fullName": "Nom complet",
+    "fullNameRequired": "Nom complet *",
+    "fullNamePlaceholder": "Mohamed Ahmed",
+    "phone": "Téléphone",
+    "phoneRequired": "Téléphone *",
+    "emailOptional": "E-mail (facultatif)",
+    "wilayaRequired": "Wilaya *",
+    "selectWilaya": "Choisir la wilaya",
+    "country": "Pays",
+    "communeOptional": "Commune (facultatif)",
+    "postalCodeOptional": "Code postal (facultatif)",
+    "addressRequired": "Adresse complète détaillée *",
+    "addressPlaceholder": "Quartier, rue, numéro de maison...",
+    "notesOptional": "Notes de livraison (facultatif)",
+    "notesPlaceholder": "Instructions spéciales de livraison...",
+    "summary": "Résumé de la commande",
+    "quantity": "Quantité : ",
+    "goodsCost": "Coût des articles",
+    "deliveryCost": "Frais de livraison",
+    "finalPrice": "Prix final",
+    "confirmOrder": "Confirmer la commande",
+    "confirmModal": "Êtes-vous sûr de confirmer cette commande ?",
+    "sending": "Envoi en cours...",
+    "empty": "Votre panier est vide.",
+    "errors": {
+      "fullNameRequired": "Le nom complet est requis",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "phoneInvalid": "Numéro de téléphone invalide",
+      "wilayaRequired": "La wilaya est requise",
+      "addressRequired": "L'adresse est requise",
+      "emptyCart": "Votre panier est vide",
+      "selectWilaya": "Veuillez choisir une wilaya",
+      "submitError": "Une erreur s'est produite lors de l'envoi de la commande",
+      "saveItemsError": "Une erreur s'est produite lors de l'enregistrement des articles",
+      "success": "Commande envoyée avec succès"
+    }
+  },
+  "orders": {
+    "title": "Mes commandes",
+    "empty": "Aucune commande pour le moment.",
+    "color": "Couleur : ",
+    "size": "Taille : ",
+    "quantity": "Quantité : ",
+    "subtotal": "Sous-total",
+    "deliveryCost": "Frais de livraison",
+    "total": "Total",
+    "name": "Nom :",
+    "phone": "Téléphone :",
+    "email": "E-mail :",
+    "wilaya": "Wilaya :",
+    "address": "Adresse :",
+    "notes": "Notes :",
+    "status": {
+      "pending": "En attente",
+      "confirmed": "Confirmée",
+      "processing": "En traitement",
+      "shipped": "Expédiée",
+      "delivered": "Livrée",
+      "cancelled": "Annulée"
+    }
+  },
+  "orderSuccess": {
+    "title": "Votre commande a été confirmée avec succès",
+    "subtext": "Nous vous contacterons bientôt pour confirmer la commande et préparer l'expédition.",
+    "orderNumber": "Numéro de commande",
+    "orderDate": "Date de commande",
+    "finalAmount": "Montant final",
+    "returnHome": "Retour à la page d'accueil"
+  },
+  "auth": {
+    "loginTitle": "Connexion",
+    "loginButton": "Se connecter",
+    "loginSuccess": "Connexion réussie",
+    "loginError": "Ce compte n'existe pas ou les identifiants sont incorrects",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "signupLink": "Créer un compte",
+    "signupTitle": "Créer un compte",
+    "signupButton": "Créer un compte",
+    "signupSuccess": "Compte créé avec succès",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "loginLink": "Connexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "Mohamed Ahmed",
+    "phone": "Téléphone",
+    "forgotPassword": "Mot de passe oublié ?",
+    "forgotTitle": "Récupérer le mot de passe",
+    "forgotInstructions": "Entrez votre e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "forgotSuccess": "Lien de réinitialisation envoyé",
+    "forgotError": "Une erreur s'est produite, vérifiez votre e-mail",
+    "forgotSentMessage": "Un lien de réinitialisation de mot de passe a été envoyé à votre e-mail. Vérifiez votre boîte de réception.",
+    "backToLogin": "Retour à la connexion",
+    "sendReset": "Envoyer le lien de réinitialisation",
+    "sending": "Envoi en cours...",
+    "errors": {
+      "fullNameRequired": "Le nom complet est requis",
+      "emailRequired": "L'e-mail est requis",
+      "emailInvalid": "E-mail invalide",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "phoneInvalid": "Numéro de téléphone invalide",
+      "passwordRequired": "Le mot de passe est requis",
+      "passwordShort": "Le mot de passe doit comporter au moins 6 caractères",
+      "passwordMismatch": "Les mots de passe ne correspondent pas"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "avatarAlt": "Photo de profil",
+    "changeImage": "Changer la photo",
+    "deleteImage": "Supprimer la photo",
+    "user": "Utilisateur",
+    "editProfile": "Modifier le profil",
+    "myOrders": "Mes commandes",
+    "deleteAccount": "Supprimer le compte définitivement",
+    "recentOrders": "Commandes récentes",
+    "recentWishlist": "Favoris récents",
+    "noOrders": "Aucune commande pour le moment.",
+    "noWishlist": "Aucun produit dans les favoris.",
+    "fullName": "Nom complet",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "saving": "Enregistrement...",
+    "confirmLogout": "Voulez-vous vraiment vous déconnecter ?",
+    "loggedOut": "Déconnexion réussie",
+    "confirmLogoutBtn": "Oui, se déconnecter",
+    "confirmDeleteTitle": "Supprimer le compte définitivement ?",
+    "confirmDeleteText1": "Votre compte et vos données seront entièrement supprimés et cette action est irréversible.",
+    "confirmDeleteText2": "Pour réutiliser le même e-mail, vous devez créer un nouveau compte.",
+    "accountDeleted": "Compte supprimé définitivement",
+    "deleteFailed": "Échec de la suppression du compte",
+    "confirmDeleteBtn": "Oui, supprimer définitivement",
+    "errors": {
+      "imageFormat": "Format d'image non pris en charge (PNG, JPG, WEBP uniquement)",
+      "imageTooLarge": "Image trop volumineuse (limite 2 Mo)",
+      "uploadFailed": "Échec du téléchargement de l'image",
+      "updateAvatarFailed": "Échec de la mise à jour de la photo de profil",
+      "avatarUpdated": "Photo de profil mise à jour",
+      "unexpected": "Une erreur inattendue s'est produite",
+      "deleteImageFailed": "Échec de la suppression de l'image",
+      "imageDeleted": "Photo de profil supprimée",
+      "saveError": "Une erreur s'est produite lors de l'enregistrement",
+      "profileUpdated": "Profil mis à jour"
+    }
+  },
+  "wishlist": {
+    "mustLogin": "Vous devez vous connecter pour utiliser les favoris",
+    "mustLoginSubtext": "Connectez-vous ou créez un compte pour enregistrer vos produits favoris.",
+    "empty": "Votre liste de favoris est vide.",
+    "title": "Favoris"
+  },
+  "offers": {
+    "title": "Offres",
+    "noOffers": "Aucune offre correspondante pour le moment."
+  },
+  "search": {
+    "results": "Résultats de recherche",
+    "searchFor": "Recherche : \"{{q}}\" — {{count}} résultat(s)",
+    "typeToSearch": "Tapez un mot-clé pour rechercher",
+    "noResults": "Aucun résultat correspondant."
+  },
+  "notFound": {
+    "message": "Désolé, la page que vous recherchez est introuvable.",
+    "returnHome": "Retour à la page d'accueil"
+  },
+  "hero": {
+    "slide": "Diapositive {{count}}"
+  },
+  "site": {
+    "tagline": "Votre destination pour un shopping intelligent",
+    "currency": "DA",
+    "unspecified": "Non spécifié"
+  },
+  "language": {
+    "label": "Langue",
+    "ar": "العربية",
+    "fr": "Français",
+    "en": "English"
+  },
+  "data": {
+    "mainCategory": {
+      "stationery": "Papeterie & Bureau",
+      "textbooks": "Manuels scolaires & Références",
+      "books": "Livres",
+      "toys": "Jouets",
+      "gifts": "Cadeaux",
+      "electronics": "Électronique",
+      "aprons": "Tabliers"
+    },
+    "subCategory": {
+      "pens": "Stylos",
+      "notebooks": "Cahiers",
+      "desk-organizers": "Organisateurs de bureau",
+      "other-stationery": "Autres",
+      "primary-textbooks": "Primaire",
+      "middle-textbooks": "Moyen",
+      "secondary-textbooks": "Secondaire",
+      "references": "Références",
+      "other-textbooks": "Autres",
+      "preschool": "Préscolaire",
+      "primary": "Primaire",
+      "intermediate": "Moyen",
+      "secondary": "Secondaire",
+      "mushafs": "Mushafs",
+      "religious": "Livres religieux",
+      "encyclopedias": "Encyclopédies",
+      "kids-stories": "Contes pour enfants",
+      "other-books": "Autres",
+      "educational": "Éducatifs",
+      "plush": "Peluches",
+      "remote-control": "Télécommande",
+      "other-toys": "Autres",
+      "boxes": "Boîtes cadeaux",
+      "decor": "Décoration",
+      "other-gifts": "Autres",
+      "phones": "Téléphones",
+      "laptops": "Ordinateurs portables",
+      "headphones": "Écouteurs",
+      "other-electronics": "Autres",
+      "kids-aprons": "Tabliers enfants",
+      "adult-aprons": "Tabliers adultes",
+      "other-aprons": "Autres"
+    },
+    "brand": {
+      "tecnowa": "Tecnowa",
+      "alhilal": "Al Hilal",
+      "roku": "Roku"
+    },
+    "bagCollection": {
+      "style": "Collection Style",
+      "sports": "Collection Sport",
+      "fantasy": "Personnages fantastiques",
+      "heroes": "Collection Héros",
+      "kindergarten": "Collection Maternelle",
+      "wheeled": "Sacs à dos à roulettes",
+      "full-set": "Ensemble complet",
+      "all": "Tout"
+    },
+    "product": {
+      "st-1": {
+        "name": "Set de stylos gel 12 pièces",
+        "description": "Set de stylos gel de haute qualité, séchage rapide, écriture fluide et régulière."
+      },
+      "st-2": {
+        "name": "Carnet 200 pages",
+        "description": "Carnet pratique au design élégant et papier de haute qualité."
+      },
+      "st-3": {
+        "name": "Organiseur de bureau multi-tiroirs",
+        "description": "Organiseur de bureau élégant à plusieurs tiroirs pour ranger vos outils."
+      },
+      "st-4": {
+        "name": "Taille-crayon double",
+        "description": "Taille-crayon pointu à deux trous pour des mines différentes."
+      },
+      "bg-1": {
+        "name": "Sac scolaire Style",
+        "description": "Sac à dos élégant au design moderne pour les étudiants."
+      },
+      "bg-2": {
+        "name": "Sac sport scolaire",
+        "description": "Sac de sport robuste aux couleurs vives."
+      },
+      "bg-3": {
+        "name": "Sac personnages fantastiques",
+        "description": "Sac imprimé avec des personnages de dessins animés adorés."
+      },
+      "bg-4": {
+        "name": "Sac Héros",
+        "description": "Sac au design super-héros pour enfants."
+      },
+      "bg-5": {
+        "name": "Sac maternelle",
+        "description": "Petit sac pour la maternelle aux couleurs gaies."
+      },
+      "bg-6": {
+        "name": "Sac à dos à roulettes",
+        "description": "Sac à dos à roulettes pour réduire la charge sur le dos."
+      },
+      "bg-7": {
+        "name": "Ensemble complet - Sac + Accessoires",
+        "description": "Sac scolaire complet avec sac latéral et boîte à outils."
+      },
+      "bk-1": {
+        "name": "Livre préscolaire complet",
+        "description": "Livre préscolaire complet couvrant les compétences pré-scolaires."
+      },
+      "bk-2": {
+        "name": "Primaire - Mathématiques",
+        "description": "Livre de mathématiques pour la première année primaire avec des explications simples."
+      },
+      "bk-3": {
+        "name": "Mushaf Tajweed coloré",
+        "description": "Mushaf coloré avec des règles de Tajwid claires."
+      },
+      "bk-4": {
+        "name": "Encyclopédie des sciences pour enfants",
+        "description": "Encyclopédie scientifique illustrée pour enfants."
+      },
+      "bk-5": {
+        "name": "Histoires du coucher",
+        "description": "Une collection d'histoires amusantes avant de dormir."
+      },
+      "tb-1": {
+        "name": "Manuel de langue arabe - Primaire",
+        "description": "Manuel de langue arabe pour la première année primaire avec explications simples et exercices variés."
+      },
+      "tb-2": {
+        "name": "Manuel de mathématiques - Moyen",
+        "description": "Manuel de mathématiques pour la première année moyenne avec solutions d'exercices."
+      },
+      "tb-3": {
+        "name": "Référence de physique - Secondaire",
+        "description": "Référence complète de physique pour les lycéens avec exercices corrigés."
+      },
+      "tb-4": {
+        "name": "Encyclopédie de références générales",
+        "description": "Encyclopédie de références générales couvrant diverses matières et spécialités."
+      },
+      "tb-5": {
+        "name": "Manuel de sciences naturelles - Moyen",
+        "description": "Manuel de sciences naturelles pour la deuxième année moyenne avec images illustratives."
+      },
+      "ty-1": {
+        "name": "Blocs éducatifs colorés",
+        "description": "Blocs éducatifs qui développent les compétences de l'enfant."
+      },
+      "ty-2": {
+        "name": "Grand ours en peluche",
+        "description": "Ours en peluche doux et câlin."
+      },
+      "ty-3": {
+        "name": "Voiture télécommandée",
+        "description": "Voiture à télécommande à grande vitesse."
+      },
+      "gf-1": {
+        "name": "Boîte cadeau de luxe",
+        "description": "Boîte cadeau élégante au design luxueux."
+      },
+      "gf-2": {
+        "name": "Figurine décorative en bois",
+        "description": "Figurine décorative en bois faite à la main."
+      },
+      "el-1": {
+        "name": "Smartphone 128 Go",
+        "description": "Smartphone avec un appareil photo haute résolution et un écran AMOLED."
+      },
+      "el-2": {
+        "name": "Ordinateur portable 15 pouces i7",
+        "description": "Ordinateur portable performant avec processeur i7 et 16 Go de mémoire."
+      },
+      "el-3": {
+        "name": "Écouteurs sans fil Bluetooth",
+        "description": "Écouteurs sans fil avec réduction de bruit active."
+      },
+      "ap-1": {
+        "name": "Tablier anti-taches pour enfants",
+        "description": "Tablier pour enfants résistant aux taches aux couleurs gaies."
+      },
+      "ap-2": {
+        "name": "Tablier adulte en cuir",
+        "description": "Tablier adulte en cuir véritable."
+      }
+    },
+    "spec": {
+      "st-1": {
+        "0": {
+          "label": "Quantité",
+          "value": "12 stylos"
+        },
+        "1": {
+          "label": "Couleur",
+          "value": "Noir"
+        }
+      },
+      "st-2": {
+        "0": {
+          "label": "Pages",
+          "value": "200 pages"
+        }
+      },
+      "st-3": {
+        "0": {
+          "label": "Matériau",
+          "value": "Plastique robuste"
+        },
+        "1": {
+          "label": "Tiroirs",
+          "value": "3 tiroirs"
+        }
+      },
+      "st-4": {
+        "0": {
+          "label": "Trous",
+          "value": "2"
+        }
+      },
+      "bg-1": {
+        "0": {
+          "label": "Matériau",
+          "value": "Polyester"
+        }
+      },
+      "bg-2": {
+        "0": {
+          "label": "Matériau",
+          "value": "Nylon"
+        }
+      },
+      "bg-3": {
+        "0": {
+          "label": "Taille",
+          "value": "Moyen"
+        }
+      },
+      "bg-4": {
+        "0": {
+          "label": "Âge",
+          "value": "6-12 ans"
+        }
+      },
+      "bg-5": {
+        "0": {
+          "label": "Âge",
+          "value": "3-5 ans"
+        }
+      },
+      "bg-6": {
+        "0": {
+          "label": "Roues",
+          "value": "2"
+        }
+      },
+      "bg-7": {
+        "0": {
+          "label": "Pièces",
+          "value": "3"
+        }
+      },
+      "bk-1": {
+        "0": {
+          "label": "Pages",
+          "value": "120"
+        }
+      },
+      "bk-2": {
+        "0": {
+          "label": "Niveau",
+          "value": "Premier"
+        }
+      },
+      "bk-3": {
+        "0": {
+          "label": "Taille",
+          "value": "Moyen"
+        }
+      },
+      "bk-4": {
+        "0": {
+          "label": "Volumes",
+          "value": "1"
+        }
+      },
+      "bk-5": {
+        "0": {
+          "label": "Histoires",
+          "value": "10"
+        }
+      },
+      "ty-1": {
+        "0": {
+          "label": "Pièces",
+          "value": "50"
+        }
+      },
+      "tb-1": {
+        "0": {
+          "label": "Niveau",
+          "value": "Première primaire"
+        }
+      },
+      "tb-2": {
+        "0": {
+          "label": "Niveau",
+          "value": "Première moyenne"
+        }
+      },
+      "tb-3": {
+        "0": {
+          "label": "Pages",
+          "value": "320"
+        }
+      },
+      "tb-4": {
+        "0": {
+          "label": "Volumes",
+          "value": "3"
+        }
+      },
+      "tb-5": {
+        "0": {
+          "label": "Niveau",
+          "value": "Deuxième moyenne"
+        }
+      },
+      "ty-2": {
+        "0": {
+          "label": "Hauteur",
+          "value": "50 cm"
+        }
+      },
+      "ty-3": {
+        "0": {
+          "label": "Vitesse",
+          "value": "15 km/h"
+        }
+      },
+      "gf-1": {
+        "0": {
+          "label": "Taille",
+          "value": "Moyen"
+        }
+      },
+      "gf-2": {
+        "0": {
+          "label": "Matériau",
+          "value": "Bois"
+        }
+      },
+      "el-1": {
+        "0": {
+          "label": "Stockage",
+          "value": "128 Go"
+        },
+        "1": {
+          "label": "Écran",
+          "value": "6,5 pouces"
+        }
+      },
+      "el-2": {
+        "0": {
+          "label": "Processeur",
+          "value": "i7"
+        },
+        "1": {
+          "label": "Mémoire",
+          "value": "16 Go"
+        }
+      },
+      "el-3": {
+        "0": {
+          "label": "Batterie",
+          "value": "30 heures"
+        }
+      },
+      "ap-1": {
+        "0": {
+          "label": "Taille",
+          "value": "Taille unique"
+        }
+      },
+      "ap-2": {
+        "0": {
+          "label": "Matériau",
+          "value": "Cuir"
+        }
+      }
+    },
+    "variant": {
+      "st-1-black": {
+        "name": "Noir",
+        "optionLabel": "Couleur"
+      },
+      "st-1-blue": {
+        "name": "Bleu",
+        "optionLabel": "Couleur"
+      },
+      "st-1-red": {
+        "name": "Rouge",
+        "optionLabel": "Couleur"
+      },
+      "st-1-green": {
+        "name": "Vert",
+        "optionLabel": "Couleur"
+      },
+      "st-2-a4": {
+        "name": "A4",
+        "optionLabel": "Taille"
+      },
+      "st-2-a5": {
+        "name": "A5",
+        "optionLabel": "Taille"
+      },
+      "st-2-a3": {
+        "name": "A3",
+        "optionLabel": "Taille"
+      }
+    },
+    "wilaya": {
+      "أدرار": "Adrar",
+      "الشلف": "Chlef",
+      "الأغواط": "Laghouat",
+      "أم البواقي": "Oum El Bouaghi",
+      "باتنة": "Batna",
+      "بجاية": "Béjaïa",
+      "بسكرة": "Biskra",
+      "بشار": "Béchar",
+      "البليدة": "Blida",
+      "البويرة": "Bouira",
+      "تمنراست": "Tamanrasset",
+      "تبسة": "Tébessa",
+      "تلمسان": "Tlemcen",
+      "تيارت": "Tiaret",
+      "تيزي وزو": "Tizi Ouzou",
+      "الجزائر": "Alger",
+      "الجلفة": "Djelfa",
+      "جيجل": "Jijel",
+      "سطيف": "Sétif",
+      "سعيدة": "Saïda",
+      "سكيكدة": "Skikda",
+      "سيدي بلعباس": "Sidi Bel Abbès",
+      "عنابة": "Annaba",
+      "قالمة": "Guelma",
+      "قسنطينة": "Constantine",
+      "المدية": "Médéa",
+      "مستغانم": "Mostaganem",
+      "المسيلة": "M'Sila",
+      "معسكر": "Mascara",
+      "ورقلة": "Ouargla",
+      "وهران": "Oran",
+      "البيض": "El Bayadh",
+      "إليزي": "Illizi",
+      "برج بوعريريج": "Bordj Bou Arréridj",
+      "بومرداس": "Boumerdès",
+      "الطارف": "El Tarf",
+      "تندوف": "Tindouf",
+      "تيسمسيلت": "Tissemsilt",
+      "الوادي": "El Oued",
+      "خنشلة": "Khenchela",
+      "سوق أهراس": "Souk Ahras",
+      "تيبازة": "Tipaza",
+      "ميلة": "Mila",
+      "عين الدفلى": "Aïn Defla",
+      "النعامة": "Naâma",
+      "عين تموشنت": "Aïn Témouchent",
+      "غرداية": "Ghardaïa",
+      "غليزان": "Relizane",
+      "تيميمون": "Timimoun",
+      "برج باجي مختار": "Bordj Badji Mokhtar",
+      "أولاد جلال": "Ouled Djellal",
+      "بني عباس": "Béni Abbès",
+      "إن صالح": "In Salah",
+      "عين قزام": "In Guezzam",
+      "تقرت": "Touggourt",
+      "جانت": "Djanet",
+      "المغير": "El M'Ghair",
+      "المنيعة": "El Menia"
+    }
+  }
+}

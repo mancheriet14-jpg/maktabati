@@ -1,0 +1,814 @@
+{
+  "common": {
+    "listSeparator": ", ",
+    "home": "Home",
+    "offers": "Offers",
+    "profile": "Profile",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading...",
+    "continueShopping": "Continue Shopping",
+    "startShopping": "Start Shopping",
+    "viewAll": "View All",
+    "all": "All",
+    "allProducts": "All Products",
+    "backToHome": "Back to Home",
+    "returnHome": "Return to Home",
+    "browseProducts": "Browse Products"
+  },
+  "header": {
+    "searchPlaceholder": "Search for a product..."
+  },
+  "footer": {
+    "taglineSuffix": "Your destination for smart online shopping.",
+    "categories": "Categories",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "algeria": "Algeria",
+    "rights": "All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "offers": "Offers",
+    "profile": "Profile"
+  },
+  "sort": {
+    "newest": "Newest",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "rating": "Top Rated",
+    "label": "Sort:"
+  },
+  "filters": {
+    "maxPrice": "Max Price:",
+    "allPlaceholder": "All",
+    "brandsPrefix": "Brands: "
+  },
+  "home": {
+    "offersSection": "Offers",
+    "shopByCategories": "Shop by Main Categories"
+  },
+  "category": {
+    "notFound": "Category not found.",
+    "shopBags": "Shop School Bags",
+    "shopBySubCategories": "Shop by Sub-Categories",
+    "shopByBrand": "Shop by Brand",
+    "noProducts": "No matching products at the moment."
+  },
+  "subCategory": {
+    "notFound": "Sub-category not found."
+  },
+  "bagCollection": {
+    "notFound": "Collection not found.",
+    "noProducts": "No products in this collection at the moment."
+  },
+  "product": {
+    "notFound": "Product not found.",
+    "selectOptionFirst": "Please select an option first",
+    "addedToCart": "Product added to cart",
+    "addedToCartShort": "Added to cart",
+    "addedToCartButton": "Added to cart",
+    "addToCart": "Add to cart",
+    "addButton": "Add to Cart",
+    "buyNow": "Buy Now",
+    "sku": "Product No.: ",
+    "outOfStock": "Out of Stock",
+    "available": "Available",
+    "lowStock": "Only {{count}} left in stock",
+    "discount": "{{count}}% OFF",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "mustLoginWishlist": "You must log in to use the wishlist",
+    "removedFromWishlist": "Product removed from wishlist",
+    "addedToWishlist": "Product added to wishlist",
+    "description": "Description",
+    "productInfo": "Product Information",
+    "similarProducts": "Similar Products",
+    "chooseOption": "Choose option",
+    "variantOutOfStock": "(out)",
+    "startsFrom": "From ",
+    "notRatedYet": "Not rated yet"
+  },
+  "reviews": {
+    "title": "Product Reviews",
+    "writeReview": "Write a Review",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourRating": "Your Rating",
+    "yourComment": "Your Comment",
+    "commentPlaceholder": "Share your opinion about this product...",
+    "submit": "Submit Review",
+    "submitting": "Submitting...",
+    "submitSuccess": "Your review has been submitted successfully",
+    "submitError": "An error occurred while submitting your review",
+    "commentRequired": "Please write a comment",
+    "nameRequired": "Please enter your name",
+    "noReviews": "No reviews yet. Be the first to review this product!",
+    "countLabel": "{{count}} reviews",
+    "reviewsWord": "reviews",
+    "stars": "stars",
+    "customer": "Customer",
+    "locale": "en",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirmDeleteTitle": "Delete Review",
+    "confirmDeleteText": "Are you sure you want to delete this review? This action cannot be undone.",
+    "confirmDeleteBtn": "Yes, Delete",
+    "editSuccess": "Your review has been updated successfully",
+    "editError": "An error occurred while updating your review",
+    "deleteSuccess": "Your review has been deleted successfully",
+    "deleteError": "An error occurred while deleting your review",
+    "loginToManage": "Log in to manage your review",
+    "expand": "Open",
+    "collapse": "Close"
+  },
+  "cart": {
+    "empty": "Your cart is empty.",
+    "title": "Shopping Cart",
+    "clear": "Clear Cart",
+    "itemRemoved": "Item removed",
+    "cartCleared": "Cart cleared",
+    "confirmClear": "Do you want to clear the entire cart?",
+    "confirmClearBtn": "Yes, Clear Cart",
+    "summary": "Order Summary",
+    "deliveryWilaya": "Delivery Wilaya",
+    "selectWilaya": "Select wilaya for shipping",
+    "couponPlaceholder": "Discount coupon",
+    "couponInfo": "Coupon will be activated later",
+    "apply": "Apply",
+    "goodsCost": "Goods Cost",
+    "deliveryCost": "Delivery Cost",
+    "total": "Total",
+    "checkout": "Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "customerInfo": "Customer Information",
+    "fullName": "Full Name",
+    "fullNameRequired": "Full Name *",
+    "fullNamePlaceholder": "Mohamed Ahmed",
+    "phone": "Phone",
+    "phoneRequired": "Phone *",
+    "emailOptional": "Email (optional)",
+    "wilayaRequired": "Wilaya *",
+    "selectWilaya": "Select Wilaya",
+    "country": "Country",
+    "communeOptional": "Commune (optional)",
+    "postalCodeOptional": "Postal Code (optional)",
+    "addressRequired": "Full Detailed Address *",
+    "addressPlaceholder": "Neighborhood, street, house number...",
+    "notesOptional": "Delivery Notes (optional)",
+    "notesPlaceholder": "Any special delivery instructions...",
+    "summary": "Order Summary",
+    "quantity": "Quantity: ",
+    "goodsCost": "Goods Cost",
+    "deliveryCost": "Delivery Cost",
+    "finalPrice": "Final Price",
+    "confirmOrder": "Confirm Order",
+    "confirmModal": "Are you sure you want to confirm this order?",
+    "sending": "Sending...",
+    "empty": "Your cart is empty.",
+    "errors": {
+      "fullNameRequired": "Full name is required",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Invalid phone number",
+      "wilayaRequired": "Wilaya is required",
+      "addressRequired": "Address is required",
+      "emptyCart": "Your cart is empty",
+      "selectWilaya": "Please select a wilaya",
+      "submitError": "An error occurred while submitting the order",
+      "saveItemsError": "An error occurred while saving items",
+      "success": "Order submitted successfully"
+    }
+  },
+  "orders": {
+    "title": "My Orders",
+    "empty": "No orders yet.",
+    "color": "Color: ",
+    "size": "Size: ",
+    "quantity": "Quantity: ",
+    "subtotal": "Subtotal",
+    "deliveryCost": "Delivery Cost",
+    "total": "Total",
+    "name": "Name:",
+    "phone": "Phone:",
+    "email": "Email:",
+    "wilaya": "Wilaya:",
+    "address": "Address:",
+    "notes": "Notes:",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    }
+  },
+  "orderSuccess": {
+    "title": "Your order has been confirmed successfully",
+    "subtext": "We will contact you soon to confirm the order and prepare shipping.",
+    "orderNumber": "Order Number",
+    "orderDate": "Order Date",
+    "finalAmount": "Final Amount",
+    "returnHome": "Return to Home"
+  },
+  "auth": {
+    "loginTitle": "Login",
+    "loginButton": "Login",
+    "loginSuccess": "Logged in successfully",
+    "loginError": "This account does not exist or credentials are incorrect",
+    "noAccount": "Don't have an account?",
+    "signupLink": "Sign Up",
+    "signupTitle": "Sign Up",
+    "signupButton": "Sign Up",
+    "signupSuccess": "Account created successfully",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Login",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Mohamed Ahmed",
+    "phone": "Phone",
+    "forgotPassword": "Forgot Password?",
+    "forgotTitle": "Recover Password",
+    "forgotInstructions": "Enter your email and we will send you a link to reset your password.",
+    "forgotSuccess": "Reset link sent",
+    "forgotError": "An error occurred, please check your email",
+    "forgotSentMessage": "A password reset link has been sent to your email. Check your inbox.",
+    "backToLogin": "Back to Login",
+    "sendReset": "Send Reset Link",
+    "sending": "Sending...",
+    "errors": {
+      "fullNameRequired": "Full name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Invalid phone number",
+      "passwordRequired": "Password is required",
+      "passwordShort": "Password must be at least 6 characters",
+      "passwordMismatch": "Passwords do not match"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "avatarAlt": "Profile Photo",
+    "changeImage": "Change Photo",
+    "deleteImage": "Delete Photo",
+    "user": "User",
+    "editProfile": "Edit Profile",
+    "myOrders": "My Orders",
+    "deleteAccount": "Delete Account Permanently",
+    "recentOrders": "Recent Orders",
+    "recentWishlist": "Recent Wishlist",
+    "noOrders": "No orders yet.",
+    "noWishlist": "No products in wishlist.",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "address": "Address",
+    "saving": "Saving...",
+    "confirmLogout": "Are you sure you want to log out?",
+    "loggedOut": "Logged out",
+    "confirmLogoutBtn": "Yes, Log Out",
+    "confirmDeleteTitle": "Delete Account Permanently?",
+    "confirmDeleteText1": "Your account and data will be fully deleted and this action is irreversible.",
+    "confirmDeleteText2": "To reuse the same email, you must create a new account.",
+    "accountDeleted": "Account deleted permanently",
+    "deleteFailed": "Account deletion failed",
+    "confirmDeleteBtn": "Yes, Delete Permanently",
+    "errors": {
+      "imageFormat": "Unsupported image format (PNG, JPG, WEBP only)",
+      "imageTooLarge": "Image too large (limit 2 MB)",
+      "uploadFailed": "Image upload failed",
+      "updateAvatarFailed": "Failed to update profile photo",
+      "avatarUpdated": "Profile photo updated",
+      "unexpected": "An unexpected error occurred",
+      "deleteImageFailed": "Failed to delete image",
+      "imageDeleted": "Profile photo deleted",
+      "saveError": "An error occurred while saving",
+      "profileUpdated": "Profile updated"
+    }
+  },
+  "wishlist": {
+    "mustLogin": "You must log in to use the wishlist",
+    "mustLoginSubtext": "Log in or create an account to save your favorite products.",
+    "empty": "Your wishlist is empty.",
+    "title": "Wishlist"
+  },
+  "offers": {
+    "title": "Offers",
+    "noOffers": "No matching offers at the moment."
+  },
+  "search": {
+    "results": "Search Results",
+    "searchFor": "Search: \"{{q}}\" — {{count}} result(s)",
+    "typeToSearch": "Type a keyword to search",
+    "noResults": "No matching results."
+  },
+  "notFound": {
+    "message": "Sorry, the page you are looking for does not exist.",
+    "returnHome": "Return to Home"
+  },
+  "hero": {
+    "slide": "Slide {{count}}"
+  },
+  "site": {
+    "tagline": "Your smart shopping destination",
+    "currency": "DA",
+    "unspecified": "Unspecified"
+  },
+  "language": {
+    "label": "Language",
+    "ar": "العربية",
+    "fr": "Français",
+    "en": "English"
+  },
+  "data": {
+    "mainCategory": {
+      "stationery": "Stationery & Office",
+      "textbooks": "Textbooks & References",
+      "books": "Books",
+      "toys": "Toys",
+      "gifts": "Gifts",
+      "electronics": "Electronics",
+      "aprons": "Aprons"
+    },
+    "subCategory": {
+      "pens": "Pens",
+      "notebooks": "Notebooks",
+      "desk-organizers": "Desk Organizers",
+      "other-stationery": "Other",
+      "primary-textbooks": "Primary",
+      "middle-textbooks": "Middle",
+      "secondary-textbooks": "Secondary",
+      "references": "References",
+      "other-textbooks": "Other",
+      "preschool": "Preschool",
+      "primary": "Primary",
+      "intermediate": "Intermediate",
+      "secondary": "Secondary",
+      "mushafs": "Mushafs",
+      "religious": "Religious Books",
+      "encyclopedias": "Encyclopedias",
+      "kids-stories": "Kids Stories",
+      "other-books": "Other",
+      "educational": "Educational",
+      "plush": "Plush",
+      "remote-control": "Remote Control",
+      "other-toys": "Other",
+      "boxes": "Gift Boxes",
+      "decor": "Decor",
+      "other-gifts": "Other",
+      "phones": "Phones",
+      "laptops": "Laptops",
+      "headphones": "Headphones",
+      "other-electronics": "Other",
+      "kids-aprons": "Kids Aprons",
+      "adult-aprons": "Adult Aprons",
+      "other-aprons": "Other"
+    },
+    "brand": {
+      "tecnowa": "Tecnowa",
+      "alhilal": "Al Hilal",
+      "roku": "Roku"
+    },
+    "bagCollection": {
+      "style": "Style Collection",
+      "sports": "Sports Collection",
+      "fantasy": "Fantasy Characters",
+      "heroes": "Heroes Collection",
+      "kindergarten": "Kindergarten Collection",
+      "wheeled": "Wheeled Backpacks",
+      "full-set": "Full Set Collection",
+      "all": "All"
+    },
+    "product": {
+      "st-1": {
+        "name": "Gel Pen Set 12 Pieces",
+        "description": "High-quality gel pen set, fast-drying, smooth and consistent writing."
+      },
+      "st-2": {
+        "name": "Notebook 200 Pages",
+        "description": "Practical notebook with elegant design and high-quality paper."
+      },
+      "st-3": {
+        "name": "Multi-Drawer Desk Organizer",
+        "description": "Elegant desk organizer with multiple drawers to tidy your tools."
+      },
+      "st-4": {
+        "name": "Double Pencil Sharpener",
+        "description": "Sharp pencil sharpener with two holes for different tips."
+      },
+      "bg-1": {
+        "name": "Style School Bag",
+        "description": "Elegant backpack with a modern design for students."
+      },
+      "bg-2": {
+        "name": "School Sports Bag",
+        "description": "Sturdy sports bag in bright colors."
+      },
+      "bg-3": {
+        "name": "Fantasy Characters Bag",
+        "description": "Bag printed with beloved cartoon characters."
+      },
+      "bg-4": {
+        "name": "Heroes Bag",
+        "description": "Bag with a superhero design for kids."
+      },
+      "bg-5": {
+        "name": "Kindergarten Bag",
+        "description": "Small bag for kindergarten in cheerful colors."
+      },
+      "bg-6": {
+        "name": "Wheeled Backpack",
+        "description": "Wheeled backpack to reduce the load on the back."
+      },
+      "bg-7": {
+        "name": "Full Set - Bag + Accessories",
+        "description": "Complete school bag with a side bag and a tool box."
+      },
+      "bk-1": {
+        "name": "Comprehensive Preschool Book",
+        "description": "Comprehensive preschool book covering pre-school skills."
+      },
+      "bk-2": {
+        "name": "Primary - Mathematics",
+        "description": "Mathematics book for the first primary grade with simple explanations."
+      },
+      "bk-3": {
+        "name": "Colored Tajweed Mushaf",
+        "description": "Colored mushaf with clear Tajweed rules."
+      },
+      "bk-4": {
+        "name": "Children's Science Encyclopedia",
+        "description": "Illustrated science encyclopedia for children."
+      },
+      "bk-5": {
+        "name": "Bedtime Stories",
+        "description": "A fun collection of bedtime stories."
+      },
+      "tb-1": {
+        "name": "Arabic Language Textbook - Primary",
+        "description": "Arabic language textbook for the first primary grade with simple explanations and varied exercises."
+      },
+      "tb-2": {
+        "name": "Mathematics Textbook - Middle",
+        "description": "Mathematics textbook for the first middle grade with exercise solutions."
+      },
+      "tb-3": {
+        "name": "Physics Reference - Secondary",
+        "description": "Comprehensive physics reference for high school students with solved exercises."
+      },
+      "tb-4": {
+        "name": "General References Encyclopedia",
+        "description": "General references encyclopedia covering various subjects and specialties."
+      },
+      "tb-5": {
+        "name": "Natural Sciences Textbook - Middle",
+        "description": "Natural sciences textbook for the second middle grade with illustrative images."
+      },
+      "ty-1": {
+        "name": "Colored Educational Blocks",
+        "description": "Educational blocks that develop the child's skills."
+      },
+      "ty-2": {
+        "name": "Large Stuffed Bear",
+        "description": "Soft and cuddly stuffed bear."
+      },
+      "ty-3": {
+        "name": "Remote Control Car",
+        "description": "High-speed remote control car."
+      },
+      "gf-1": {
+        "name": "Luxury Gift Box",
+        "description": "Elegant gift box with a luxurious design."
+      },
+      "gf-2": {
+        "name": "Wooden Decor Figurine",
+        "description": "Handmade wooden decor figurine."
+      },
+      "el-1": {
+        "name": "Smartphone 128GB",
+        "description": "Smartphone with a high-resolution camera and AMOLED screen."
+      },
+      "el-2": {
+        "name": "15-inch Laptop i7",
+        "description": "High-performance laptop with an i7 processor and 16GB memory."
+      },
+      "el-3": {
+        "name": "Wireless Bluetooth Headphones",
+        "description": "Wireless headphones with active noise cancellation."
+      },
+      "ap-1": {
+        "name": "Kids Stain-Resistant Apron",
+        "description": "Kids stain-resistant apron in cheerful colors."
+      },
+      "ap-2": {
+        "name": "Adult Leather Apron",
+        "description": "Adult apron made of genuine leather."
+      }
+    },
+    "spec": {
+      "st-1": {
+        "0": {
+          "label": "Quantity",
+          "value": "12 pens"
+        },
+        "1": {
+          "label": "Color",
+          "value": "Black"
+        }
+      },
+      "st-2": {
+        "0": {
+          "label": "Pages",
+          "value": "200 pages"
+        }
+      },
+      "st-3": {
+        "0": {
+          "label": "Material",
+          "value": "Durable plastic"
+        },
+        "1": {
+          "label": "Drawers",
+          "value": "3 drawers"
+        }
+      },
+      "st-4": {
+        "0": {
+          "label": "Holes",
+          "value": "2"
+        }
+      },
+      "bg-1": {
+        "0": {
+          "label": "Material",
+          "value": "Polyester"
+        }
+      },
+      "bg-2": {
+        "0": {
+          "label": "Material",
+          "value": "Nylon"
+        }
+      },
+      "bg-3": {
+        "0": {
+          "label": "Size",
+          "value": "Medium"
+        }
+      },
+      "bg-4": {
+        "0": {
+          "label": "Age",
+          "value": "6-12 years"
+        }
+      },
+      "bg-5": {
+        "0": {
+          "label": "Age",
+          "value": "3-5 years"
+        }
+      },
+      "bg-6": {
+        "0": {
+          "label": "Wheels",
+          "value": "2"
+        }
+      },
+      "bg-7": {
+        "0": {
+          "label": "Pieces",
+          "value": "3"
+        }
+      },
+      "bk-1": {
+        "0": {
+          "label": "Pages",
+          "value": "120"
+        }
+      },
+      "bk-2": {
+        "0": {
+          "label": "Grade",
+          "value": "First"
+        }
+      },
+      "bk-3": {
+        "0": {
+          "label": "Size",
+          "value": "Medium"
+        }
+      },
+      "bk-4": {
+        "0": {
+          "label": "Volumes",
+          "value": "1"
+        }
+      },
+      "bk-5": {
+        "0": {
+          "label": "Stories",
+          "value": "10"
+        }
+      },
+      "ty-1": {
+        "0": {
+          "label": "Pieces",
+          "value": "50"
+        }
+      },
+      "tb-1": {
+        "0": {
+          "label": "Grade",
+          "value": "First Primary"
+        }
+      },
+      "tb-2": {
+        "0": {
+          "label": "Grade",
+          "value": "First Middle"
+        }
+      },
+      "tb-3": {
+        "0": {
+          "label": "Pages",
+          "value": "320"
+        }
+      },
+      "tb-4": {
+        "0": {
+          "label": "Volumes",
+          "value": "3"
+        }
+      },
+      "tb-5": {
+        "0": {
+          "label": "Grade",
+          "value": "Second Middle"
+        }
+      },
+      "ty-2": {
+        "0": {
+          "label": "Height",
+          "value": "50 cm"
+        }
+      },
+      "ty-3": {
+        "0": {
+          "label": "Speed",
+          "value": "15 km/h"
+        }
+      },
+      "gf-1": {
+        "0": {
+          "label": "Size",
+          "value": "Medium"
+        }
+      },
+      "gf-2": {
+        "0": {
+          "label": "Material",
+          "value": "Wood"
+        }
+      },
+      "el-1": {
+        "0": {
+          "label": "Storage",
+          "value": "128GB"
+        },
+        "1": {
+          "label": "Screen",
+          "value": "6.5 inches"
+        }
+      },
+      "el-2": {
+        "0": {
+          "label": "Processor",
+          "value": "i7"
+        },
+        "1": {
+          "label": "Memory",
+          "value": "16GB"
+        }
+      },
+      "el-3": {
+        "0": {
+          "label": "Battery",
+          "value": "30 hours"
+        }
+      },
+      "ap-1": {
+        "0": {
+          "label": "Size",
+          "value": "One size"
+        }
+      },
+      "ap-2": {
+        "0": {
+          "label": "Material",
+          "value": "Leather"
+        }
+      }
+    },
+    "variant": {
+      "st-1-black": {
+        "name": "Black",
+        "optionLabel": "Color"
+      },
+      "st-1-blue": {
+        "name": "Blue",
+        "optionLabel": "Color"
+      },
+      "st-1-red": {
+        "name": "Red",
+        "optionLabel": "Color"
+      },
+      "st-1-green": {
+        "name": "Green",
+        "optionLabel": "Color"
+      },
+      "st-2-a4": {
+        "name": "A4",
+        "optionLabel": "Size"
+      },
+      "st-2-a5": {
+        "name": "A5",
+        "optionLabel": "Size"
+      },
+      "st-2-a3": {
+        "name": "A3",
+        "optionLabel": "Size"
+      }
+    },
+    "wilaya": {
+      "أدرار": "Adrar",
+      "الشلف": "Chlef",
+      "الأغواط": "Laghouat",
+      "أم البواقي": "Oum El Bouaghi",
+      "باتنة": "Batna",
+      "بجاية": "Béjaïa",
+      "بسكرة": "Biskra",
+      "بشار": "Béchar",
+      "البليدة": "Blida",
+      "البويرة": "Bouira",
+      "تمنراست": "Tamanrasset",
+      "تبسة": "Tébessa",
+      "تلمسان": "Tlemcen",
+      "تيارت": "Tiaret",
+      "تيزي وزو": "Tizi Ouzou",
+      "الجزائر": "Alger",
+      "الجلفة": "Djelfa",
+      "جيجل": "Jijel",
+      "سطيف": "Sétif",
+      "سعيدة": "Saïda",
+      "سكيكدة": "Skikda",
+      "سيدي بلعباس": "Sidi Bel Abbès",
+      "عنابة": "Annaba",
+      "قالمة": "Guelma",
+      "قسنطينة": "Constantine",
+      "المدية": "Médéa",
+      "مستغانم": "Mostaganem",
+      "المسيلة": "M'Sila",
+      "معسكر": "Mascara",
+      "ورقلة": "Ouargla",
+      "وهران": "Oran",
+      "البيض": "El Bayadh",
+      "إليزي": "Illizi",
+      "برج بوعريريج": "Bordj Bou Arréridj",
+      "بومرداس": "Boumerdès",
+      "الطارف": "El Tarf",
+      "تندوف": "Tindouf",
+      "تيسمسيلت": "Tissemsilt",
+      "الوادي": "El Oued",
+      "خنشلة": "Khenchela",
+      "سوق أهراس": "Souk Ahras",
+      "تيبازة": "Tipaza",
+      "ميلة": "Mila",
+      "عين الدفلى": "Aïn Defla",
+      "النعامة": "Naâma",
+      "عين تموشنت": "Aïn Témouchent",
+      "غرداية": "Ghardaïa",
+      "غليزان": "Relizane",
+      "تيميمون": "Timimoun",
+      "برج باجي مختار": "Bordj Badji Mokhtar",
+      "أولاد جلال": "Ouled Djellal",
+      "بني عباس": "Béni Abbès",
+      "إن صالح": "In Salah",
+      "عين قزام": "In Guezzam",
+      "تقرت": "Touggourt",
+      "جانت": "Djanet",
+      "المغير": "El M'Ghair",
+      "المنيعة": "El Menia"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-neutral-50 text-neutral-800 font-sans antialiased;
+  }
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Smooth direction transitions when switching languages */
+  [dir="ltr"] {
+    text-align: left;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  [dir="rtl"] {
+    text-align: right;
+    font-family: 'Tajawal', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Swiper custom styles */
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-primary-600 !important;
+}
+.swiper-pagination-bullet-active {
+  @apply bg-primary-600 !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+}
