@@ -1,74 +1,84 @@
 // All 58 Algerian wilayas (provinces) for the checkout form, each with its own
-// home-delivery shipping cost in Algerian Dinar. This is the single source of
-// truth for wilaya delivery pricing — components read from here, never hardcode.
+// office-delivery and home-delivery shipping cost in Algerian Dinar. This is the
+// single source of truth for wilaya delivery pricing — components read from
+// here, never hardcode. To change prices, edit the numbers below only.
+
+export type DeliveryType = 'office' | 'home';
 
 export interface WilayaDelivery {
   name: string;
-  home: number; // home-delivery cost in DA
+  officeDeliveryPrice: number; // office-delivery cost in DA
+  homeDeliveryPrice: number; // home-delivery cost in DA
 }
 
 export const wilayaDelivery: WilayaDelivery[] = [
-  { name: 'أدرار', home: 600 },
-  { name: 'الشلف', home: 450 },
-  { name: 'الأغواط', home: 450 },
-  { name: 'أم البواقي', home: 400 },
-  { name: 'باتنة', home: 400 },
-  { name: 'بجاية', home: 400 },
-  { name: 'بسكرة', home: 400 },
-  { name: 'بشار', home: 550 },
-  { name: 'البليدة', home: 450 },
-  { name: 'البويرة', home: 450 },
-  { name: 'تمنراست', home: 600 },
-  { name: 'تبسة', home: 400 },
-  { name: 'تلمسان', home: 500 },
-  { name: 'تيارت', home: 450 },
-  { name: 'تيزي وزو', home: 450 },
-  { name: 'الجزائر', home: 450 },
-  { name: 'الجلفة', home: 450 },
-  { name: 'جيجل', home: 400 },
-  { name: 'سطيف', home: 400 },
-  { name: 'سعيدة', home: 500 },
-  { name: 'سكيكدة', home: 400 },
-  { name: 'سيدي بلعباس', home: 500 },
-  { name: 'عنابة', home: 400 },
-  { name: 'قالمة', home: 300 },
-  { name: 'قسنطينة', home: 400 },
-  { name: 'المدية', home: 450 },
-  { name: 'مستغانم', home: 450 },
-  { name: 'المسيلة', home: 400 },
-  { name: 'معسكر', home: 450 },
-  { name: 'ورقلة', home: 500 },
-  { name: 'وهران', home: 450 },
-  { name: 'البيض', home: 500 },
-  { name: 'برج بوعريريج', home: 400 },
-  { name: 'بومرداس', home: 450 },
-  { name: 'الطارف', home: 400 },
-  { name: 'تيسمسيلت', home: 450 },
-  { name: 'الوادي', home: 450 },
-  { name: 'خنشلة', home: 400 },
-  { name: 'سوق أهراس', home: 400 },
-  { name: 'تيبازة', home: 450 },
-  { name: 'ميلة', home: 400 },
-  { name: 'عين الدفلى', home: 450 },
-  { name: 'النعامة', home: 500 },
-  { name: 'عين تموشنت', home: 500 },
-  { name: 'غرداية', home: 500 },
-  { name: 'غليزان', home: 450 },
-  { name: 'تيميمون', home: 550 },
-  { name: 'أولاد جلال', home: 400 },
-  { name: 'بني عباس', home: 550 },
-  { name: 'إن صالح', home: 550 },
-  { name: 'تقرت', home: 450 },
-  { name: 'المغير', home: 450 },
-  { name: 'المنيعة', home: 500 },
+  { name: 'أدرار', officeDeliveryPrice: 600, homeDeliveryPrice: 1200 },
+  { name: 'الشلف', officeDeliveryPrice: 450, homeDeliveryPrice: 900 },
+  { name: 'الأغواط', officeDeliveryPrice: 450, homeDeliveryPrice: 900 },
+  { name: 'أم البواقي', officeDeliveryPrice: 400, homeDeliveryPrice: 600 },
+  { name: 'باتنة', officeDeliveryPrice: 400, homeDeliveryPrice: 650 },
+  { name: 'بجاية', officeDeliveryPrice: 400, homeDeliveryPrice: 750 },
+  { name: 'بسكرة', officeDeliveryPrice: 400, homeDeliveryPrice: 700 },
+  { name: 'بشار', officeDeliveryPrice: 550, homeDeliveryPrice: 1150 },
+  { name: 'البليدة', officeDeliveryPrice: 450, homeDeliveryPrice: 750 },
+  { name: 'البويرة', officeDeliveryPrice: 450, homeDeliveryPrice: 800 },
+  { name: 'تمنراست', officeDeliveryPrice: 600, homeDeliveryPrice: 1250 },
+  { name: 'تبسة', officeDeliveryPrice: 400, homeDeliveryPrice: 650 },
+  { name: 'تلمسان', officeDeliveryPrice: 500, homeDeliveryPrice: 950 },
+  { name: 'تيارت', officeDeliveryPrice: 450, homeDeliveryPrice: 900 },
+  { name: 'تيزي وزو', officeDeliveryPrice: 450, homeDeliveryPrice: 800 },
+  { name: 'الجزائر', officeDeliveryPrice: 450, homeDeliveryPrice: 750 },
+  { name: 'الجلفة', officeDeliveryPrice: 450, homeDeliveryPrice: 850 },
+  { name: 'جيجل', officeDeliveryPrice: 400, homeDeliveryPrice: 700 },
+  { name: 'سطيف', officeDeliveryPrice: 400, homeDeliveryPrice: 700 },
+  { name: 'سعيدة', officeDeliveryPrice: 500, homeDeliveryPrice: 900 },
+  { name: 'سكيكدة', officeDeliveryPrice: 400, homeDeliveryPrice: 650 },
+  { name: 'سيدي بلعباس', officeDeliveryPrice: 500, homeDeliveryPrice: 950 },
+  { name: 'عنابة', officeDeliveryPrice: 400, homeDeliveryPrice: 600 },
+  { name: 'قالمة', officeDeliveryPrice: 300, homeDeliveryPrice: 450 },
+  { name: 'قسنطينة', officeDeliveryPrice: 400, homeDeliveryPrice: 600 },
+  { name: 'المدية', officeDeliveryPrice: 450, homeDeliveryPrice: 800 },
+  { name: 'مستغانم', officeDeliveryPrice: 450, homeDeliveryPrice: 900 },
+  { name: 'المسيلة', officeDeliveryPrice: 400, homeDeliveryPrice: 800 },
+  { name: 'معسكر', officeDeliveryPrice: 450, homeDeliveryPrice: 900 },
+  { name: 'ورقلة', officeDeliveryPrice: 500, homeDeliveryPrice: 900 },
+  { name: 'وهران', officeDeliveryPrice: 450, homeDeliveryPrice: 850 },
+  { name: 'البيض', officeDeliveryPrice: 500, homeDeliveryPrice: 1000 },
+  { name: 'برج بوعريريج', officeDeliveryPrice: 400, homeDeliveryPrice: 750 },
+  { name: 'بومرداس', officeDeliveryPrice: 450, homeDeliveryPrice: 750 },
+  { name: 'الطارف', officeDeliveryPrice: 400, homeDeliveryPrice: 600 },
+  { name: 'تيسمسيلت', officeDeliveryPrice: 450, homeDeliveryPrice: 850 },
+  { name: 'الوادي', officeDeliveryPrice: 450, homeDeliveryPrice: 800 },
+  { name: 'خنشلة', officeDeliveryPrice: 400, homeDeliveryPrice: 650 },
+  { name: 'سوق أهراس', officeDeliveryPrice: 400, homeDeliveryPrice: 600 },
+  { name: 'تيبازة', officeDeliveryPrice: 450, homeDeliveryPrice: 800 },
+  { name: 'ميلة', officeDeliveryPrice: 400, homeDeliveryPrice: 700 },
+  { name: 'عين الدفلى', officeDeliveryPrice: 450, homeDeliveryPrice: 800 },
+  { name: 'النعامة', officeDeliveryPrice: 500, homeDeliveryPrice: 1000 },
+  { name: 'عين تموشنت', officeDeliveryPrice: 500, homeDeliveryPrice: 950 },
+  { name: 'غرداية', officeDeliveryPrice: 500, homeDeliveryPrice: 950 },
+  { name: 'غليزان', officeDeliveryPrice: 450, homeDeliveryPrice: 900 },
+  { name: 'تيميمون', officeDeliveryPrice: 550, homeDeliveryPrice: 1150 },
+  { name: 'أولاد جلال', officeDeliveryPrice: 400, homeDeliveryPrice: 800 },
+  { name: 'بني عباس', officeDeliveryPrice: 550, homeDeliveryPrice: 1150 },
+  { name: 'إن صالح', officeDeliveryPrice: 550, homeDeliveryPrice: 1300 },
+  { name: 'تقرت', officeDeliveryPrice: 450, homeDeliveryPrice: 850 },
+  { name: 'جانت', officeDeliveryPrice: 600, homeDeliveryPrice: 1250 },
+  { name: 'المغير', officeDeliveryPrice: 450, homeDeliveryPrice: 850 },
+  { name: 'المنيعة', officeDeliveryPrice: 450, homeDeliveryPrice: 1050 },
 ];
 
 export const algerianWilayas: string[] = wilayaDelivery.map((w) => w.name);
 
-// Look up the home-delivery cost for a wilaya by name. Returns undefined when
-// the wilaya is not selected or unknown — NOT 0 — so callers can distinguish
-// "unknown" from "free".
-export function getWilayaShipping(wilaya: string | null | undefined): number | undefined {
+// Look up the delivery cost for a wilaya by name and delivery type. Returns
+// undefined when the wilaya is not selected or unknown — NOT 0 — so callers can
+// distinguish "unknown" from "free".
+export function getWilayaShipping(
+  wilaya: string | null | undefined,
+  deliveryType: DeliveryType = 'office',
+): number | undefined {
   if (!wilaya) return undefined;
-  return wilayaDelivery.find((w) => w.name === wilaya)?.home;
+  const entry = wilayaDelivery.find((w) => w.name === wilaya);
+  if (!entry) return undefined;
+  return deliveryType === 'home' ? entry.homeDeliveryPrice : entry.officeDeliveryPrice;
 }

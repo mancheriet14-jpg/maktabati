@@ -1,17 +1,22 @@
 // Checkout page: customer info form + order summary with confirmation modal.
 // Supports guest checkout. Auto-fills saved data for logged-in users.
-// Shipping cost is per-wilaya and stored on the order so old orders never change.
+// Shipping cost is per-wilaya and per-delivery-type (office vs home), stored
+// on the order so old orders never change.
 
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle, AlertCircle } from 'lucide-react';
+import { CheckCircle, AlertCircle, Building2, Home as HomeIcon } from 'lucide-react';
 import { useCartStore } from '@/store/cartStore';
 import { useAuth } from '@/lib/auth';
 import { supabase } from '@/lib/supabase';
 import { toast } from '@/lib/toast';
-import { wilayaDelivery, getWilayaShipping } from '@/data/wilayas';
+import {
+  wilayaDelivery,
+  getWilayaShipping,
+  type DeliveryType,
+} from '@/data/wilayas';
 import { tProductName, tVariantName, tVariantOptionLabel, tWilaya } from '@/lib/i18nData';
 import { formatPrice } from '@/config/site';
 
@@ -19,6 +24,8 @@ interface FormErrors {
   fullName?: string;
   phone?: string;
   wilaya?: string;
+  deliveryType?: string;
+  commune?: string;
   address?: string;
 }
 
@@ -36,6 +43,7 @@ export default function CheckoutPage() {
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [wilaya, setLocalWilaya] = useState('');
+  const [deliveryType, setDeliveryType] = useState<DeliveryType | ''>('');
   const [commune, setCommune] = useState('');
   const [address, setAddress] = useState('');
   const [postalCode, setPostalCode] = useState('');
@@ -55,7 +63,10 @@ export default function CheckoutPage() {
     if (cartWilaya) setLocalWilaya(cartWilaya);
   }, [profile, user, cartWilaya]);
 
-  const shippingCost = getWilayaShipping(wilaya);
+  // Shipping cost depends on both the selected wilaya and delivery type.
+  // Until both are chosen, shipping is undefined and the total cannot be shown.
+  const shippingCost =
+    deliveryType ? getWilayaShipping(wilaya, deliveryType) : undefined;
   const total = shippingCost !== undefined ? subtotal + shippingCost : undefined;
 
   const validate = (): boolean => {
@@ -64,18 +75,27 @@ export default function CheckoutPage() {
     if (!phone.trim()) e.phone = t('checkout.errors.phoneRequired');
     else if (!/^0\d{8,9}$/.test(phone.replace(/\s/g, ''))) e.phone = t('checkout.errors.phoneInvalid');
     if (!wilaya.trim()) e.wilaya = t('checkout.errors.wilayaRequired');
-    if (!address.trim()) e.address = t('checkout.errors.addressRequired');
+    if (!deliveryType) e.deliveryType = t('checkout.errors.deliveryTypeRequired');
+    // Commune and full address are required only for home delivery.
+    if (deliveryType === 'home') {
+      if (!commune.trim()) e.commune = t('checkout.errors.communeRequired');
+      if (!address.trim()) e.address = t('checkout.errors.addressRequired');
+    }
     setErrors(e);
     return Object.keys(e).length === 0;
   };
 
   const handleConfirm = async () => {
-    // Re-validate at submit time (defensive): items + wilaya must be present.
+    // Re-validate at submit time (defensive): items + wilaya + delivery type must be present.
     if (items.length === 0) {
       toast(t('checkout.errors.emptyCart'), 'error');
       return;
     }
-    const shipping = getWilayaShipping(wilaya);
+    if (!deliveryType) {
+      toast(t('checkout.errors.deliveryTypeRequired'), 'error');
+      return;
+    }
+    const shipping = getWilayaShipping(wilaya, deliveryType);
     if (shipping === undefined) {
       toast(t('checkout.errors.selectWilaya'), 'error');
       return;
@@ -96,9 +116,11 @@ export default function CheckoutPage() {
         customer_email: email || null,
         wilaya,
         commune: commune || null,
-        address,
-        postal_code: postalCode || null,
-        country: t('footer.algeria'),
+        address: deliveryType === 'office'
+          ? 'التوصيل إلى المكتب'
+          : address,
+          postal_code: postalCode || null,
+        delivery_type: deliveryType,
         notes: notes || null,
         status: 'pending',
         subtotal,
@@ -138,8 +160,6 @@ export default function CheckoutPage() {
         variant_name: item.variant?.name ?? null,
         variant_option_label: item.variant?.optionLabel ?? null,
         variant_sku: item.variant?.sku ?? null,
-        color: item.variant?.color ?? null,
-        size: item.variant?.size ?? null,
         sku: item.variant?.sku ?? item.product.sku ?? null,
       };
     });
@@ -178,6 +198,9 @@ export default function CheckoutPage() {
     );
   }
 
+  const inputClass =
+    'w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white';
+
   return (
     <div className="container-page py-8">
       <h1 className="mb-6 text-2xl font-extrabold text-neutral-800">{t('checkout.title')}</h1>
@@ -194,7 +217,7 @@ export default function CheckoutPage() {
                 type="text"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white"
+                className={inputClass}
                 placeholder={t('checkout.fullNamePlaceholder')}
               />
               {errors.fullName && <p className="mt-1 text-xs text-error-500">{errors.fullName}</p>}
@@ -207,7 +230,7 @@ export default function CheckoutPage() {
                 type="tel"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white"
+                className={inputClass}
                 placeholder="0XXXXXXXXX"
               />
               {errors.phone && <p className="mt-1 text-xs text-error-500">{errors.phone}</p>}
@@ -220,7 +243,7 @@ export default function CheckoutPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white"
+                className={inputClass}
                 placeholder="example@email.com"
               />
             </div>
@@ -234,7 +257,7 @@ export default function CheckoutPage() {
                   setLocalWilaya(e.target.value);
                   setWilaya(e.target.value || null);
                 }}
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white"
+                className={inputClass}
               >
                 <option value="">{t('checkout.selectWilaya')}</option>
                 {wilayaDelivery.map((w) => (
@@ -246,27 +269,73 @@ export default function CheckoutPage() {
               {errors.wilaya && <p className="mt-1 text-xs text-error-500">{errors.wilaya}</p>}
             </div>
 
-            {/* Country */}
+            {/* Delivery type */}
             <div>
-              <label className="mb-1.5 block text-sm font-medium text-neutral-700">{t('checkout.country')}</label>
-              <input
-                type="text"
-                value={t('footer.algeria')}
-                disabled
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-100 px-4 py-2.5 text-sm text-neutral-500"
-              />
+              <label className="mb-1.5 block text-sm font-medium text-neutral-700">
+                {t('checkout.deliveryTypeRequired')}
+              </label>
+              <div className="grid grid-cols-2 gap-3">
+                <button
+                  type="button"
+                  onClick={() => setDeliveryType('office')}
+                  className={`flex items-center justify-center gap-2 rounded-xl border px-4 py-2.5 text-sm font-medium transition ${
+                    deliveryType === 'office'
+                      ? 'border-primary-500 bg-primary-50 text-primary-700'
+                      : 'border-neutral-200 bg-neutral-50 text-neutral-600 hover:border-neutral-300'
+                  }`}
+                >
+                  <Building2 className="h-4 w-4" />
+                  {t('checkout.deliveryToOffice')}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setDeliveryType('home')}
+                  className={`flex items-center justify-center gap-2 rounded-xl border px-4 py-2.5 text-sm font-medium transition ${
+                    deliveryType === 'home'
+                      ? 'border-primary-500 bg-primary-50 text-primary-700'
+                      : 'border-neutral-200 bg-neutral-50 text-neutral-600 hover:border-neutral-300'
+                  }`}
+                >
+                  <HomeIcon className="h-4 w-4" />
+                  {t('checkout.deliveryToHome')}
+                </button>
+              </div>
+              {errors.deliveryType && <p className="mt-1 text-xs text-error-500">{errors.deliveryType}</p>}
             </div>
 
-            {/* Commune */}
-            <div>
-              <label className="mb-1.5 block text-sm font-medium text-neutral-700">{t('checkout.communeOptional')}</label>
-              <input
-                type="text"
-                value={commune}
-                onChange={(e) => setCommune(e.target.value)}
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white"
-              />
-            </div>
+            {/* Commune — required only for home delivery */}
+            {deliveryType === 'home' && (
+              <div>
+                <label className="mb-1.5 block text-sm font-medium text-neutral-700">
+                  {t('checkout.communeRequired')}
+                </label>
+                <input
+                  type="text"
+                  value={commune}
+                  onChange={(e) => setCommune(e.target.value)}
+                  className={inputClass}
+                  placeholder={t('checkout.communePlaceholder')}
+                />
+                {errors.commune && <p className="mt-1 text-xs text-error-500">{errors.commune}</p>}
+              </div>
+            )}
+
+            {/* Full address — required only for home delivery */}
+            {deliveryType === 'home' && (
+              <div>
+                <label className="mb-1.5 block text-sm font-medium text-neutral-700">
+                  {t('checkout.addressRequired')}
+                </label>
+                <textarea
+                  value={address}
+                  onChange={(e) => setAddress(e.target.value)}
+                  rows={3}
+                  className={inputClass}
+                  placeholder={t('checkout.addressPlaceholder')}
+                />
+                {errors.address && <p className="mt-1 text-xs text-error-500">{errors.address}</p>}
+              </div>
+            )}
 
             {/* Postal code */}
             <div>
@@ -275,21 +344,8 @@ export default function CheckoutPage() {
                 type="text"
                 value={postalCode}
                 onChange={(e) => setPostalCode(e.target.value)}
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white"
+                className={inputClass}
               />
-            </div>
-
-            {/* Address */}
-            <div>
-              <label className="mb-1.5 block text-sm font-medium text-neutral-700">{t('checkout.addressRequired')}</label>
-              <textarea
-                value={address}
-                onChange={(e) => setAddress(e.target.value)}
-                rows={3}
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white"
-                placeholder={t('checkout.addressPlaceholder')}
-              />
-              {errors.address && <p className="mt-1 text-xs text-error-500">{errors.address}</p>}
             </div>
 
             {/* Notes */}
@@ -299,7 +355,7 @@ export default function CheckoutPage() {
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
                 rows={2}
-                className="w-full rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary-400 focus:bg-white"
+                className={inputClass}
                 placeholder={t('checkout.notesPlaceholder')}
               />
             </div>

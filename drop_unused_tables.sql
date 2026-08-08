@@ -9,6 +9,10 @@ drop table if exists public.favorites cascade;
 drop table if exists public.subcategories cascade;
 drop table if exists public.categories cascade;
 drop table if exists public.brands cascade;
+drop table if exists public.products cascade;
+drop table if exists public.cart_items cascade;
+
+
 
 -- ============================================================================
 -- انتهى السكريبت. الجداول الأربعة لم تعد موجودة في قاعدة البيانات.

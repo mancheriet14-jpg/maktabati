@@ -9703,17 +9703,234 @@ export const products: Product[] = [
     ],
   },
 
+{
+    id: 'st-290',
+    name: 'ممحاة زينوا بلس باستيل "مابيد"',
+    mainCategory: 'stationery',
+    subCategory: 'sub-stat-erasers',
+    brand: 'maped',
+    price: 480,
+    rating: 4.0,
+    images: [
+      '/img/School-tools/310.jpg',
+    ],
+    gallery: [
+      '/img/School-tools/310.jpg',
+      '/img/School-tools/310.1.jpg',
+      '/img/School-tools/310.2.jpg',
+      '/img/School-tools/310.3.jpg',
+    ],
+    description: 'تصميم أنيق للغاية. غطاء حماية دوار: مطاط محمي بنسبة 100%.',
+    specs: [
+    ],
+    createdAt: '2024-08-20',
+    variants: [
+      {
+        id: 'st-290-blue',
+        name: 'أزرق',
+        optionLabel: 'اللون',
+        price: 480,
+       // oldPrice: 0,
+        stock: 50,
+        sku: '123211',
+        images: [
+      '/img/School-tools/310.1.jpg',
+        ],
+      },
+      {
+        id: 'st-290-purpel',
+        name: 'بنفسجي',
+        optionLabel: 'اللون',
+        price: 480,
+       // oldPrice: 0,
+        stock: 50,
+        sku: '123211',
+        images: [
+      '/img/School-tools/310.2.jpg',
+        ],
+      },
+      {
+        id: 'st-290-pinck',
+        name: 'وردي',
+        optionLabel: 'اللون',
+        price: 480,
+       // oldPrice: 0,
+        stock: 50,
+        sku: '123211',
+        images: [
+      '/img/School-tools/310.3.jpg',
+        ],
+      },
+    ],
+  },
 
+{
+    id: 'st-291',
+    name: 'ممحاة "MAPED" من سمايلينج بلانيت، معاد تدويرها من قبل مجلس رعاية الغابات (FSC)',
+    mainCategory: 'stationery',
+    subCategory: 'sub-stat-erasers',
+    brand: 'maped',
+    price: 240,
+    rating: 4.0,
+    images: [
+      '/img/School-tools/311.jpg',
+    ],
+    gallery: [
+      '/img/School-tools/311.jpg',
+      '/img/School-tools/311.1.jpg',
+      '/img/School-tools/311.2.jpg',
+    ],
+    description: 'تصميم أنيق للغاية. غطاء حماية دوار: مطاط محمي بنسبة 100%.',
+    specs: [
+    ],
+    createdAt: '2024-08-20',
+    variants: [
+      {
+        id: 'st-291-brown',
+        name: 'بني',
+        optionLabel: 'اللون',
+        price: 240,
+       // oldPrice: 0,
+        stock: 50,
+        sku: '112521FM',
+        images: [
+      '/img/School-tools/311.1.jpg',
+        ],
+      },
+      {
+        id: 'st-291-green',
+        name: 'أخضر',
+        optionLabel: 'اللون',
+        price: 240,
+       // oldPrice: 0,
+        stock: 50,
+        sku: '112521FM',
+        images: [
+      '/img/School-tools/311.2.jpg',
+        ],
+      },
+    ],
+  },
 
+{
+    id: 'st-292',
+    name: 'ممحاة "MAPED" من سمايلينج بلانيت، معاد تدويرها من قبل مجلس رعاية الغابات (FSC)',
+    mainCategory: 'stationery',
+    subCategory: 'sub-stat-erasers',
+    brand: 'maped',
+    price: 550,
+    rating: 4.0,
+    images: [
+      '/img/School-tools/312.jpg',
+    ],
+    gallery: [
+      '/img/School-tools/312.jpg',
+      '/img/School-tools/312.1.jpg',
+      '/img/School-tools/312.2.jpg',
+    ],
+    description: 'مبراة أقلام نظيفة + ممحاة دوارة خالية من مادة PVC.',
+    specs: [
+    ],
+    createdAt: '2024-08-20',
+    variants: [
+      {
+        id: 'st-292-format1',
+        name: ' 1 ',
+        optionLabel: 'النمط',
+        price: 550,
+       // oldPrice: 0,
+        stock: 50,
+        sku: '049121',
+        images: [
+      '/img/School-tools/312.1.jpg',
+        ],
+      },
+      {
+        id: 'st-292-format2',
+        name: ' 2 ',
+        optionLabel: 'النمط',
+        price: 550,
+       // oldPrice: 0,
+        stock: 50,
+        sku: '049121',
+        images: [
+      '/img/School-tools/312.2.jpg',
+        ],
+      },
+      {
+        id: 'st-292-format3',
+        name: ' 3 ',
+        optionLabel: 'النمط',
+        price: 550,
+       // oldPrice: 0,
+        stock: 50,
+        sku: '049121',
+        images: [
+      '/img/School-tools/312.2.jpg',
+        ],
+      },
+    ],
+  },
 
+{
+    id: 'st-293',
+    name: 'ممحاة تكنيك 300 "مابيد" رقم المرجع: 011301',
+    mainCategory: 'stationery',
+    subCategory: 'sub-stat-erasers',
+    brand: 'maped',
+    price: 60,
+    rating: 4.0,
+    images: [
+      '/img/School-tools/313.jpg',
+    ],
+    gallery: [
+      '/img/School-tools/313.jpg',
+    ],
+    description: 'ممحاة مبتكرة وممتعة تجمع بين التصميم المريح والجمال. جميع هذه الممحاة خالية من الفثالات، والعديد منها خالٍ من مادة PVC.',
+    specs: [
+    ],
+    createdAt: '2024-08-20',
+  },
 
+{
+    id: 'st-294',
+    name: 'ممحاة إسينشالز سوفت ميديوم "مابيد" رقم المرجع: 049411',
+    mainCategory: 'stationery',
+    subCategory: 'sub-stat-erasers',
+    brand: 'maped',
+    price: 90,
+    rating: 4.0,
+    images: [
+      '/img/School-tools/314.jpg',
+    ],
+    gallery: [
+      '/img/School-tools/314.jpg',
+    ],
+    description: 'ممحاة مبتكرة وممتعة تجمع بين التصميم المريح والجمال. جميع هذه الممحاة خالية من الفثالات، والعديد منها خالٍ من مادة PVC.',
+    specs: [
+    ],
+    createdAt: '2024-08-20',
+  },
 
-
-
-
-
-
-
+{
+    id: 'st-295',
+    name: 'ممحاة TECHNIC 600 "MAPED" رقم المرجع: 011600',
+    mainCategory: 'stationery',
+    subCategory: 'sub-stat-erasers',
+    brand: 'maped',
+    price: 130,
+    rating: 4.0,
+    images: [
+      '/img/School-tools/315.jpg',
+    ],
+    gallery: [
+      '/img/School-tools/315.jpg',
+    ],
+    description: 'ممحاة كلاسيكية الشكل لتحقيق أقصى قدر من الكفاءة أو للاستخدامات التقنية. جميع هذه الممحاة خالية من الفثالات، والعديد منها خالٍ من مادة PVC. العرض: ٢١٫٨ مم، العمق: ١٢ مم، الارتفاع: ٦١ مم.',
+    specs: [
+    ],
+    createdAt: '2024-08-20',
+  },
 
 
 
