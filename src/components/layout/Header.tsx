@@ -3,7 +3,7 @@
 // Category nav is always visible as a horizontal scroll on all devices.
 // On desktop, action icons are on the far left.
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -19,7 +19,7 @@ import { useWishlistStore } from '@/store/wishlistStore';
 import { useAuth } from '@/lib/auth';
 import { mainCategories, findSubCategory, bagCollections } from '@/data/siteData';
 import { siteConfig, formatPrice } from '@/config/site';
-import { products, mainCategoryName, getProductById } from '@/data/products';
+import { getProductById } from '@/data/products';
 import { tMainCategory, tProductName } from '@/lib/i18nData';
 import { searchAll, resultPath, type SearchResult } from '@/lib/search';
 import { clearScrollPosition } from '@/lib/scrollStore';
@@ -32,8 +32,20 @@ export default function Header() {
   const navigate = useNavigate();
   const location = useLocation();
   const [query, setQuery] = useState('');
+  const [debouncedQuery, setDebouncedQuery] = useState('');
   const [showSearch, setShowSearch] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
+
+  // Debounce search input to avoid running searchAll on every keystroke.
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedQuery(query.trim()), 200);
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  // Live search results — comprehensive across products, categories, brands
+  const liveResults: SearchResult[] = useMemo(() => {
+    return debouncedQuery ? searchAll(debouncedQuery, 8) : [];
+  }, [debouncedQuery]);
 
   const totalItems = useCartStore((s) => s.totalItems());
   const wishlistCount = useWishlistStore((s) => s.count());
@@ -106,11 +118,6 @@ export default function Header() {
       setShowSearch(false);
     }
   };
-
-  // Live search results — comprehensive across products, categories, brands
-  const liveResults: SearchResult[] = query.trim()
-    ? searchAll(query.trim(), 8)
-    : [];
 
   // Close search dropdown on outside click
   useEffect(() => {

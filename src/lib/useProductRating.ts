@@ -1,17 +1,31 @@
 // Hook for fetching real product ratings from the reviews database.
 // Fetches the rating summary for a single product and returns it.
 // Used by ProductCard to show the true average rating instead of a static value.
+// Includes in-flight deduplication so multiple cards for the same product
+// share a single network request.
 
 import { useState, useEffect } from 'react';
 import type { ReviewSummary } from '@/types';
 import { getProductRatingSummary } from '@/lib/reviews';
+
+const inflight = new Map<string, Promise<ReviewSummary>>();
+
+function fetchRating(productId: string): Promise<ReviewSummary> {
+  const existing = inflight.get(productId);
+  if (existing) return existing;
+  const p = getProductRatingSummary(productId).finally(() => {
+    inflight.delete(productId);
+  });
+  inflight.set(productId, p);
+  return p;
+}
 
 export function useProductRating(productId: string) {
   const [summary, setSummary] = useState<ReviewSummary>({ avg_rating: 0, review_count: 0 });
 
   useEffect(() => {
     let active = true;
-    getProductRatingSummary(productId).then((s) => {
+    fetchRating(productId).then((s) => {
       if (active) setSummary(s);
     });
     return () => {

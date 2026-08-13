@@ -10583,6 +10583,26 @@ export const products: Product[] = [
 
 
 
+// ── O(1) lookup maps (built once at module load) ───────────────────
+
+const productByIdMap = new Map<string, Product>(products.map((p) => [p.id, p]));
+
+const variantByIdMap = new Map<string, ProductVariant>();
+for (const p of products) {
+  if (p.variants) {
+    for (const v of p.variants) variantByIdMap.set(v.id, v);
+  }
+}
+
+const productsByCategoryMap = new Map<MainCategorySlug, Product[]>();
+for (const p of products) {
+  const arr = productsByCategoryMap.get(p.mainCategory);
+  if (arr) arr.push(p);
+  else productsByCategoryMap.set(p.mainCategory, [p]);
+}
+
+let _offerProductsCache: Product[] | null = null;
+
 // ── Derived helpers (auto-calculated, no manual edits) ─────────────
 
 /** Discount percentage from oldPrice vs price. 0 when no oldPrice. */
@@ -10591,16 +10611,18 @@ export function discountPercent(p: Product): number {
   return Math.round(((p.oldPrice - p.price) / p.oldPrice) * 100);
 }
 
-/** Products flagged as offers (highest discounts first). */
+/** Products flagged as offers (highest discounts first). Cached after first call. */
 export function offerProducts(): Product[] {
-  return products
+  if (_offerProductsCache) return _offerProductsCache;
+  _offerProductsCache = products
     .filter((p) => discountPercent(p) > 0)
     .sort((a, b) => discountPercent(b) - discountPercent(a));
+  return _offerProductsCache;
 }
 
-/** Products for a given main category. */
+/** Products for a given main category. Uses pre-built map for O(1) lookup. */
 export function productsByCategory(slug: MainCategorySlug): Product[] {
-  return products.filter((p) => p.mainCategory === slug);
+  return productsByCategoryMap.get(slug) ?? [];
 }
 
 /** Products for a given sub-category within a main category. */
@@ -10727,18 +10749,14 @@ export function productsByBagCollection(slug: string): Product[] {
   return products.filter((p) => p.bagCollection === slug);
 }
 
-/** Find a product by id. */
+/** Find a product by id. O(1) via pre-built map. */
 export function getProductById(id: string): Product | undefined {
-  return products.find((p) => p.id === id);
+  return productByIdMap.get(id);
 }
 
-/** Find a variant by id across all products. */
+/** Find a variant by id across all products. O(1) via pre-built map. */
 export function findVariant(variantId: string): ProductVariant | undefined {
-  for (const p of products) {
-    const v = p.variants?.find((vr) => vr.id === variantId);
-    if (v) return v;
-  }
-  return undefined;
+  return variantByIdMap.get(variantId);
 }
 
 /** All gallery images for a product (gallery array if present, otherwise images). */

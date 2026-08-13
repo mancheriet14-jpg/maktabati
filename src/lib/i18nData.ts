@@ -7,7 +7,7 @@
 import i18n from '@/i18n';
 import type { MainCategorySlug } from '@/types';
 import { mainCategories, subCategories, brands, bagCollections, findSubCategory } from '@/data/siteData';
-import { products, findVariant } from '@/data/products';
+import { findVariant, getProductById } from '@/data/products';
 
 type Lang = 'ar' | 'fr' | 'en';
 
@@ -70,7 +70,7 @@ export function tProductName(id: string): string {
   const key = `data.product.${id}.name`;
   const t = i18n.t(key);
   if (t === key) {
-    const p = products.find((pr) => pr.id === id);
+    const p = getProductById(id);
     return fallback(key, p?.name);
   }
   return t;
@@ -81,7 +81,7 @@ export function tProductDescription(id: string): string {
   const key = `data.product.${id}.description`;
   const t = i18n.t(key);
   if (t === key) {
-    const p = products.find((pr) => pr.id === id);
+    const p = getProductById(id);
     return fallback(key, p?.description);
   }
   return t;

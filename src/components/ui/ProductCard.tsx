@@ -3,7 +3,7 @@
 // Shows "يبدأ من" (from) price when product has variants.
 // Clicking the card (outside the button) opens the product page.
 
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -17,7 +17,7 @@ import { formatPrice } from '@/config/site';
 import { useProductRating } from '@/lib/useProductRating';
 import Rating from './Rating';
 
-export default function ProductCard({ product }: { product: Product }) {
+function ProductCardImpl({ product }: { product: Product }) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const addItem = useCartStore((s) => s.addItem);
@@ -136,3 +136,6 @@ export default function ProductCard({ product }: { product: Product }) {
     </div>
   );
 }
+
+const ProductCard = memo(ProductCardImpl);
+export default ProductCard;
