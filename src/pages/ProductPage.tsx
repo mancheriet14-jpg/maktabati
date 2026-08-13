@@ -87,7 +87,7 @@ export default function ProductPage() {
         />
       </div>
 
-      <ReviewsSection productId={product.id} />
+      <ReviewsSection productId={product.id} initialSummary={ratingSummary} />
 
       <SimilarProducts products={similar} />
     </div>

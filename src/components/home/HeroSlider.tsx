@@ -17,7 +17,7 @@ import { homePromoSlides } from '@/data/categoryPromoSlides';
 const swiperConfig: SwiperOptions = {
   modules: [Autoplay, Pagination, Navigation, EffectFade],
   loop: true,
-  autoplay: { delay: 4000, disableOnInteraction: false },
+  autoplay: { delay: 6000, disableOnInteraction: false },
   pagination: { clickable: true },
   navigation: true,
   effect: 'fade',
@@ -43,6 +43,8 @@ export default function HeroSlider() {
                     alt=""
                     className="h-full w-full object-cover"
                     loading={i === 0 ? 'eager' : 'lazy'}
+                    // Prioritize the first slide image for faster LCP
+                    {...(i === 0 ? { fetchpriority: 'high' as const } : {})}
                   />
                   <div className="absolute inset-0 bg-gradient-to-l from-black/50 via-black/20 to-transparent" />
                 </div>

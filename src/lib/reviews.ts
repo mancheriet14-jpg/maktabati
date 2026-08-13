@@ -13,25 +13,43 @@ export interface NewReview {
   user_id?: string;
 }
 
+// Persistent cache for rating summaries — survives across page navigations
+// so revisiting a product or re-rendering a ProductCard doesn't refetch.
+const ratingCache = new Map<string, ReviewSummary>();
+const ratingInflight = new Map<string, Promise<ReviewSummary>>();
+
 // Fetch the aggregate rating + count for a product (dynamically computed).
 export async function getProductRatingSummary(productId: string): Promise<ReviewSummary> {
-  const { data, error } = await reviewsSupabase
+  const cached = ratingCache.get(productId);
+  if (cached) return cached;
+
+  const existing = ratingInflight.get(productId);
+  if (existing) return existing;
+
+  const p = reviewsSupabase
     .from('product_rating_summary')
     .select('avg_rating, review_count')
     .eq('product_id', productId)
-    .maybeSingle();
+    .maybeSingle()
+    .then(({ data, error }) => {
+      if (error) {
+        console.error('Failed to load rating summary:', error.message);
+        return { avg_rating: 0, review_count: 0 };
+      }
+      if (!data) return { avg_rating: 0, review_count: 0 };
+      const summary: ReviewSummary = {
+        avg_rating: Number(data.avg_rating) || 0,
+        review_count: Number(data.review_count) || 0,
+      };
+      ratingCache.set(productId, summary);
+      return summary;
+    })
+    .finally(() => {
+      ratingInflight.delete(productId);
+    });
 
-  if (error) {
-    console.error('Failed to load rating summary:', error.message);
-    return { avg_rating: 0, review_count: 0 };
-  }
-
-  if (!data) return { avg_rating: 0, review_count: 0 };
-
-  return {
-    avg_rating: Number(data.avg_rating) || 0,
-    review_count: Number(data.review_count) || 0,
-  };
+  ratingInflight.set(productId, p);
+  return p;
 }
 
 // Fetch all reviews for a product, newest first.

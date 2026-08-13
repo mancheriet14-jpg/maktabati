@@ -30,16 +30,19 @@ import Rating from '@/components/ui/Rating';
 
 interface ReviewsSectionProps {
   productId: string;
+  initialSummary?: ReviewSummary | null;
 }
 
-export default function ReviewsSection({ productId }: ReviewsSectionProps) {
+export default function ReviewsSection({ productId, initialSummary }: ReviewsSectionProps) {
   const { t } = useTranslation();
   const { user, profile } = useAuth();
 
   const [open, setOpen] = useState(false);
-  const [summary, setSummary] = useState<ReviewSummary>({ avg_rating: 0, review_count: 0 });
+  const [summary, setSummary] = useState<ReviewSummary>(
+    initialSummary ?? { avg_rating: 0, review_count: 0 },
+  );
   const [reviews, setReviews] = useState<Review[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   // Form state
   const [name, setName] = useState('');
@@ -61,18 +64,22 @@ export default function ReviewsSection({ productId }: ReviewsSectionProps) {
 
   const loadAll = useCallback(async () => {
     setLoading(true);
-    const [s, r] = await Promise.all([
-      getProductRatingSummary(productId),
-      getProductReviews(productId),
-    ]);
-    setSummary(s);
+    const r = await getProductReviews(productId);
     setReviews(r);
+    // Only fetch summary if we don't already have one from the parent
+    if (!initialSummary || initialSummary.review_count === 0) {
+      const s = await getProductRatingSummary(productId);
+      setSummary(s);
+    }
     setLoading(false);
-  }, [productId]);
+  }, [productId, initialSummary]);
 
+  // Defer data fetch until the accordion is opened
   useEffect(() => {
-    loadAll();
-  }, [loadAll]);
+    if (open) {
+      loadAll();
+    }
+  }, [open, loadAll]);
 
   const formatDate = (iso: string) => {
     try {
