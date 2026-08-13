@@ -17,7 +17,7 @@ import { homePromoSlides } from '@/data/categoryPromoSlides';
 const swiperConfig: SwiperOptions = {
   modules: [Autoplay, Pagination, Navigation, EffectFade],
   loop: true,
-  autoplay: { delay: 6000, disableOnInteraction: false },
+  autoplay: { delay: 4000, disableOnInteraction: false },
   pagination: { clickable: true },
   navigation: true,
   effect: 'fade',
@@ -40,7 +40,7 @@ export default function HeroSlider() {
                 <div className="relative h-full w-full">
                   <img
                     src={slide.image}
-                    alt=""
+                    alt={`عرض ترويجي ${i + 1}`}
                     className="h-full w-full object-cover"
                     loading={i === 0 ? 'eager' : 'lazy'}
                     // Prioritize the first slide image for faster LCP

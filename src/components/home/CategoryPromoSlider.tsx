@@ -43,7 +43,7 @@ export default function CategoryPromoSlider({ slides }: Props) {
             >
               <img
                 src={slide.image}
-                alt=""
+                alt={`عرض ترويجي ${i + 1}`}
                 className="h-full w-full object-cover"
                 loading={i === 0 ? 'eager' : 'lazy'}
               />
