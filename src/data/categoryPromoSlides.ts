@@ -13,7 +13,7 @@ export interface PromoSlide {
 // Edit this array to change the main slider on the home page.
 export const homePromoSlides: PromoSlide[] = [
   { image: '/img-webp/sliders/20.webp', productId: 'st-25' },
-//  { image: '/img-webp/sliders/22.webp', productId: 'st-83' },
+  { image: '/img-webp/sliders/22.webp', productId: 'st-83' },
 //  { image: '/img-webp/sliders/23.webp', productId: 'st-221' },
 ];
 
