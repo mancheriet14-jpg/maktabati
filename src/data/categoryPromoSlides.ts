@@ -12,15 +12,15 @@ export interface PromoSlide {
 // ── Home page hero slider ─────────────────────────────────────────
 // Edit this array to change the main slider on the home page.
 export const homePromoSlides: PromoSlide[] = [
-  { image: '/img/sliders/20.jpg', productId: 'st-25' },
-  { image: '/img/sliders/22.jpg', productId: 'st-83' },
-  { image: '/img/sliders/23.jpg', productId: 'st-221' },
+  { image: '/img-webp/sliders/20.webp', productId: 'st-25' },
+  { image: '/img-webp/sliders/22.webp', productId: 'st-83' },
+  { image: '/img-webp/sliders/23.webp', productId: 'st-221' },
 ];
 
 export const categoryPromoSlides: Partial<Record<MainCategorySlug, PromoSlide[]>> = {
   stationery: [
-    { image: '/img/sliders/13.jpg', productId: 'st-1.1' },
-    { image: '/img/sliders/14.jpg', productId: 'st-2' },
+    { image: '/img-webp/sliders/13.webp', productId: 'st-1.1' },
+    { image: '/img-webp/sliders/14.webp', productId: 'st-2' },
   ],
   textbooks: [
     { image: '', productId: 'bk-1' },

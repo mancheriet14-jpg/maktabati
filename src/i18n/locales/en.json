@@ -244,6 +244,7 @@
     "fullName": "Full Name",
     "fullNamePlaceholder": "Mohamed Ahmed",
     "phone": "Phone",
+    "phoneOptional": "Phone (optional)",
     "forgotPassword": "Forgot Password?",
     "forgotTitle": "Recover Password",
     "forgotInstructions": "Enter your email and we will send you a link to reset your password.",

@@ -21,7 +21,7 @@ interface AuthContextValue {
   profile: UserProfile | null;
   loading: boolean;
   signIn: (email: string, password: string) => Promise<{ error: string | null }>;
-  signUp: (email: string, password: string, fullName: string, phone: string) => Promise<{ error: string | null }>;
+  signUp: (email: string, password: string, fullName: string, phone: string | null) => Promise<{ error: string | null }>;
   signOut: () => Promise<void>;
   resetPassword: (email: string) => Promise<{ error: string | null }>;
   updateProfile: (data: Partial<UserProfile>) => Promise<{ error: string | null }>;
@@ -81,18 +81,19 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return { error: error?.message ?? null };
   };
 
-  const signUp = async (email: string, password: string, fullName: string, phone: string) => {
+  const signUp = async (email: string, password: string, fullName: string, phone: string | null) => {
+    const phoneValue = phone?.trim() || null;
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
-      options: { data: { full_name: fullName, phone } },
+      options: { data: { full_name: fullName, phone: phoneValue } },
     });
     if (error) return { error: error.message };
     if (data.user) {
       await supabase.from('profiles').insert({
         id: data.user.id,
         full_name: fullName,
-        phone,
+        phone: phoneValue,
       });
     }
     return { error: null };

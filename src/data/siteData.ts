@@ -17,51 +17,51 @@ export const mainCategories: MainCategory[] = [
     slug: 'stationery',
     name: 'قرطاسية ومكتبية',
     image:
-      '/img/sliders/3.jpg',
+      '/img-webp/sliders/3.webp',
   },
   {
     slug: 'textbooks',
     name: 'كتب مدرسية ومراجع',
     image:
-      '/img/sliders/15.jpg',
+      '/img-webp/sliders/15.webp',
   },
- /* {
+ /*{
     slug: 'books',
     name: 'كتب',
     image:
-      '/img/sliders/7.jpg',
-  },       */
+      '/img-webp/sliders/7.webp',
+  },      */
   {
     slug: 'toys',
     name: 'ألعاب',
     image:
-      '/img/sliders/8.jpg',
+      '/img-webp/sliders/8.webp',
   },
   {
     slug: 'gifts',
     name: 'هدايا',
     image:
-      '/img/sliders/9.jpg',
+      '/img-webp/sliders/9.webp',
   },
  {
     slug: 'electronics',
     name: 'إلكترونيات',
     image:
-      '/img/sliders/10.jpg',
+      '/img-webp/sliders/10.webp',
   },        
   {
     slug: 'aprons',
     name: 'مآزر',
     image:
-      '/img/sliders/11.jpg',
+      '/img-webp/sliders/11.webp',
   },
 ];
 
 // ── Per-category slider images (independent from home) ──────────────
 export const categorySliderImages: Record<MainCategorySlug, string[]> = {
   stationery: [
-    '/img/sliders/5.png',
-    '/img/sliders/6.png',
+    '/img-webp/sliders/5.webp',
+    '/img-webp/sliders/6.webp',
   ],
   textbooks: [
     'https://images.pexels.com/photos/159711/books-belt-learning-education-159711.jpeg?auto=compress&cs=tinysrgb&w=1600',
@@ -81,7 +81,7 @@ export const categorySliderImages: Record<MainCategorySlug, string[]> = {
   ],
   electronics: [
     'https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    '/img/sliders/12.png',
+    '/img-webp/sliders/12.webp',
   ],
   aprons: [
     'https://images.pexels.com/photos/4210511/pexels-photo-4210511.jpeg?auto=compress&cs=tinysrgb&w=1600',
@@ -92,20 +92,20 @@ export const categorySliderImages: Record<MainCategorySlug, string[]> = {
 // ── Sub-categories per main category ───────────────────────────────
 export const subCategories: Record<MainCategorySlug, SubCategory[]> = {
   stationery: [
-    { slug: 'sub-stat-pencils', name: 'أقلام رصاص', image: '/img/School Supplies/0.jpg' },
-    { slug: 'sub-stat-pens', name: 'أقلام حبر', image: '/img/School Supplies/1.jpg' },
-    { slug: 'sub-stat-highliters', name: 'أقلام تحديد وسبورة', image: '/img/School Supplies/12.jpg' },
-    { slug: 'sub-stat-coloring-pens', name: 'أقلام تلوين', image: '/img/School Supplies/2.jpg' },
-    { slug: 'sub-stat-notebooks', name: 'كراسات ومذكرات', image: '/img/School Supplies/4.jpg' },
-    { slug: 'sub-stat-pencilcases', name: 'مقلمات', image: '/img/School Supplies/5.jpg' },
-    { slug: 'sub-stat-erasers', name: 'محايات ', image: '/img/School Supplies/6.jpg' },
-    { slug: 'sub-stat-Sharpener', name: 'برايات ', image: '/img/School Supplies/7.jpg' },
-    { slug: 'sub-stat-scissors', name: 'مقصات', image: '/img/School Supplies/8.jpg' },
-    { slug: 'sub-stat-glues', name: 'صمغ ولاصق', image: '/img/School Supplies/9.jpg' },
-    { slug: 'sub-stat-bottles', name: 'قوارير مياه', image: '/img/School Supplies/10.jpg' },
-    { slug: 'sub-stat-drawing', name: 'أوراق رسم وطباعة', image: '/img/School Supplies/11.jpg' },
-    { slug: 'sub-stat-geometric', name: 'أدوات هندسية', image: '/img/School Supplies/13.jpg' },
-    // { slug: 'sub-stat-copy-papers', name: 'ورق نسخ', image: '/img/School Supplies/14.jpg' },
+    { slug: 'sub-stat-pencils', name: 'أقلام رصاص', image: '/img-webp/School Supplies/0.webp' },
+    { slug: 'sub-stat-pens', name: 'أقلام حبر', image: '/img-webp/School Supplies/1.webp' },
+    { slug: 'sub-stat-highliters', name: 'أقلام تحديد وسبورة', image: '/img-webp/School Supplies/12.webp' },
+    { slug: 'sub-stat-coloring-pens', name: 'أقلام تلوين', image: '/img-webp/School Supplies/2.webp' },
+    { slug: 'sub-stat-notebooks', name: 'كراسات ومذكرات', image: '/img-webp/School Supplies/4.webp' },
+    { slug: 'sub-stat-pencilcases', name: 'مقلمات', image: '/img-webp/School Supplies/5.webp' },
+    { slug: 'sub-stat-erasers', name: 'محايات ', image: '/img-webp/School Supplies/6.webp' },
+    { slug: 'sub-stat-Sharpener', name: 'برايات ', image: '/img-webp/School Supplies/7.webp' },
+    { slug: 'sub-stat-scissors', name: 'مقصات', image: '/img-webp/School Supplies/8.webp' },
+    { slug: 'sub-stat-glues', name: 'صمغ ولاصق', image: '/img-webp/School Supplies/9.webp' },
+    { slug: 'sub-stat-bottles', name: 'قوارير مياه', image: '/img-webp/School Supplies/10.webp' },
+    { slug: 'sub-stat-drawing', name: 'أوراق رسم وطباعة', image: '/img-webp/School Supplies/11.webp' },
+    { slug: 'sub-stat-geometric', name: 'أدوات هندسية', image: '/img-webp/School Supplies/13.webp' },
+    // { slug: 'sub-stat-copy-papers', name: 'ورق نسخ', image: '/img-webp/School Supplies/14.webp' },
   ],
   textbooks: [
     { slug: 'primary-textbooks', name: 'ابتدائي', image: 'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=600' },
@@ -115,16 +115,16 @@ export const subCategories: Record<MainCategorySlug, SubCategory[]> = {
     { slug: 'other-textbooks', name: 'أخرى', image: 'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=600' },
   ],
   books: [
-    { slug: 'preschool', name: 'تحضيري', image: '/img/books/4.jpg' },
-    { slug: 'primary', name: 'ابتدائي', image: '/img/books/1.jpg' },
-    { slug: 'intermediate', name: 'متوسط', image: '/img/books/2.jpg' },
-    { slug: 'secondary', name: 'ثانوي', image: '/img/books/3.jpg' },
-    { slug: 'refernces', name: 'المراجع', image: '/img/books/11.jpg' },
-    { slug: 'mushafs', name: 'مصاحف', image: '/img/books/10.jpg' },
-    { slug: 'religious', name: 'كتب دينية', image: '/img/books/6.jpg' },
-    { slug: 'encyclopedias', name: 'موسوعات', image: '/img/books/7.jpg' },
-    { slug: 'kids-stories', name: 'قصص أطفال', image: '/img/books/8.jpg' },
-    { slug: 'other-books', name: 'أخرى', image: '/img/books/9.jpg' },
+    { slug: 'preschool', name: 'تحضيري', image: '/img-webp/books/4.webp' },
+    { slug: 'primary', name: 'ابتدائي', image: '/img-webp/books/1.webp' },
+    { slug: 'intermediate', name: 'متوسط', image: '/img-webp/books/2.webp' },
+    { slug: 'secondary', name: 'ثانوي', image: '/img-webp/books/3.webp' },
+    { slug: 'refernces', name: 'المراجع', image: '/img-webp/books/11.webp' },
+    { slug: 'mushafs', name: 'مصاحف', image: '/img-webp/books/10.webp' },
+    { slug: 'religious', name: 'كتب دينية', image: '/img-webp/books/6.webp' },
+    { slug: 'encyclopedias', name: 'موسوعات', image: '/img-webp/books/7.webp' },
+    { slug: 'kids-stories', name: 'قصص أطفال', image: '/img-webp/books/8.webp' },
+    { slug: 'other-books', name: 'أخرى', image: '/img-webp/books/9.webp' },
   ],
   toys: [
     { slug: 'educational', name: 'تعليمية', image: 'https://images.pexels.com/photos/3661193/pexels-photo-3661193.jpeg?auto=compress&cs=tinysrgb&w=600' },
@@ -138,12 +138,12 @@ export const subCategories: Record<MainCategorySlug, SubCategory[]> = {
     { slug: 'other-gifts', name: 'أخرى', image: 'https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?auto=compress&cs=tinysrgb&w=600' },
   ],
     electronics: [
-    { slug: 'phones', name: 'جوالات', image: '/img/electronics/0.jpg' },
-    { slug: 'tablet', name: 'أيبادات', image: '/img/electronics/9.jpg' },
-    { slug: 'laptops', name: 'لابتوبات', image: '/img/electronics/1.png' },
-    { slug: 'headphones', name: 'سماعات', image: '/img/electronics/2.jpg' },
-    { slug: 'watches', name: 'ساعات', image: '/img/electronics/3.png' },
-    { slug: 'other-electronics', name: 'أخرى', image: '/img/electronics/10.jpg' },
+    { slug: 'phones', name: 'جوالات', image: '/img-webp/electronics/0.webp' },
+    { slug: 'tablet', name: 'أيبادات', image: '/img-webp/electronics/9.webp' },
+    { slug: 'laptops', name: 'لابتوبات', image: '/img-webp/electronics/1.webp' },
+    { slug: 'headphones', name: 'سماعات', image: '/img-webp/electronics/2.webp' },
+    { slug: 'watches', name: 'ساعات', image: '/img-webp/electronics/3.webp' },
+    { slug: 'other-electronics', name: 'أخرى', image: '/img-webp/electronics/10.webp' },
   ], 
   aprons: [
     { slug: 'kids-aprons', name: 'مآزر أطفال', image: 'https://images.pexels.com/photos/4210511/pexels-photo-4210511.jpeg?auto=compress&cs=tinysrgb&w=600' },
@@ -166,13 +166,13 @@ export function findSubCategory(
 // ── Brands per main category ───────────────────────────────────────
 export const brands: Record<MainCategorySlug, Brand[]> = {
   stationery: [
-    { slug: 'tecnowa', name: 'Tecnowa', image: '/img/brands/0.jpg' },
-    { slug: 'maped', name: 'Maped', image: '/img/brands/2.jpg' },
-    { slug: 'vertex', name: 'Vertex', image: '/img/brands/3.jpg' },
-    { slug: 'fabs', name: 'FABS', image: '/img/brands/5.jpg' },
-    { slug: 'alhilal', name: 'الهلال', image: '/img/brands/1.jpg' },
-    { slug: 'rayane', name: 'Rayane', image: '/img/brands/4.jpg' },
-    { slug: 'other', name: 'أخرى', image: '/img/brands/7.jpg' },
+    { slug: 'tecnowa', name: 'Tecnowa', image: '/img-webp/brands/0.webp' },
+    { slug: 'maped', name: 'Maped', image: '/img-webp/brands/2.webp' },
+    { slug: 'vertex', name: 'Vertex', image: '/img-webp/brands/3.webp' },
+    { slug: 'fabs', name: 'FABS', image: '/img-webp/brands/5.webp' },
+    { slug: 'alhilal', name: 'الهلال', image: '/img-webp/brands/1.webp' },
+    { slug: 'rayane', name: 'Rayane', image: '/img-webp/brands/4.webp' },
+    { slug: 'other', name: 'أخرى', image: '/img-webp/brands/7.webp' },
   ],
   textbooks: [
    // { slug: 'tecnowa', name: 'Tecnowa', image: 'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=400' },
@@ -187,11 +187,11 @@ export const brands: Record<MainCategorySlug, Brand[]> = {
    // { slug: 'alhilal', name: 'الهلال', image: 'https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?auto=compress&cs=tinysrgb&w=400' },
   ],
   electronics: [
-    { slug: 'apple', name: 'Apple', image: '/img/electronics/5.jpg' },
-    { slug: 'deel', name: 'Deel', image: '/img/electronics/8.png' },
-    { slug: 'xiaomi', name: 'Xiaomi', image: '/img/electronics/6.jpg' },
-    { slug: 'asus', name: 'Asus', image: '/img/electronics/7.png' },
-    { slug: 'samsung', name: 'Samsung', image: '/img/electronics/4.jpg' },
+    { slug: 'apple', name: 'Apple', image: '/img-webp/electronics/5.webp' },
+    { slug: 'deel', name: 'Deel', image: '/img-webp/electronics/8.webp' },
+    { slug: 'xiaomi', name: 'Xiaomi', image: '/img-webp/electronics/6.webp' },
+    { slug: 'asus', name: 'Asus', image: '/img-webp/electronics/7.webp' },
+    { slug: 'samsung', name: 'Samsung', image: '/img-webp/electronics/4.webp' },
   ],
   aprons: [
    // { slug: 'alhilal', name: 'الهلال', image: 'https://images.pexels.com/photos/4210511/pexels-photo-4210511.jpeg?auto=compress&cs=tinysrgb&w=400' },
@@ -206,13 +206,13 @@ export interface BagCollection {
 }
 
 export const bagCollections: BagCollection[] = [
-  { slug: 'style', name: 'تشكيلة ستايل', image: '/img/collection/0.png' },
-  { slug: 'sports', name: 'التشكيلة الرياضية', image: '/img/collection/1.png' },
-  { slug: 'fantasy', name: 'تشكيلات الشخصيات الخيالية', image: '/img/collection/2.png' },
-  { slug: 'heroes', name: 'تشكيلة الأبطال', image: '/img/collection/3.png' },
-  { slug: 'kindergarten', name: 'تشكيلة رياض الأطفال', image: '/img/collection/4.png' },
-  { slug: 'wheeled', name: 'تشكيلة حقائب  ظهر بعجلات', image: '/img/collection/5.jpg' },
-  { slug: 'full-set', name: 'تشكيلة المجموعة الكاملة', image: '/img/collection/6.png' },
-  { slug: 'all', name: 'الكل', image: '/img/collection/7.jpg' },
+  { slug: 'style', name: 'تشكيلة ستايل', image: '/img-webp/collection/0.webp' },
+  { slug: 'sports', name: 'التشكيلة الرياضية', image: '/img-webp/collection/1.webp' },
+  { slug: 'fantasy', name: 'تشكيلات الشخصيات الخيالية', image: '/img-webp/collection/2.webp' },
+  { slug: 'heroes', name: 'تشكيلة الأبطال', image: '/img-webp/collection/3.webp' },
+  { slug: 'kindergarten', name: 'تشكيلة رياض الأطفال', image: '/img-webp/collection/4.webp' },
+  { slug: 'wheeled', name: 'تشكيلة حقائب  ظهر بعجلات', image: '/img-webp/collection/5.webp' },
+  { slug: 'full-set', name: 'تشكيلة المجموعة الكاملة', image: '/img-webp/collection/6.webp' },
+  { slug: 'all', name: 'الكل', image: '/img-webp/collection/7.webp' },
 
 ];

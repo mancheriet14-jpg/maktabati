@@ -244,6 +244,7 @@
     "fullName": "الاسم الكامل",
     "fullNamePlaceholder": "محمد أحمد",
     "phone": "رقم الهاتف",
+    "phoneOptional": "رقم الهاتف (اختياري)",
     "forgotPassword": "نسيت كلمة المرور؟",
     "forgotTitle": "استعادة كلمة المرور",
     "forgotInstructions": "أدخل بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور.",

@@ -132,7 +132,7 @@ export default function Header() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 shrink-0">
               <img
-                src="/img/sliders/logo.jpg"
+                src="/img-webp/sliders/logo.webp"
                 alt={siteConfig.name}
                 className="h-12 w-12 rounded-2xl object-cover"
               />

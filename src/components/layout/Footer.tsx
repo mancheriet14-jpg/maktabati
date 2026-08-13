@@ -20,7 +20,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-2">
             <img
-              src="/img/sliders/footer.jpg"
+              src="/img-webp/sliders/footer.webp"
               alt={siteConfig.name}
               className="h-16 w-16 rounded-full object-cover"
             />

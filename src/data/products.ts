@@ -18,12 +18,12 @@ export const products: Product[] = [
     price: 450,
     rating: 4.1,
     images: [
-      '/img/School-tools/25.jpg',
+      '/img-webp/School-tools/25.webp',
     ],
     gallery: [
-      '/img/School-tools/25.jpg',
-      '/img/School-tools/25.1.jpg',
-      '/img/School-tools/25.2.jpg',
+      '/img-webp/School-tools/25.webp',
+      '/img-webp/School-tools/25.1.webp',
+      '/img-webp/School-tools/25.2.webp',
     ],
     description: 'بريق لامع يتوهج في الظلام 5*10 مل',
     specs: [{ label: 'العدد', value: '4' }],
@@ -38,10 +38,10 @@ export const products: Product[] = [
     price: 410,
     rating: 4.1,
     images: [
-      '/img/School-tools/24.jpg',
+      '/img-webp/School-tools/24.webp',
     ],
     gallery: [
-      '/img/School-tools/24.jpg',
+      '/img-webp/School-tools/24.webp',
     ],
     description: 'غراء معدني لامع 5*10 مل',
     specs: [{ label: 'العدد', value: '5' }],
@@ -58,14 +58,14 @@ export const products: Product[] = [
     price: 110,
     rating: 4.1,
     images: [
-      '/img/School-tools/17.jpg',
+      '/img-webp/School-tools/17.webp',
     ],
     gallery: [
-            '/img/School-tools/17.jpg',
-      '/img/School-tools/17.2.webp',
-      '/img/School-tools/17.3.webp',
-      '/img/School-tools/17.4.webp',
-      '/img/School-tools/17.5.webp',
+            '/img-webp/School-tools/17.webp',
+      '/img-webp/School-tools/17.2.webp',
+      '/img-webp/School-tools/17.3.webp',
+      '/img-webp/School-tools/17.4.webp',
+      '/img-webp/School-tools/17.5.webp',
     ],
     description: 'غراء أبيض مع غطاء للتطبيق 21 غرام بموجب ترخيص تكنو',
     specs: [{ label: 'الفتلات', value: '2' }],
@@ -80,7 +80,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'PEN-12-BLK',
         images: [
-        '/img/School-tools/17.2.webp',
+        '/img-webp/School-tools/17.2.webp',
         ],
       },
       {
@@ -92,7 +92,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'PEN-12-BLK',
         images: [
-        '/img/School-tools/17.3.webp',
+        '/img-webp/School-tools/17.3.webp',
         ],
       },
       {
@@ -104,7 +104,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'PEN-12-BLK',
         images: [
-        '/img/School-tools/17.4.webp',
+        '/img-webp/School-tools/17.4.webp',
         ],
       },
       {
@@ -116,7 +116,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'PEN-12-BLK',
         images: [
-        '/img/School-tools/17.5.webp',
+        '/img-webp/School-tools/17.5.webp',
         ],
       },
     ],
@@ -132,7 +132,7 @@ export const products: Product[] = [
     price: 140,
     rating: 4.1,
     images: [
-      '/img/School-tools/10.webp',
+      '/img-webp/School-tools/10.webp',
     ],
     gallery: [
     ],
@@ -149,7 +149,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'PEN-12-BLK',
         images: [
-      '/img/School-tools/10.webp',
+      '/img-webp/School-tools/10.webp',
       ],
       },
     ],
@@ -165,10 +165,10 @@ export const products: Product[] = [
     // oldPrice:160,
     rating: 4.1,
     images: [
-      '/img/School-tools/11.webp',
+      '/img-webp/School-tools/11.webp',
     ],
     gallery: [
-    '/img/School-tools/11.webp',
+    '/img-webp/School-tools/11.webp',
     ],
     description: 'غراء أبيض مع غطاء للتطبيق',
     specs: [{ label: 'الحجم:', value: '80ml' }],
@@ -187,12 +187,12 @@ export const products: Product[] = [
     price: 170,
     rating: 4.1,
     images: [
-      '/img/School-tools/12.jpg',
+      '/img-webp/School-tools/12.webp',
     ],
     gallery: [
-      '/img/School-tools/12.jpg',
-      '/img/School-tools/13.jpg',
-      '/img/School-tools/14.jpg',
+      '/img-webp/School-tools/12.webp',
+      '/img-webp/School-tools/13.webp',
+      '/img-webp/School-tools/14.webp',
    ],
     description: 'غطاء تطبيق الغراء الأبيض 120 مل رقم المرجع 5880',
     specs: [{ label: 'الحجم:', value: '120ml' }],
@@ -207,7 +207,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'PEN-12-BLK',
         images: [
-      '/img/School-tools/12.jpg',
+      '/img-webp/School-tools/12.webp',
       ],
       },
       {
@@ -219,7 +219,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'PEN-12-BLK',
         images: [
-      '/img/School-tools/13.jpg',
+      '/img-webp/School-tools/13.webp',
       ],
       },
       {
@@ -231,7 +231,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'PEN-12-BLK',
         images: [
-      '/img/School-tools/14.jpg',
+      '/img-webp/School-tools/14.webp',
       ],
       },
     ],
@@ -247,10 +247,10 @@ export const products: Product[] = [
     price: 140,
     rating: 4.1,
     images: [
-      '/img/School-tools/11.webp',
+      '/img-webp/School-tools/11.webp',
     ],
     gallery: [
-    '/img/School-tools/11.webp',
+    '/img-webp/School-tools/11.webp',
     ],
     description: 'غراء أبيض مع غطاء للتطبيق',
     specs: [{ label: 'الحجم:', value: '80ml' }],
@@ -270,11 +270,11 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/29.jpg',
+      '/img-webp/School-tools/29.webp',
     ],
     gallery: [
-      '/img/School-tools/29.jpg',
-      '/img/School-tools/29.1.jpg',
+      '/img-webp/School-tools/29.webp',
+      '/img-webp/School-tools/29.1.webp',
     ],
     description: ' طلاء مدرسي مائي، 6 أنابيب سعة 8 مل، سهل الاستخدام.',
     specs: [{ label: 'العدد', value: '6' }],
@@ -289,7 +289,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5757_01',
         images: [
-      '/img/School-tools/29.jpg',
+      '/img-webp/School-tools/29.webp',
         ],
       },
       {
@@ -301,7 +301,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5757_01',
         images: [
-      '/img/School-tools/29.1.jpg',
+      '/img-webp/School-tools/29.1.webp',
         ],
       },
     ],
@@ -317,11 +317,11 @@ export const products: Product[] = [
     price: 450,
     rating: 4.0,
     images: [
-      '/img/School-tools/30.jpg',
+      '/img-webp/School-tools/30.webp',
     ],
     gallery: [
-      '/img/School-tools/30.jpg',
-      '/img/School-tools/30.1.jpg',
+      '/img-webp/School-tools/30.webp',
+      '/img-webp/School-tools/30.1.webp',
     ],
     description: 'طلاء مدرسي مائي، 12 أنبوبًا سعة 8 مل، سهل الاستخدام على أي نوع من الأسطح وباستخدام أدوات مختلفة.',
     specs: [{ label: 'العدد', value: '12' }],
@@ -336,7 +336,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5758_01',
         images: [
-      '/img/School-tools/30.jpg',
+      '/img-webp/School-tools/30.webp',
         ],
       },
       {
@@ -348,7 +348,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5758_01',
         images: [
-      '/img/School-tools/30.1.jpg',
+      '/img-webp/School-tools/30.1.webp',
         ],
       },
     ],
@@ -365,14 +365,14 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/31.jpg',
+      '/img-webp/School-tools/31.webp',
     ],
     gallery: [
-      '/img/School-tools/31.jpg',
-      '/img/School-tools/31.1.jpg',
-      '/img/School-tools/31.2.jpg',
-      '/img/School-tools/31.3.jpg',
-      '/img/School-tools/31.4.jpg',
+      '/img-webp/School-tools/31.webp',
+      '/img-webp/School-tools/31.1.webp',
+      '/img-webp/School-tools/31.2.webp',
+      '/img-webp/School-tools/31.3.webp',
+      '/img-webp/School-tools/31.4.webp',
     ],
     description: 'طلاء مائي للأطفال ذو طابع مدرسي؛ 6 أنابيب سعة 8 مل، سهل الاستخدام.',
     specs: [{ label: 'العدد', value: '6' }],
@@ -387,7 +387,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4368',
         images: [
-      '/img/School-tools/31.1.jpg',
+      '/img-webp/School-tools/31.1.webp',
         ],
       },
       {
@@ -399,7 +399,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4368',
         images: [
-      '/img/School-tools/31.2.jpg',
+      '/img-webp/School-tools/31.2.webp',
         ],
       },
       {
@@ -411,7 +411,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4368',
         images: [
-      '/img/School-tools/31.3.jpg',
+      '/img-webp/School-tools/31.3.webp',
         ],
       },
       {
@@ -423,7 +423,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4368',
         images: [
-      '/img/School-tools/31.3.jpg',
+      '/img-webp/School-tools/31.3.webp',
         ],
       },
     ],
@@ -438,13 +438,13 @@ export const products: Product[] = [
     price: 450,
     rating: 4.0,
     images: [
-      '/img/School-tools/32.jpg',
+      '/img-webp/School-tools/32.webp',
     ],
     gallery: [
-      '/img/School-tools/32.jpg',
-      '/img/School-tools/32.1.jpg',
-      '/img/School-tools/32.2.jpg',
-      '/img/School-tools/32.3.jpg',
+      '/img-webp/School-tools/32.webp',
+      '/img-webp/School-tools/32.1.webp',
+      '/img-webp/School-tools/32.2.webp',
+      '/img-webp/School-tools/32.3.webp',
     ],
     description: 'ألوان مائية لتصاميم أطفال المدارس، ١٢ أنبوبًا سعة ٨ مل، سهلة الاستخدام على جميع أنواع الأسطح وباستخدام أدوات مختلفة. تشمل هذه المجموعة الكاملة ألوانًا زاهية وغير زاهية للرسم والمزج.',
     specs: [{ label: 'العدد', value: '12' }],
@@ -459,7 +459,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4389',
         images: [
-      '/img/School-tools/32.jpg',
+      '/img-webp/School-tools/32.webp',
         ],
       },
       {
@@ -471,7 +471,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4389',
         images: [
-      '/img/School-tools/32.1.jpg',
+      '/img-webp/School-tools/32.1.webp',
         ],
       },
     {
@@ -483,7 +483,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4389',
         images: [
-      '/img/School-tools/32.2.jpg',
+      '/img-webp/School-tools/32.2.webp',
         ],
       },
       {
@@ -495,7 +495,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4389',
         images: [
-      '/img/School-tools/32.3.jpg',
+      '/img-webp/School-tools/32.3.webp',
         ],
       },
     ],
@@ -510,10 +510,10 @@ export const products: Product[] = [
     price: 700,
     rating: 4.0,
     images: [
-      '/img/School-tools/33.jpg',
+      '/img-webp/School-tools/33.webp',
     ],
     gallery: [
-      '/img/School-tools/33.jpg',
+      '/img-webp/School-tools/33.webp',
     ],
     description: 'طلاء زيتي؛ 12 أنبوبًا سعة 11 مل.',
     specs: [{ label: 'العدد', value: '12' }],
@@ -529,10 +529,10 @@ export const products: Product[] = [
     price: 860,
     rating: 4.0,
     images: [
-      '/img/School-tools/34.jpg',
+      '/img-webp/School-tools/34.webp',
     ],
     gallery: [
-      '/img/School-tools/34.jpg',
+      '/img-webp/School-tools/34.webp',
     ],
     description: 'ألوان غواش، علبة تحتوي على 10 أنابيب سعة 10 مل، ألوان متنوعة مناسبة للأطفال في المدرسة.',
     specs: [{ label: 'العدد', value: '12' }],
@@ -550,14 +550,14 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/35.jpg',
+      '/img-webp/School-tools/35.webp',
     ],
     gallery: [
-      '/img/School-tools/35.jpg',
-      '/img/School-tools/35.1.jpg',
-      '/img/School-tools/35.2.jpg',
-      '/img/School-tools/35.3.jpg',
-      '/img/School-tools/35.4.jpg',
+      '/img-webp/School-tools/35.webp',
+      '/img-webp/School-tools/35.1.webp',
+      '/img-webp/School-tools/35.2.webp',
+      '/img-webp/School-tools/35.3.webp',
+      '/img-webp/School-tools/35.4.webp',
     ],
     description: 'طلاء مدرسي مائي؛ 6 أنابيب سعة 8 مل، سهل الاستخدام.',
     specs: [{ label: 'العدد', value: '6' }],
@@ -572,7 +572,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '0126',
         images: [
-      '/img/School-tools/35.jpg',
+      '/img-webp/School-tools/35.webp',
         ],
       },
       {
@@ -584,7 +584,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '0126',
         images: [
-      '/img/School-tools/35.4.jpg',
+      '/img-webp/School-tools/35.4.webp',
         ],
       },
     {
@@ -596,7 +596,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '0126',
         images: [
-      '/img/School-tools/35.3.jpg',
+      '/img-webp/School-tools/35.3.webp',
         ],
       },
       {
@@ -608,7 +608,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '0126',
         images: [
-      '/img/School-tools/35.2.jpg',
+      '/img-webp/School-tools/35.2.webp',
         ],
       },
     ],
@@ -624,14 +624,14 @@ export const products: Product[] = [
     price: 450,
     rating: 4.0,
     images: [
-      '/img/School-tools/36.jpg',
+      '/img-webp/School-tools/36.webp',
     ],
     gallery: [
-      '/img/School-tools/36.jpg',
-      '/img/School-tools/36.1.jpg',
-      '/img/School-tools/36.2.jpg',
-      '/img/School-tools/36.3.jpg',
-      '/img/School-tools/36.4.jpg',
+      '/img-webp/School-tools/36.webp',
+      '/img-webp/School-tools/36.1.webp',
+      '/img-webp/School-tools/36.2.webp',
+      '/img-webp/School-tools/36.3.webp',
+      '/img-webp/School-tools/36.4.webp',
     ],
     description: 'ألوان مدرسية مائية، ١٢ أنبوبًا سعة ٨ مل، سهلة الاستخدام على جميع أنواع الأسطح وباستخدام أدوات مختلفة. تشمل هذه المجموعة الكاملة ألوانًا زاهية وغير شفافة للرسم والمزج.',
     specs: [
@@ -649,7 +649,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '0127',
         images: [
-      '/img/School-tools/36.jpg',
+      '/img-webp/School-tools/36.webp',
         ],
       },
       {
@@ -661,7 +661,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '0127',
         images: [
-      '/img/School-tools/36.2.jpg',
+      '/img-webp/School-tools/36.2.webp',
         ],
       },
     {
@@ -673,7 +673,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '0127',
         images: [
-      '/img/School-tools/36.3.jpg',
+      '/img-webp/School-tools/36.3.webp',
         ],
       },
       {
@@ -685,7 +685,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '0127',
         images: [
-      '/img/School-tools/36.4.jpg',
+      '/img-webp/School-tools/36.4.webp',
         ],
       },
     ],
@@ -701,14 +701,14 @@ export const products: Product[] = [
     price: 380,
     rating: 4.0,
     images: [
-      '/img/School-tools/37.jpg',
+      '/img-webp/School-tools/37.webp',
     ],
     gallery: [
-      '/img/School-tools/37.jpg',
-      '/img/School-tools/37.1.jpg',
-      '/img/School-tools/37.2.jpg',
-      '/img/School-tools/37.3.jpg',
-      '/img/School-tools/37.4.jpg',
+      '/img-webp/School-tools/37.webp',
+      '/img-webp/School-tools/37.1.webp',
+      '/img-webp/School-tools/37.2.webp',
+      '/img-webp/School-tools/37.3.webp',
+      '/img-webp/School-tools/37.4.webp',
     ],
     description: 'علبة تحتوي على 12 قرصاً مائياً مزودة بفرشاة.',
     specs: [
@@ -726,7 +726,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4407',
         images: [
-      '/img/School-tools/37.1.jpg',
+      '/img-webp/School-tools/37.1.webp',
         ],
       },
       {
@@ -738,7 +738,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4407',
         images: [
-      '/img/School-tools/37.2.jpg',
+      '/img-webp/School-tools/37.2.webp',
         ],
       },
     {
@@ -750,7 +750,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4407',
         images: [
-      '/img/School-tools/37.3.jpg',
+      '/img-webp/School-tools/37.3.webp',
         ],
       },
       {
@@ -762,7 +762,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4407',
         images: [
-      '/img/School-tools/37.4.jpg',
+      '/img-webp/School-tools/37.4.webp',
         ],
       },
     ],
@@ -779,11 +779,11 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/38.jpg',
+      '/img-webp/School-tools/38.webp',
     ],
     gallery: [
-      '/img/School-tools/38.jpg',
-      '/img/School-tools/38.1.jpg',
+      '/img-webp/School-tools/38.webp',
+      '/img-webp/School-tools/38.1.webp',
     ],
     description: 'علبة تحتوي على 8 أقراص مائية مزودة بفرشاة.',
     specs: [
@@ -801,7 +801,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4788',
         images: [
-      '/img/School-tools/38.jpg',
+      '/img-webp/School-tools/38.webp',
         ],
       },
       {
@@ -813,7 +813,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4788',
         images: [
-      '/img/School-tools/38.1.jpg',
+      '/img-webp/School-tools/38.1.webp',
         ],
       },
     ],
@@ -828,10 +828,10 @@ export const products: Product[] = [
     price: 1750,
     rating: 4.0,
     images: [
-      '/img/School-tools/39.jpg',
+      '/img-webp/School-tools/39.webp',
     ],
     gallery: [
-      '/img/School-tools/39.jpg',
+      '/img-webp/School-tools/39.webp',
     ],
     description: 'ألوان مائية فاخرة، ١٢ أنبوبًا، ١٢ مل. تتميز ألوان بيبيو المائية بسهولة مزجها، وعمق لونها، وشفافيتها التي لا تتلاشى بعد الجفاف. تم اختيار الألوان بعناية لتلبية احتياجات هواة الرسم بالألوان المائية.',
     specs: [
@@ -849,10 +849,10 @@ export const products: Product[] = [
     price: 750,
     rating: 4.0,
     images: [
-      '/img/School-tools/40.jpg',
+      '/img-webp/School-tools/40.webp',
     ],
     gallery: [
-      '/img/School-tools/40.jpg',
+      '/img-webp/School-tools/40.webp',
     ],
     description: 'مجموعة ألوان مائية فاخرة مكونة من 24 أنبوبًا، سعة كل منها 12 مل. تتميز ألوان تكنو المائية بسهولة مزجها، وعمقها اللوني، وشفافيتها التي لا تتلاشى بعد الجفاف. تم اختيار الألوان بعناية لتلبية احتياجات هواة الرسم بالألوان المائية.',
     specs: [
@@ -870,10 +870,10 @@ export const products: Product[] = [
     price: 550,
     rating: 4.0,
     images: [
-      '/img/School-tools/41.jpg',
+      '/img-webp/School-tools/41.webp',
     ],
     gallery: [
-      '/img/School-tools/41.jpg',
+      '/img-webp/School-tools/41.webp',
     ],
     description: 'مجموعة ألوان مائية فاخرة مكونة من 18 أنبوبًا، سعة كل منها 12 مل. تتميز ألوان تكنو المائية بسهولة مزجها، وعمقها اللوني، وشفافيتها التي لا تتلاشى بعد الجفاف. تم اختيار الألوان بعناية لتلبية احتياجات هواة الرسم بالألوان المائية.',
     specs: [
@@ -891,10 +891,10 @@ export const products: Product[] = [
     price: 1450,
     rating: 4.0,
     images: [
-      '/img/School-tools/42.jpg',
+      '/img-webp/School-tools/42.webp',
     ],
     gallery: [
-      '/img/School-tools/42.jpg',
+      '/img-webp/School-tools/42.webp',
     ],
     description: 'هيكل بلاستيكي مزود بنظام لف للحفاظ على نظافة اليدين.',
     specs: [
@@ -912,10 +912,10 @@ export const products: Product[] = [
     price: 780,
     rating: 4.0,
     images: [
-      '/img/School-tools/43.jpg',
+      '/img-webp/School-tools/43.webp',
     ],
     gallery: [
-      '/img/School-tools/43.jpg',
+      '/img-webp/School-tools/43.webp',
     ],
     description: 'هيكل بلاستيكي مزود بنظام لف للحفاظ على نظافة اليدين.',
     specs: [
@@ -933,10 +933,10 @@ export const products: Product[] = [
     price: 270,
     rating: 4.0,
     images: [
-      '/img/School-tools/45.jpg',
+      '/img-webp/School-tools/45.webp',
     ],
     gallery: [
-      '/img/School-tools/45.jpg',
+      '/img-webp/School-tools/45.webp',
     ],
     description: 'مثالية للبدء في الرسم، سواء لإنشاء الأعمال الأولى أو لاكتشاف متعة الهوايات الإبداعية، مجموعة من 3 فرش بأحجام مختلفة.',
     specs: [
@@ -954,10 +954,10 @@ export const products: Product[] = [
     price: 600,
     rating: 4.0,
     images: [
-      '/img/School-tools/46.jpg',
+      '/img-webp/School-tools/46.webp',
     ],
     gallery: [
-      '/img/School-tools/46.jpg',
+      '/img-webp/School-tools/46.webp',
     ],
     description: 'طقم مكون من 4 قطع مع منطقة إمساك وواقيات رأس.',
     specs: [
@@ -975,10 +975,10 @@ export const products: Product[] = [
     price: 1480,
     rating: 4.0,
     images: [
-      '/img/School-tools/47.jpg',
+      '/img-webp/School-tools/47.webp',
     ],
     gallery: [
-      '/img/School-tools/47.jpg',
+      '/img-webp/School-tools/47.webp',
     ],
     description: 'مجموعة من أقلام التلوين بألوان زاهية. متوافقة مع معايير سلامة الألعاب. تصميم مريح: شكل مثلث لسهولة الإمساك. ضع - بلل - لون.',
     specs: [
@@ -997,10 +997,10 @@ export const products: Product[] = [
     price: 550,
     rating: 4.0,
     images: [
-      '/img/School-tools/48.jpg',
+      '/img-webp/School-tools/48.webp',
     ],
     gallery: [
-      '/img/School-tools/48.jpg',
+      '/img-webp/School-tools/48.webp',
     ],
     description: 'متوافق مع لوائح الألعاب، تصميم مريح: قلم رصاص مثلث الشكل لقبضة أفضل',
     specs: [
@@ -1019,10 +1019,10 @@ export const products: Product[] = [
     price: 495,
     rating: 4.0,
     images: [
-      '/img/School-tools/49.jpg',
+      '/img-webp/School-tools/49.webp',
     ],
     gallery: [
-      '/img/School-tools/49.jpg',
+      '/img-webp/School-tools/49.webp',
     ],
     description: 'متوافق مع لوائح الألعاب، تصميم مريح: قلم رصاص مثلث الشكل لقبضة أفضل',
     specs: [
@@ -1040,10 +1040,10 @@ export const products: Product[] = [
     price: 995,
     rating: 4.0,
     images: [
-      '/img/School-tools/50.jpg',
+      '/img-webp/School-tools/50.webp',
     ],
     gallery: [
-      '/img/School-tools/50.jpg',
+      '/img-webp/School-tools/50.webp',
     ],
     description: 'مجموعة من أقلام التلوين بألوان زاهية. متوافقة مع معايير سلامة الألعاب. تصميم مريح: شكل مثلث لسهولة الإمساك. ضع - بلل - لون.',
     specs: [
@@ -1061,12 +1061,12 @@ export const products: Product[] = [
     price: 3250,
     rating: 4.0,
     images: [
-      '/img/School-tools/51.jpg',
+      '/img-webp/School-tools/51.webp',
     ],
     gallery: [
-      '/img/School-tools/51.jpg',
-      '/img/School-tools/51.1.jpg',
-      '/img/School-tools/51.2.jpg',
+      '/img-webp/School-tools/51.webp',
+      '/img-webp/School-tools/51.1.webp',
+      '/img-webp/School-tools/51.2.webp',
     ],
     description: 'صُنعت هذه الأقلام باستخدام أصباغ عالية الجودة لإنشاء رسومات ألوان مائية جميلة (صور شخصية، ولوحات طبيعة صامتة، ومناظر طبيعية...)، وهي قابلة للذوبان في الماء تمامًا، ويمكن استخدامها جافة أو مع الماء، وتتميز بأصباغ عالية الجودة، وجسم مصنوع من خشب الأرز، ومقاومة ممتازة للضوء، ورقم اللون موضح على كل قلم.',
     specs: [
@@ -1084,14 +1084,14 @@ export const products: Product[] = [
     price: 1100,
     rating: 4.0,
     images: [
-      '/img/School-tools/52.3.jpg',
+      '/img-webp/School-tools/52.3.webp',
     ],
     gallery: [
-      '/img/School-tools/52.3.jpg',
-      '/img/School-tools/52.4.jpg',
-      '/img/School-tools/52.2.jpg',
-      '/img/School-tools/52.jpg',
-      '/img/School-tools/52.1.jpg',
+      '/img-webp/School-tools/52.3.webp',
+      '/img-webp/School-tools/52.4.webp',
+      '/img-webp/School-tools/52.2.webp',
+      '/img-webp/School-tools/52.webp',
+      '/img-webp/School-tools/52.1.webp',
     ],
     description: 'جميع مزايا أقلام تلوين كولور بيبس، بالإضافة إلى حماية علبة بلاستيكية أو معدنية بتصميم مرح. صغيرة الحجم: بفضل مفصلها الذي يدور 360 درجة، تشغل مساحة صغيرة جدًا على الطاولة.',
     specs: [
@@ -1109,9 +1109,9 @@ export const products: Product[] = [
         stock: 50,
         sku: '832032',
         images: [
-      '/img/School-tools/52.3.jpg',
-      '/img/School-tools/52.4.jpg',
-      '/img/School-tools/52.2.jpg',        ],
+      '/img-webp/School-tools/52.3.webp',
+      '/img-webp/School-tools/52.4.webp',
+      '/img-webp/School-tools/52.2.webp',        ],
       },
       {
         id: 'st-33-pink',
@@ -1122,8 +1122,8 @@ export const products: Product[] = [
         stock: 50,
         sku: '832032',
         images: [
-      '/img/School-tools/52.jpg',
-      '/img/School-tools/52.1.jpg',        ],
+      '/img-webp/School-tools/52.webp',
+      '/img-webp/School-tools/52.1.webp',        ],
       },
     ],
   },
@@ -1137,10 +1137,10 @@ export const products: Product[] = [
     price: 740,
     rating: 4.0,
     images: [
-      '/img/School-tools/53.jpg',
+      '/img-webp/School-tools/53.webp',
     ],
     gallery: [
-      '/img/School-tools/53.jpg',
+      '/img-webp/School-tools/53.webp',
     ],
     description: 'مجموعة من أقلام الرصاص ذات الألوان الزاهية. متوافقة مع لوائح الألعاب. تصميم مريح: قلم رصاص مثلث الشكل لقبضة أفضل.',
     specs: [
@@ -1158,11 +1158,11 @@ export const products: Product[] = [
     price: 1300,
     rating: 4.0,
     images: [
-      '/img/School-tools/54.jpg',
+      '/img-webp/School-tools/54.webp',
     ],
     gallery: [
-      '/img/School-tools/54.jpg',
-      '/img/School-tools/54.1.jpg',
+      '/img-webp/School-tools/54.webp',
+      '/img-webp/School-tools/54.1.webp',
     ],
     description: 'منتجات حصرية من مابيد، تشكيلة منتجات تلبي احتياجات محددة. متوافقة مع لوائح الألعاب.',
     specs: [
@@ -1180,10 +1180,10 @@ export const products: Product[] = [
     price: 1390,
     rating: 4.0,
     images: [
-      '/img/School-tools/55.jpg',
+      '/img-webp/School-tools/55.webp',
     ],
     gallery: [
-      '/img/School-tools/55.jpg',
+      '/img-webp/School-tools/55.webp',
     ],
     description: 'مجموعة من أقلام الرصاص ذات الألوان الزاهية. متوافقة مع لوائح الألعاب. تصميم مريح: قلم رصاص مثلث الشكل لقبضة أفضل.',
     specs: [
@@ -1201,11 +1201,11 @@ export const products: Product[] = [
     price: 1150,
     rating: 4.0,
     images: [
-      '/img/School-tools/56.jpg',
+      '/img-webp/School-tools/56.webp',
     ],
     gallery: [
-      '/img/School-tools/56.jpg',
-      '/img/School-tools/56.1.jpg',
+      '/img-webp/School-tools/56.webp',
+      '/img-webp/School-tools/56.1.webp',
     ],
     description: 'أقلام رصاص بلاستيكية ذات طرف دقيق وآخر مسطح. نظيفة: لا تُلطخ يديك. سهلة البري. متوافقة مع معايير سلامة الألعاب.',
     specs: [
@@ -1223,10 +1223,10 @@ export const products: Product[] = [
     price: 950,
     rating: 4.0,
     images: [
-      '/img/School-tools/57.jpg',
+      '/img-webp/School-tools/57.webp',
     ],
     gallery: [
-      '/img/School-tools/57.jpg',
+      '/img-webp/School-tools/57.webp',
     ],
     description: 'أقلام رصاص بلاستيكية ذات طرف دقيق وآخر مسطح. نظيفة: لا تُلطخ يديك. سهلة البري. متوافقة مع معايير سلامة الألعاب.',
     specs: [
@@ -1244,10 +1244,10 @@ export const products: Product[] = [
     price: 3950,
     rating: 4.0,
     images: [
-      '/img/School-tools/58.jpg',
+      '/img-webp/School-tools/58.webp',
     ],
     gallery: [
-      '/img/School-tools/58.jpg',
+      '/img-webp/School-tools/58.webp',
     ],
     description: 'قطعة: 10 أقلام تحديد فرشاة + 10 أقلام رسم بياني + 12 قلم رصاص ملون ثنائي اللون + مبراة أقلام رصاص معدنية واحدة',
     specs: [
@@ -1265,11 +1265,11 @@ export const products: Product[] = [
     price: 170,
     rating: 4.0,
     images: [
-      '/img/School-tools/59.jpg',
+      '/img-webp/School-tools/59.webp',
     ],
     gallery: [
-      '/img/School-tools/59.jpg',
-      '/img/School-tools/59.1.jpg',
+      '/img-webp/School-tools/59.webp',
+      '/img-webp/School-tools/59.1.webp',
 
     ],
     description: 'أقلام تلوين خشبية مثلثة الشكل، مجموعة من 6 أقلام، مريحة للأطفال من سن 3 سنوات فما فوق، ألوان فلورية.',
@@ -1288,10 +1288,10 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/60.jpg',
+      '/img-webp/School-tools/60.webp',
     ],
     gallery: [
-      '/img/School-tools/60.jpg',
+      '/img-webp/School-tools/60.webp',
     ],
     description: 'أقلام رصاص قابلة للمسح حيث تكون الممحاة بنفس لون القلم، مريحة للأطفال من سن 3 سنوات فما فوق، ألوان زاهية، سنها 2.8 مم مقاوم للغاية، سهل البري.',
     specs: [
@@ -1309,10 +1309,10 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/61.jpg',
+      '/img-webp/School-tools/61.webp',
     ],
     gallery: [
-      '/img/School-tools/61.jpg',
+      '/img-webp/School-tools/61.webp',
     ],
     description: 'أقلام رصاص قابلة للمسح حيث تكون الممحاة بنفس لون القلم، مريحة للأطفال من سن 3 سنوات فما فوق، ألوان زاهية، سنها 2.8 مم مقاوم للغاية، سهل البري.',
     specs: [
@@ -1330,10 +1330,10 @@ export const products: Product[] = [
     price: 725,
     rating: 4.0,
     images: [
-      '/img/School-tools/62.jpg',
+      '/img-webp/School-tools/62.webp',
     ],
     gallery: [
-      '/img/School-tools/62.jpg',
+      '/img-webp/School-tools/62.webp',
     ],
     description: 'أقلام رصاص قابلة للمسح بممحاة بنفس لون القلم، مريحة للأطفال من عمر 3 سنوات فما فوق، بتصميم إبداعي في علبة دائرية، وألوان زاهية. رؤوسها بقياس 2.8 مم شديدة المقاومة وسهلة البري.',
     specs: [
@@ -1351,10 +1351,10 @@ export const products: Product[] = [
     price: 585,
     rating: 4.0,
     images: [
-      '/img/School-tools/63.jpg',
+      '/img-webp/School-tools/63.webp',
     ],
     gallery: [
-      '/img/School-tools/63.jpg',
+      '/img-webp/School-tools/63.webp',
     ],
     description: 'أقلام رصاص قابلة للمسح بممحاة بنفس لون القلم، مريحة للأطفال من عمر 3 سنوات فما فوق، بتصميم إبداعي في علبة دائرية، وألوان زاهية. رؤوسها بقياس 2.8 مم شديدة المقاومة وسهلة البري.',
     specs: [
@@ -1372,10 +1372,10 @@ export const products: Product[] = [
     price: 390,
     rating: 4.0,
     images: [
-      '/img/School-tools/64.jpg',
+      '/img-webp/School-tools/64.webp',
     ],
     gallery: [
-      '/img/School-tools/64.jpg',
+      '/img-webp/School-tools/64.webp',
     ],
     description: 'أقلام رصاص قابلة للمسح بممحاة بنفس لون القلم، مريحة للأطفال من عمر 3 سنوات فما فوق، بتصميم إبداعي في علبة دائرية، وألوان زاهية. رؤوسها بقياس 2.8 مم شديدة المقاومة وسهلة البري.',
     specs: [
@@ -1393,10 +1393,10 @@ export const products: Product[] = [
     price: 310,
     rating: 4.0,
     images: [
-      '/img/School-tools/65.jpg',
+      '/img-webp/School-tools/65.webp',
     ],
     gallery: [
-      '/img/School-tools/65.jpg',
+      '/img-webp/School-tools/65.webp',
     ],
     description: 'هيكل مريح لقبضة أفضل، قطر الرصاص 2.8 مم، رأس متين، علبة دائرية، لون باستيل.',
     specs: [
@@ -1414,11 +1414,11 @@ export const products: Product[] = [
     price: 295,
     rating: 4.0,
     images: [
-      '/img/School-tools/66.jpg',
+      '/img-webp/School-tools/66.webp',
     ],
     gallery: [
-      '/img/School-tools/66.jpg',
-      '/img/School-tools/66.1.jpg',
+      '/img-webp/School-tools/66.webp',
+      '/img-webp/School-tools/66.1.webp',
     ],
     description: 'قلم رصاص خشبي مثلث الشكل ملون، مريح للأطفال من سن 3 سنوات فما فوق، بألوان فلورية',
     specs: [
@@ -1436,10 +1436,10 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/67.jpg',
+      '/img-webp/School-tools/67.webp',
     ],
     gallery: [
-      '/img/School-tools/67.jpg',
+      '/img-webp/School-tools/67.webp',
     ],
     description: 'تصميم مريح لقبضة أفضل. قطر الرصاص 2.8 مم، رأس متين، قابل للمسح بالممحاة، ألوان باستيل.',
     specs: [
@@ -1457,10 +1457,10 @@ export const products: Product[] = [
     price: 2600,
     rating: 4.0,
     images: [
-      '/img/School-tools/68.jpg',
+      '/img-webp/School-tools/68.webp',
     ],
     gallery: [
-      '/img/School-tools/68.jpg',
+      '/img-webp/School-tools/68.webp',
     ],
     description: 'تصميم مريح لقبضة أفضل. قطر الرصاص 2.8 مم، رأس متين، قابل للمسح بالممحاة، في علبة دائرية.',
     specs: [
@@ -1479,10 +1479,10 @@ export const products: Product[] = [
     price: 370,
     rating: 4.0,
     images: [
-      '/img/School-tools/69.jpg',
+      '/img-webp/School-tools/69.webp',
     ],
     gallery: [
-      '/img/School-tools/69.jpg',
+      '/img-webp/School-tools/69.webp',
     ],
     description: 'تصميم مريح لقبضة أفضل. قطر الرصاص 2.8 مم، رأس متين، قابل للمسح بالممحاة، ألوان فلورية.',
     specs: [
@@ -1500,10 +1500,10 @@ export const products: Product[] = [
     price: 585,
     rating: 4.0,
     images: [
-      '/img/School-tools/70.jpg',
+      '/img-webp/School-tools/70.webp',
     ],
     gallery: [
-      '/img/School-tools/70.jpg',
+      '/img-webp/School-tools/70.webp',
     ],
     description: 'أقلام رصاص قابلة للمسح حيث تكون الممحاة بنفس لون القلم، مريحة للأطفال من سن 3 سنوات فما فوق، تصميم إبداعي في علبة بلاستيكية، ألوان زاهية، رؤوسها 2.8 مم شديدة المقاومة وسهلة البري.',
     specs: [
@@ -1521,10 +1521,10 @@ export const products: Product[] = [
     price: 725,
     rating: 4.0,
     images: [
-      '/img/School-tools/71.jpg',
+      '/img-webp/School-tools/71.webp',
     ],
     gallery: [
-      '/img/School-tools/71.jpg',
+      '/img-webp/School-tools/71.webp',
     ],
     description: 'أقلام رصاص قابلة للمسح حيث تكون الممحاة بنفس لون القلم، مريحة للأطفال من سن 3 سنوات فما فوق، تصميم إبداعي في علبة بلاستيكية، ألوان زاهية، رؤوسها 2.8 مم شديدة المقاومة وسهلة البري.',
     specs: [
@@ -1542,11 +1542,11 @@ export const products: Product[] = [
     price: 340,
     rating: 4.0,
     images: [
-      '/img/School-tools/72.jpg',
+      '/img-webp/School-tools/72.webp',
     ],
     gallery: [
-      '/img/School-tools/72.jpg',
-      '/img/School-tools/72.1.jpg',
+      '/img-webp/School-tools/72.webp',
+      '/img-webp/School-tools/72.1.webp',
     ],
     description: 'من الرسم في المنزل إلى التلوين في المدرسة، سترافق هذه الأقلام الملونة الزاهية طفلك في جميع أنشطته الإبداعية! تتميز أقلام التلوين "أوشن" من مجموعة "كولور بيبس" برأس دقيق ومتين وألوان زاهية. صُمم حبرها ليُغسل بسهولة عن القماش أو الجلد. وهي متوافقة مع معايير سلامة الألعاب لضمان استخدامها بأمان. تصميمها الأصلي المستوحى من المحيط وألوانها الزاهية تجعل هذه الأقلام رفيقًا مثاليًا لطفلك لإطلاق العنان لخياله!',
     specs: [
@@ -1564,11 +1564,11 @@ export const products: Product[] = [
     price: 680,
     rating: 4.0,
     images: [
-      '/img/School-tools/73.jpg',
+      '/img-webp/School-tools/73.webp',
     ],
     gallery: [
-      '/img/School-tools/73.jpg',
-      '/img/School-tools/73.1.jpg',
+      '/img-webp/School-tools/73.webp',
+      '/img-webp/School-tools/73.1.webp',
     ],
     description: 'أقلام التحديد "جانغل" من مجموعة "كولور بيبس" تأتي بألوان زاهية، مصممة خصيصًا للاستخدام اليومي في المدرسة أو المنزل. تتميز برأس مدبب 2.8 مم مصمم ليدوم طويلًا ويقاوم إعادة التعبئة. حبرها قابل للغسل، مما يسهل تنظيف الأقمشة في الغسالة أو بالماء والصابون للغسل اليدوي. كما أنها تقاوم الجفاف لمدة تصل إلى أسبوع بدون غطاء. تتوافق أقلام "جانغل" مع معايير سلامة الألعاب لضمان الاستخدام الآمن. مع هذه المجموعة المكونة من 12 قلمًا من أقلام "جانغل كوزميك"، امنح طفلك مقلمة أساسية متينة تدوم طويلًا. بألوانها الزاهية وحبرها القابل للغسل الذي يدوم طويلًا، يمكن لطفلك الانطلاق في رحلة إلى مجرة ​​خيالية زاهية الألوان!',
     specs: [
@@ -1586,10 +1586,10 @@ export const products: Product[] = [
     price: 720,
     rating: 4.0,
     images: [
-      '/img/School-tools/74.jpg',
+      '/img-webp/School-tools/74.webp',
     ],
     gallery: [
-      '/img/School-tools/74.jpg',
+      '/img-webp/School-tools/74.webp',
     ],
     description: 'مجموعة من 12 قلم تلوين برأسين (رأس رفيع/رأس مستدير) بألوان متنوعة. مثالية للرسم على المانجا والقصص المصورة والرسم التقني ورسم الأزياء والتخطيط. حبر صبغي مائي مقاوم للضوء، خالٍ من الأحماض، وغير سام.',
     specs: [
@@ -1607,10 +1607,10 @@ export const products: Product[] = [
     price: 1100,
     rating: 4.0,
     images: [
-      '/img/School-tools/75.jpg',
+      '/img-webp/School-tools/75.webp',
     ],
     gallery: [
-      '/img/School-tools/75.jpg',
+      '/img-webp/School-tools/75.webp',
     ],
     description: 'مجموعة من 12 قلم تلوين برأسين (رأس رفيع/رأس فرشاة) بألوان متنوعة. مثالية للرسم على المانجا والقصص المصورة والرسم التقني ورسم الأزياء والتخطيط. حبر صبغي مائي مقاوم للضوء، خالٍ من الأحماض، وغير سام.',
     specs: [
@@ -1628,10 +1628,10 @@ export const products: Product[] = [
     price: 595,
     rating: 4.0,
     images: [
-      '/img/School-tools/76.jpg',
+      '/img-webp/School-tools/76.webp',
     ],
     gallery: [
-      '/img/School-tools/76.1.jpg',
+      '/img-webp/School-tools/76.1.webp',
     ],
     description: 'متوافق مع لوائح الألعاب، سنّ ناعم ومتين: قطر 2.9 مم. تصميم مريح: قلم رصاص مثلث الشكل لقبضة أفضل، سهل البري. متوافق مع لوائح الألعاب.',
     specs: [
@@ -1649,10 +1649,10 @@ export const products: Product[] = [
     price: 320,
     rating: 4.0,
     images: [
-      '/img/School-tools/77.jpg',
+      '/img-webp/School-tools/77.webp',
     ],
     gallery: [
-      '/img/School-tools/77.1.jpg',
+      '/img-webp/School-tools/77.1.webp',
     ],
     description: 'متوفر بنسختين صغيرة وكبيرة! بفضل تشكيلته الواسعة من الألوان، تتيح هذه المجموعة المكونة من 12 قلم تلوين خشبي جميع الدرجات اللونية للحصول على تلوين زاهٍ ومبتكر.',
     specs: [
@@ -1670,11 +1670,11 @@ export const products: Product[] = [
     price: 320,
     rating: 4.0,
     images: [
-      '/img/School-tools/78.jpg',
+      '/img-webp/School-tools/78.webp',
     ],
     gallery: [
-      '/img/School-tools/78.jpg',
-      '/img/School-tools/78.1.jpg',
+      '/img-webp/School-tools/78.webp',
+      '/img-webp/School-tools/78.1.webp',
     ],
     description: 'حجم صغير! بفضل تشكيلتها الواسعة من الألوان، تتيح هذه العبوة المكونة من 12 قلم تلوين خشبي صغير جميع الدرجات اللونية للحصول على تلوين مشرق وأصلي.',
     specs: [
@@ -1692,10 +1692,10 @@ export const products: Product[] = [
     price: 2100,
     rating: 4.0,
     images: [
-      '/img/School-tools/79.jpg',
+      '/img-webp/School-tools/79.webp',
     ],
     gallery: [
-      '/img/School-tools/79.jpg',
+      '/img-webp/School-tools/79.webp',
     ],
     description: 'مجموعة من 12 قلم تلوين بفرشاة بألوان متنوعة. مثالية للرسم على المانجا والقصص المصورة ورسم الأزياء والتخطيط. حبر صبغي مائي مقاوم للضوء، خالٍ من الأحماض، وغير سام.',
     specs: [
@@ -1713,10 +1713,10 @@ export const products: Product[] = [
     price: 980,
     rating: 4.0,
     images: [
-      '/img/School-tools/80.jpg',
+      '/img-webp/School-tools/80.webp',
     ],
     gallery: [
-      '/img/School-tools/80.jpg',
+      '/img-webp/School-tools/80.webp',
     ],
     description: 'مجموعة من 12 قلم تلوين بفرشاة بألوان متنوعة. مثالية للرسم على المانجا والقصص المصورة ورسم الأزياء والتخطيط. حبر صبغي مائي مقاوم للضوء، خالٍ من الأحماض، وغير سام.',
     specs: [
@@ -1734,10 +1734,10 @@ export const products: Product[] = [
     price: 1650,
     rating: 4.0,
     images: [
-      '/img/School-tools/81.jpg',
+      '/img-webp/School-tools/81.webp',
     ],
     gallery: [
-      '/img/School-tools/81.jpg',
+      '/img-webp/School-tools/81.webp',
     ],
     description: 'مجموعة من 12 قلم تحديد رفيع الرأس بألوان متنوعة. هذه المجموعة مثالية لرسم المانجا والقصص المصورة والرسم التقني. الحبر المائي ذو الصبغة مقاوم للضوء والتلطخ وخالٍ من الأحماض.',
     specs: [
@@ -1755,11 +1755,11 @@ export const products: Product[] = [
     price: 1750,
     rating: 4.0,
     images: [
-      '/img/School-tools/82.jpg',
+      '/img-webp/School-tools/82.webp',
     ],
     gallery: [
-      '/img/School-tools/82.jpg',
-      '/img/School-tools/82.1.jpg',
+      '/img-webp/School-tools/82.webp',
+      '/img-webp/School-tools/82.1.webp',
     ],
     description: 'ألوانها الزاهية هي أفضل حليف لطفلك لإطلاق العنان لخياله! مع تشكيلة واسعة من الألوان، تتيح هذه المجموعة المكونة من 15 قلم تلوين و12 قلم تحديد إمكانية استخدام جميع الدرجات اللونية الممكنة للتلوين المبهج. اكتشف الوحوش ومشاعرها.',
     specs: [
@@ -1777,12 +1777,12 @@ export const products: Product[] = [
     price: 650,
     rating: 4.0,
     images: [
-      '/img/School-tools/83.jpg',
+      '/img-webp/School-tools/83.webp',
     ],
     gallery: [
-      '/img/School-tools/83.jpg',
-      '/img/School-tools/83.1.jpg',
-      '/img/School-tools/83.2.jpg',
+      '/img-webp/School-tools/83.webp',
+      '/img-webp/School-tools/83.1.webp',
+      '/img-webp/School-tools/83.2.webp',
     ],
     description: 'صُممت أقلام تلوين كولور بيبس لتكون سهلة الاستخدام بفضل حجمها الكبير وشكلها المثلث المميز، مما يجعلها مثالية للأيدي الصغيرة. تتميز بألوانها الزاهية والنابضة بالحياة، وهي معتمة للغاية. تتوافق هذه الأقلام مع معايير سلامة الألعاب لضمان استخدامها بأمان. تتميز هذه المجموعة من أقلام تلوين الباستيل الزيتية بسهولة استخدامها ونعومتها الفائقة، مما يتيح لأطفالك ابتكار مجموعة متنوعة من التأثيرات والرسومات الأصلية. إنها مثالية للاستعداد للعودة إلى المدرسة، أو العطلات، أو كهدية مميزة، ستسعد أطفالك بالتأكيد! مع هذه المجموعة المكونة من 24 قلم تلوين كولور بيبس، يُمكن ابتكار العديد من التأثيرات الفنية: الخدش، والتلوين الطبقي، والمسح... سيحب أطفالك استخدامها وإبداع أجمل رسوماتهم!',
     specs: [
@@ -1800,11 +1800,11 @@ export const products: Product[] = [
     price: 850,
     rating: 4.0,
     images: [
-      '/img/School-tools/84.jpg',
+      '/img-webp/School-tools/84.webp',
     ],
     gallery: [
-      '/img/School-tools/84.jpg',
-      '/img/School-tools/84.1.jpg',
+      '/img-webp/School-tools/84.webp',
+      '/img-webp/School-tools/84.1.webp',
     ],
     description: 'أقلام التلوين "جانغل" من مجموعة "كولور بيبس" تأتي بألوان زاهية، مصممة خصيصًا للاستخدام اليومي في المدرسة أو المنزل. تتميز برأس مدبب 2.8 مم مصمم ليدوم طويلًا ويقاوم إعادة التعبئة. حبرها قابل للغسل، مما يسهل تنظيف الأقمشة في الغسالة أو بالماء والصابون للغسيل اليدوي. كما أنها تقاوم الجفاف لمدة تصل إلى أسبوع بدون غطاء. تتوافق أقلام "جانغل" مع معايير سلامة الألعاب لضمان الاستخدام الآمن. تصميمها الأصلي المستوحى من الوحوش وألوانها الزاهية تجعلها الرفيق الأمثل لطفلك لإطلاق العنان لخياله! مع تشكيلة واسعة من الألوان، توفر هذه العبوة المكونة من 12 قلمًا جميع الدرجات اللونية اللازمة للتلوين النابض بالحياة. اكتشف 12 وحشًا وعواطفهم.',
     specs: [
@@ -1822,11 +1822,11 @@ export const products: Product[] = [
     price: 920,
     rating: 4.0,
     images: [
-      '/img/School-tools/85.jpg',
+      '/img-webp/School-tools/85.webp',
     ],
     gallery: [
-      '/img/School-tools/85.jpg',
-      '/img/School-tools/85.1.jpg',
+      '/img-webp/School-tools/85.webp',
+      '/img-webp/School-tools/85.1.webp',
     ],
     description: 'أقلام التلوين "جانغل" من مجموعة "كولور بيبس" تأتي بألوان زاهية، مصممة خصيصًا للاستخدام اليومي في المدرسة أو المنزل. تتميز برأس مدبب 2.8 مم مصمم ليدوم طويلًا ويقاوم إعادة التعبئة. حبرها قابل للغسل، مما يسهل تنظيف الأقمشة في الغسالة أو بالماء والصابون للغسيل اليدوي. كما أنها تقاوم الجفاف لمدة تصل إلى أسبوع بدون غطاء. تتوافق أقلام "جانغل" مع معايير سلامة الألعاب لضمان الاستخدام الآمن. ستكون هذه الأقلام العصرية بألوانها الناعمة والزاهية رفيقة طفلك المثالية لإطلاق العنان لخياله! تحتوي هذه العبوة على 10 أقلام تلوين باستيلية تتيح لك التلوين بألوان زاهية ومبتكرة.',
     specs: [
@@ -1844,11 +1844,11 @@ export const products: Product[] = [
     price: 520,
     rating: 4.0,
     images: [
-      '/img/School-tools/86.jpg',
+      '/img-webp/School-tools/86.webp',
     ],
     gallery: [
-      '/img/School-tools/86.jpg',
-      '/img/School-tools/86.1.jpg',
+      '/img-webp/School-tools/86.webp',
+      '/img-webp/School-tools/86.1.webp',
     ],
     description: 'حجم كبير! بفضل تشكيلتها الواسعة من الألوان، تتيح هذه العبوة المكونة من 12 قلم تلوين خشبي صغير الحصول على جميع الدرجات اللونية للحصول على تلوين مشرق وأصلي.',
     specs: [
@@ -1866,11 +1866,11 @@ export const products: Product[] = [
     price: 320,
     rating: 4.0,
     images: [
-      '/img/School-tools/87.jpg',
+      '/img-webp/School-tools/87.webp',
     ],
     gallery: [
-      '/img/School-tools/87.jpg',
-      '/img/School-tools/87.1.jpg',
+      '/img-webp/School-tools/87.webp',
+      '/img-webp/School-tools/87.1.webp',
     ],
     description: 'أقلام تلوين مزيلة للعرق؛ رأسان بلونين مختلفين؛ رأس مقاوم؛ جسم القلم مقسم إلى نصفين حسب اللون.',
     specs: [
@@ -1888,10 +1888,10 @@ export const products: Product[] = [
     price: 3850,
     rating: 4.0,
     images: [
-      '/img/School-tools/88.jpg',
+      '/img-webp/School-tools/88.webp',
     ],
     gallery: [
-      '/img/School-tools/88.jpg',
+      '/img-webp/School-tools/88.webp',
     ],
     description: 'يُعد جهاز STABILO woody 3in1 الرفيق الإبداعي المثالي للأطفال والحليف الأفضل للآباء. قلم رصاص قابل للغسل، مناسب لجميع أنواع الأسطح، يحول أي سطح إلى ملعب فني: ورق، كرتون، زجاج، سبورة بيضاء أو سوداء، بلاستيك... يمسح بسهولة بقطعة قماش! غني بالأصباغ، ثمانية أضعاف ما يحتويه قلم الرصاص العادي، وتغطيته استثنائية، حتى على الأسطح الداكنة. قلم رصاص ملون، ألوان مائية، وألوان باستيل زيتية: قلم ستابيلو وودي 3 في 1 يتيح لك الحصول على تأثيرات متعددة. شكله المستدير والسميك مثالي للأيدي الصغيرة، ورصاصه XXL 10 مم غير قابل للكسر. مثالي للاستخدام على الورق الداكن، والخشب عالي الجودة (الأرز)، ويكتب على أي سطح تقريبًا (الزجاج، والخشب، والبلاستيك...)، رصاص ناعم ذو صبغة عالية لألوان زاهية، كما أنه قابل للغسل!!!',
     specs: [
@@ -1909,10 +1909,10 @@ export const products: Product[] = [
     price: 1050,
     rating: 4.0,
     images: [
-      '/img/School-tools/89.jpg',
+      '/img-webp/School-tools/89.webp',
     ],
     gallery: [
-      '/img/School-tools/89.jpg',
+      '/img-webp/School-tools/89.webp',
     ],
     description: 'تضمن قوة STABILO توزيعًا غنيًا للألوان. إنها مثالية للأطفال الذين ينسون أحيانًا إعادة الأغطية، وذلك بفضل قدرتها على البقاء مفتوحة لمدة تصل إلى ثمانية أسابيع دون أن تجف! لذا فهي الحل الأمثل لمتطلبات غرفة الألعاب يحتوي على طرف متوسط ​​يقاوم الضغط القوي لزيادة عمره الافتراضي إلى أقصى حد. الأحبار قابلة للغسل، وهذا أمر مطمئن. سيحب الفنانون الناشئون استخدام أقلام التحديد ذات الرؤوس الليفية هذه بطرق إبداعية لا حصر لها.',
     specs: [
@@ -1930,10 +1930,10 @@ export const products: Product[] = [
     price: 1400,
     rating: 4.0,
     images: [
-      '/img/School-tools/90.jpg',
+      '/img-webp/School-tools/90.webp',
     ],
     gallery: [
-      '/img/School-tools/90.jpg',
+      '/img-webp/School-tools/90.webp',
     ],
     description: 'قد يكون هناك فنان عظيم مختبئ وراء كل طفل! صُممت أقلام التلوين STABILO Trio لمساعدة الأطفال على التعبير عن إبداعهم من خلال الألوان: يضمن شكلها المثلثي إمساكًا أفضل ويمنع تشنجات اليد، حتى بعد جلسات تلوين طويلة. بفضل سنها البالغ قطره 4.2 مم، تُعد هذه الأقلام مثالية للرسم والتلوين.',
     specs: [
@@ -1951,10 +1951,10 @@ export const products: Product[] = [
     price: 1600,
     rating: 4.0,
     images: [
-      '/img/School-tools/91.jpg',
+      '/img-webp/School-tools/91.webp',
     ],
     gallery: [
-      '/img/School-tools/91.jpg',
+      '/img-webp/School-tools/91.webp',
     ],
     description: 'قلم STABILO Pen 68 مثالي لجميع العقول المبدعة: من الأطفال الذين يرسمون إلى الفنانين الأكثر تطلبًا، بما في ذلك محبي الاتجاهات الإبداعية الجديدة (الأعمال اليدوية، الرسم، التخطيط، تدوين الملاحظات بالرسومات، الكتابة اليدوية)، فهناك ما يناسب الجميع! تتيح لك لوحة ألوانه الزاهية تجسيد إلهامك على الورق، وإنشاء تركيبات لونية مذهلة ومتنوعة. هل تعلم؟ يتوفر قلم Pen 68 أيضًا بأحبار معدنية - Pen 68 metallic - وبرأس فرشاة - Pen 68 brush. متوفر بـ 47 لونًا! أصباغ: تضمن الأصباغ المختارة ألوانًا زاهية ونابضة بالحياة بشكل ملحوظ. جودة عالية: رأس متين متوسط ​​الحجم لا ينكسر. عديم الرائحة: حبر مائي عديم الرائحة لا يتسرب إلى الورقة التالية ولا يذيب حبر أقلام التحديد الدائمة. عملي: يمكن تركه بدون غطاء لمدة تصل إلى 24 ساعة دون أن يجف - ما عليك سوى إعادة الغطاء، وسيتجدد القلم. فكرة ذكية: قلم تحديد بألوان مائية جزئية لمجموعة متنوعة من التأثيرات الإبداعية. عرض الخط: 1.0 مم - طرف متوسط. صنع في ألمانيا',
     specs: [
@@ -1972,10 +1972,10 @@ export const products: Product[] = [
     price: 1250,
     rating: 4.0,
     images: [
-      '/img/School-tools/92.jpg',
+      '/img-webp/School-tools/92.webp',
     ],
     gallery: [
-      '/img/School-tools/92.jpg',
+      '/img-webp/School-tools/92.webp',
     ],
     description: 'مجموعة عالمية من أقلام التحديد للكتابة تناسب جميع المستخدمين، صغاراً وكباراً، الذين يرغبون في تحسين الكتابة، أو إنشاء رسومات دقيقة... أو ببساطة اتباع إلهاماتهم.',
     specs: [
@@ -1993,10 +1993,10 @@ export const products: Product[] = [
     price: 1300,
     rating: 4.0,
     images: [
-      '/img/School-tools/93.jpg',
+      '/img-webp/School-tools/93.webp',
     ],
     gallery: [
-      '/img/School-tools/93.jpg',
+      '/img-webp/School-tools/93.webp',
     ],
     description: '',
     specs: [
@@ -2014,10 +2014,10 @@ export const products: Product[] = [
     price: 1400,
     rating: 4.0,
     images: [
-      '/img/School-tools/94.jpg',
+      '/img-webp/School-tools/94.webp',
     ],
     gallery: [
-      '/img/School-tools/94.jpg',
+      '/img-webp/School-tools/94.webp',
     ],
     description: 'مجموعة عالمية من أقلام التحديد للكتابة تناسب جميع المستخدمين، صغاراً وكباراً، الذين يرغبون في تحسين الكتابة، أو إنشاء رسومات دقيقة... أو ببساطة اتباع إلهاماتهم!',
     specs: [
@@ -2035,10 +2035,10 @@ export const products: Product[] = [
     price: 480,
     rating: 4.0,
     images: [
-      '/img/School-tools/95.jpg',
+      '/img-webp/School-tools/95.webp',
     ],
     gallery: [
-      '/img/School-tools/95.jpg',
+      '/img-webp/School-tools/95.webp',
     ],
     description: 'مجموعة عالمية من أقلام التحديد للكتابة تناسب جميع المستخدمين، صغاراً وكباراً، الذين يرغبون في تحسين الكتابة، أو إنشاء رسومات دقيقة... أو ببساطة اتباع إلهاماتهم!',
     specs: [
@@ -2056,10 +2056,10 @@ export const products: Product[] = [
     price: 2640,
     rating: 4.0,
     images: [
-      '/img/School-tools/96.jpg',
+      '/img-webp/School-tools/96.webp',
     ],
     gallery: [
-      '/img/School-tools/96.jpg',
+      '/img-webp/School-tools/96.webp',
     ],
     description: 'مجموعة من 6 أقلام تحديد دقيقة ملونة من بيجما ميكرون 01، بسماكة 0.25 مم. تحتوي العلبة البلاستيكية على أحد أقلام بيجما التالية بألوان الحبر: أسود (49)، أحمر (19)، أزرق (36)، أخضر (29)، بني (12)، وبنفسجي (24). أقلام بيجما ميكرون مقاومة للماء ودائمة، ويستخدمها المصممون والعلماء وأمناء المحفوظات وفنانو المانجا ورسامو الكاريكاتير والرسامو التوضيحيون والهواة. يُنصح باستخدام هذا القلم أيضًا لفن الزنتانجل. طرفه الدقيق يجعله مثاليًا لرسم الرسومات الفنية والتقنية. حبر ساكورا بيجما™ الفريد لا يتسرب عبر الورق، وهو دائم، ومقاوم للماء، ومقاوم للبهتان، وسريع الجفاف، ومتعادل الحموضة.',
     specs: [
@@ -2077,10 +2077,10 @@ export const products: Product[] = [
     price: 3050,
     rating: 4.0,
     images: [
-      '/img/School-tools/97.jpg',
+      '/img-webp/School-tools/97.webp',
     ],
     gallery: [
-      '/img/School-tools/97.jpg',
+      '/img-webp/School-tools/97.webp',
     ],
     description: 'مجموعة أدوات مانغا تتضمن 3 أقلام بيجما ميكرون سوداء، وقلم بيجما جرافيك، وقلم ميكرون براش، وقلم رصاص 0.7 مم. انطلق نحو احتراف المانغا! تقنيات ألوان ساكورا بيجما؛ بيجما هي أول حبر في العالم يجمع بين الأصباغ والماء. رأس القلم الدقيق يجعله مثاليًا لرسم الرسومات الفنية والتقنية. الحبر لا يتسرب عبر الورق.',
     specs: [
@@ -2098,10 +2098,10 @@ export const products: Product[] = [
     price: 2570,
     rating: 4.0,
     images: [
-      '/img/School-tools/98.jpg',
+      '/img-webp/School-tools/98.webp',
     ],
     gallery: [
-      '/img/School-tools/98.jpg',
+      '/img-webp/School-tools/98.webp',
     ],
     description: 'مجموعة من 6 أقلام تحديد دقيقة من نوع Pigma Micron 05، برأس 0.45 مم، بألوان ترابية. تحتوي العلبة البلاستيكية على أحد أقلام التحديد الدقيقة التالية من Pigma: بني داكن (117)، أزرق داكن (243)، أزرق ملكي (138)، بورغندي (22)، أخضر غامق (230)، وأخضر داكن (32). أقلام Pigma Micron مقاومة للماء ودقيقة، وتُستخدم بكثرة من قِبل المصممين والعلماء وأمناء المحفوظات وفناني المانغا ورسامي الكاريكاتير والرسامين التوضيحيين والهواة. يُنصح باستخدام هذا القلم أيضًا لفن الزنتانغل. رأس القلم الدقيق يجعله مثاليًا لرسم الرسومات الفنية والتقنية. حبر Sakura Pigma™ الفريد لا يتسرب عبر الورق، وهو دائم، ومقاوم للماء، ومقاوم للبهتان، وسريع الجفاف، ومتعادل الحموضة.',
     specs: [
@@ -2119,10 +2119,10 @@ export const products: Product[] = [
     price: 3830,
     rating: 4.0,
     images: [
-      '/img/School-tools/99.jpg',
+      '/img-webp/School-tools/99.webp',
     ],
     gallery: [
-      '/img/School-tools/99.jpg',
+      '/img-webp/School-tools/99.webp',
     ],
     description: 'مجموعة من 9 أقلام تحديد دقيقة ملونة من بيجما ميكرون 05، برأس 0.45 مم. تحتوي العلبة البلاستيكية على أحد أقلام بيجما التالية بألوان الحبر: أسود (49)، أحمر (19)، أزرق (36)، أخضر (29)، بني (12)، بنفسجي (24)، برتقالي (5)، وردي (21)، وبني داكن (117). أقلام بيجما ميكرون مقاومة للماء ودائمة، ويستخدمها المصممون والعلماء وأمناء المحفوظات وفنانو المانجا ورسامو الكاريكاتير والرسامو التوضيحيون والهواة. يُنصح باستخدام هذا القلم أيضًا لفن الزنتانجل. رأس القلم الدقيق يجعله مثاليًا لرسم الرسومات الفنية والتقنية. حبر ساكورا بيجما™ الفريد لا يتسرب عبر الورق، وهو دائم، ومقاوم للماء، ومقاوم للبهتان، وسريع الجفاف، ومتعادل الحموضة.',
     specs: [
@@ -2140,10 +2140,10 @@ export const products: Product[] = [
     price: 2570,
     rating: 4.0,
     images: [
-      '/img/School-tools/100.jpg',
+      '/img-webp/School-tools/100.webp',
     ],
     gallery: [
-      '/img/School-tools/100.jpg',
+      '/img-webp/School-tools/100.webp',
     ],
     description: 'مجموعة من 6 أقلام تحديد دقيقة ملونة من بيجما ميكرون 05، بسماكة 0.45 مم. تحتوي العلبة البلاستيكية على أحد أقلام بيجما التالية بألوان الحبر: أسود (49)، أحمر (19)، أزرق (36)، أخضر (29)، بني (12)، وبنفسجي (24). أقلام بيجما ميكرون مقاومة للماء ودائمة، ويستخدمها المصممون والعلماء وأمناء المحفوظات وفنانو المانجا ورسامو الكاريكاتير والرسامو التوضيحيون والهواة. يُنصح باستخدام هذا القلم أيضًا لفن الزنتانجل. طرفه الدقيق يجعله مثاليًا لرسم الرسومات الفنية والتقنية. حبر ساكورا بيجما™ الفريد لا يتسرب عبر الورق، وهو دائم، ومقاوم للماء، ولا يبهت، وسريع الجفاف، ومتعادل الحموضة.',
     specs: [
@@ -2161,10 +2161,10 @@ export const products: Product[] = [
     price: 640,
     rating: 4.0,
     images: [
-      '/img/School-tools/101.jpg',
+      '/img-webp/School-tools/101.webp',
     ],
     gallery: [
-      '/img/School-tools/101.jpg',
+      '/img-webp/School-tools/101.webp',
     ],
     description: 'هذه المجموعة المكونة من 5 أقلام رصاص معدنية ملونة مثالية لإضافة لمسة من البريق إلى رسوماتك. صُممت هذه الأقلام السداسية الشكل لتوفير قبضة مريحة، وهي مصممة لتقديم أقصى درجات اللمعان، خاصةً على الورق الداكن. تغطي رؤوسها الغنية والناعمة بقياس 3.3 مم مساحات واسعة بألوان زاهية، وهي مقاومة للكسر بشكل استثنائي بفضل عملية ربط خاصة (SV)، مما يطيل عمرها الافتراضي. مصنوعة من خشب معتمد من مجلس رعاية الغابات (FSC) من غابات مستدامة، وهي غير سامة وآمنة للأطفال. يحتوي كل قلم أيضًا على مساحة لكتابة اسمك.',
     specs: [
@@ -2182,10 +2182,10 @@ export const products: Product[] = [
     price: 3960,
     rating: 4.0,
     images: [
-      '/img/School-tools/102.jpg',
+      '/img-webp/School-tools/102.webp',
     ],
     gallery: [
-      '/img/School-tools/102.jpg',
+      '/img-webp/School-tools/102.webp',
     ],
     description: 'اكتشف تشكيلة من 60 قلم تلوين استثنائي، مُقدّمة في علبة كرتونية عملية تتحول إلى حامل. توفر هذه المجموعة لوحة ألوان كاملة، تشمل ألوان النيون والمعدنية والباستيل، لإضفاء الحيوية على جميع إبداعاتك. صُممت الأقلام بشكلها السداسي الكلاسيكي لتوفير قبضة مريحة. تتميز رؤوسها بمقاومة عالية للكسر بفضل عملية ربط خاصة (SV)، مما يضمن عمرًا طويلًا واستخدامًا متواصلًا. علاوة على ذلك، يأتي الخشب المستخدم من غابات معتمدة، مما يضمن تصنيعًا صديقًا للبيئة.',
     specs: [
@@ -2203,10 +2203,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/103.jpg',
+      '/img-webp/School-tools/103.webp',
     ],
     gallery: [
-      '/img/School-tools/103.jpg',
+      '/img-webp/School-tools/103.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2223,10 +2223,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/104.jpg',
+      '/img-webp/School-tools/104.webp',
     ],
     gallery: [
-      '/img/School-tools/104.jpg',
+      '/img-webp/School-tools/104.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2243,10 +2243,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/105.jpg',
+      '/img-webp/School-tools/105.webp',
     ],
     gallery: [
-      '/img/School-tools/105.jpg',
+      '/img-webp/School-tools/105.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2263,10 +2263,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/106.jpg',
+      '/img-webp/School-tools/106.webp',
     ],
     gallery: [
-      '/img/School-tools/106.jpg',
+      '/img-webp/School-tools/106.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2283,10 +2283,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/107.jpg',
+      '/img-webp/School-tools/107.webp',
     ],
     gallery: [
-      '/img/School-tools/107.jpg',
+      '/img-webp/School-tools/107.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2303,10 +2303,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/108.jpg',
+      '/img-webp/School-tools/108.webp',
     ],
     gallery: [
-      '/img/School-tools/108.jpg',
+      '/img-webp/School-tools/108.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2323,10 +2323,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/109.jpg',
+      '/img-webp/School-tools/109.webp',
     ],
     gallery: [
-      '/img/School-tools/109.jpg',
+      '/img-webp/School-tools/109.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2343,10 +2343,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/110.jpg',
+      '/img-webp/School-tools/110.webp',
     ],
     gallery: [
-      '/img/School-tools/110.jpg',
+      '/img-webp/School-tools/110.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2363,10 +2363,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/111.jpg',
+      '/img-webp/School-tools/111.webp',
     ],
     gallery: [
-      '/img/School-tools/111.jpg',
+      '/img-webp/School-tools/111.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2383,10 +2383,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/112.jpg',
+      '/img-webp/School-tools/112.webp',
     ],
     gallery: [
-      '/img/School-tools/112.jpg',
+      '/img-webp/School-tools/112.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2403,10 +2403,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/113.jpg',
+      '/img-webp/School-tools/113.webp',
     ],
     gallery: [
-      '/img/School-tools/113.jpg',
+      '/img-webp/School-tools/113.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2423,10 +2423,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/114.jpg',
+      '/img-webp/School-tools/114.webp',
     ],
     gallery: [
-      '/img/School-tools/114.jpg',
+      '/img-webp/School-tools/114.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2443,10 +2443,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/115.jpg',
+      '/img-webp/School-tools/115.webp',
     ],
     gallery: [
-      '/img/School-tools/115.jpg',
+      '/img-webp/School-tools/115.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2463,10 +2463,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/116.jpg',
+      '/img-webp/School-tools/116.webp',
     ],
     gallery: [
-      '/img/School-tools/116.jpg',
+      '/img-webp/School-tools/116.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2483,10 +2483,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/117.jpg',
+      '/img-webp/School-tools/117.webp',
     ],
     gallery: [
-      '/img/School-tools/117.jpg',
+      '/img-webp/School-tools/117.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2503,10 +2503,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/118.jpg',
+      '/img-webp/School-tools/118.webp',
     ],
     gallery: [
-      '/img/School-tools/118.jpg',
+      '/img-webp/School-tools/118.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2523,10 +2523,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/119.jpg',
+      '/img-webp/School-tools/119.webp',
     ],
     gallery: [
-      '/img/School-tools/119.jpg',
+      '/img-webp/School-tools/119.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2543,10 +2543,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/120.jpg',
+      '/img-webp/School-tools/120.webp',
     ],
     gallery: [
-      '/img/School-tools/120.jpg',
+      '/img-webp/School-tools/120.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2563,10 +2563,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/121.jpg',
+      '/img-webp/School-tools/121.webp',
     ],
     gallery: [
-      '/img/School-tools/121.jpg',
+      '/img-webp/School-tools/121.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2583,10 +2583,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/122.jpg',
+      '/img-webp/School-tools/122.webp',
     ],
     gallery: [
-      '/img/School-tools/122.jpg',
+      '/img-webp/School-tools/122.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2603,10 +2603,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/123.jpg',
+      '/img-webp/School-tools/123.webp',
     ],
     gallery: [
-      '/img/School-tools/123.jpg',
+      '/img-webp/School-tools/123.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2623,10 +2623,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/124.jpg',
+      '/img-webp/School-tools/124.webp',
     ],
     gallery: [
-      '/img/School-tools/124.jpg',
+      '/img-webp/School-tools/124.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2643,10 +2643,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/125.jpg',
+      '/img-webp/School-tools/125.webp',
     ],
     gallery: [
-      '/img/School-tools/125.jpg',
+      '/img-webp/School-tools/125.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2663,10 +2663,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/126.jpg',
+      '/img-webp/School-tools/126.webp',
     ],
     gallery: [
-      '/img/School-tools/126.jpg',
+      '/img-webp/School-tools/126.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2683,10 +2683,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/127.jpg',
+      '/img-webp/School-tools/127.webp',
     ],
     gallery: [
-      '/img/School-tools/127.jpg',
+      '/img-webp/School-tools/127.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2703,10 +2703,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/128.jpg',
+      '/img-webp/School-tools/128.webp',
     ],
     gallery: [
-      '/img/School-tools/128.jpg',
+      '/img-webp/School-tools/128.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2723,10 +2723,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/129.jpg',
+      '/img-webp/School-tools/129.webp',
     ],
     gallery: [
-      '/img/School-tools/129.jpg',
+      '/img-webp/School-tools/129.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2743,10 +2743,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/130.jpg',
+      '/img-webp/School-tools/130.webp',
     ],
     gallery: [
-      '/img/School-tools/130.jpg',
+      '/img-webp/School-tools/130.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2763,10 +2763,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/131.jpg',
+      '/img-webp/School-tools/131.webp',
     ],
     gallery: [
-      '/img/School-tools/131.jpg',
+      '/img-webp/School-tools/131.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2783,10 +2783,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/132.jpg',
+      '/img-webp/School-tools/132.webp',
     ],
     gallery: [
-      '/img/School-tools/132.jpg',
+      '/img-webp/School-tools/132.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2803,10 +2803,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/133.jpg',
+      '/img-webp/School-tools/133.webp',
     ],
     gallery: [
-      '/img/School-tools/133.jpg',
+      '/img-webp/School-tools/133.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2823,10 +2823,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/134.jpg',
+      '/img-webp/School-tools/134.webp',
     ],
     gallery: [
-      '/img/School-tools/134.jpg',
+      '/img-webp/School-tools/134.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2843,10 +2843,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/135.jpg',
+      '/img-webp/School-tools/135.webp',
     ],
     gallery: [
-      '/img/School-tools/135.jpg',
+      '/img-webp/School-tools/135.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2863,10 +2863,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/136.jpg',
+      '/img-webp/School-tools/136.webp',
     ],
     gallery: [
-      '/img/School-tools/136.jpg',
+      '/img-webp/School-tools/136.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2883,10 +2883,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/137.jpg',
+      '/img-webp/School-tools/137.webp',
     ],
     gallery: [
-      '/img/School-tools/137.jpg',
+      '/img-webp/School-tools/137.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2903,10 +2903,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/138.jpg',
+      '/img-webp/School-tools/138.webp',
     ],
     gallery: [
-      '/img/School-tools/138.jpg',
+      '/img-webp/School-tools/138.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2923,10 +2923,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/139.jpg',
+      '/img-webp/School-tools/139.webp',
     ],
     gallery: [
-      '/img/School-tools/139.jpg',
+      '/img-webp/School-tools/139.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2943,10 +2943,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/140.jpg',
+      '/img-webp/School-tools/140.webp',
     ],
     gallery: [
-      '/img/School-tools/140.jpg',
+      '/img-webp/School-tools/140.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2963,10 +2963,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/141.jpg',
+      '/img-webp/School-tools/141.webp',
     ],
     gallery: [
-      '/img/School-tools/141.jpg',
+      '/img-webp/School-tools/141.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -2983,10 +2983,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/142.jpg',
+      '/img-webp/School-tools/142.webp',
     ],
     gallery: [
-      '/img/School-tools/142.jpg',
+      '/img-webp/School-tools/142.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3003,10 +3003,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/143.jpg',
+      '/img-webp/School-tools/143.webp',
     ],
     gallery: [
-      '/img/School-tools/143.jpg',
+      '/img-webp/School-tools/143.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3023,10 +3023,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/144.jpg',
+      '/img-webp/School-tools/144.webp',
     ],
     gallery: [
-      '/img/School-tools/144.jpg',
+      '/img-webp/School-tools/144.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3043,10 +3043,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/145.jpg',
+      '/img-webp/School-tools/145.webp',
     ],
     gallery: [
-      '/img/School-tools/145.jpg',
+      '/img-webp/School-tools/145.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3063,10 +3063,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/146.jpg',
+      '/img-webp/School-tools/146.webp',
     ],
     gallery: [
-      '/img/School-tools/146.jpg',
+      '/img-webp/School-tools/146.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3083,10 +3083,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/147.jpg',
+      '/img-webp/School-tools/147.webp',
     ],
     gallery: [
-      '/img/School-tools/147.jpg',
+      '/img-webp/School-tools/147.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3103,10 +3103,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/148.jpg',
+      '/img-webp/School-tools/148.webp',
     ],
     gallery: [
-      '/img/School-tools/148.jpg',
+      '/img-webp/School-tools/148.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3123,10 +3123,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/149.jpg',
+      '/img-webp/School-tools/149.webp',
     ],
     gallery: [
-      '/img/School-tools/149.jpg',
+      '/img-webp/School-tools/149.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3143,10 +3143,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/150.jpg',
+      '/img-webp/School-tools/150.webp',
     ],
     gallery: [
-      '/img/School-tools/150.jpg',
+      '/img-webp/School-tools/150.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3163,10 +3163,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/151.jpg',
+      '/img-webp/School-tools/151.webp',
     ],
     gallery: [
-      '/img/School-tools/151.jpg',
+      '/img-webp/School-tools/151.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3183,10 +3183,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/152.jpg',
+      '/img-webp/School-tools/152.webp',
     ],
     gallery: [
-      '/img/School-tools/152.jpg',
+      '/img-webp/School-tools/152.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3203,10 +3203,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/153.jpg',
+      '/img-webp/School-tools/153.webp',
     ],
     gallery: [
-      '/img/School-tools/153.jpg',
+      '/img-webp/School-tools/153.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3223,10 +3223,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/154.jpg',
+      '/img-webp/School-tools/154.webp',
     ],
     gallery: [
-      '/img/School-tools/154.jpg',
+      '/img-webp/School-tools/154.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3243,10 +3243,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/155.jpg',
+      '/img-webp/School-tools/155.webp',
     ],
     gallery: [
-      '/img/School-tools/155.jpg',
+      '/img-webp/School-tools/155.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3263,10 +3263,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/156.jpg',
+      '/img-webp/School-tools/156.webp',
     ],
     gallery: [
-      '/img/School-tools/156.jpg',
+      '/img-webp/School-tools/156.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3283,10 +3283,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/157.jpg',
+      '/img-webp/School-tools/157.webp',
     ],
     gallery: [
-      '/img/School-tools/157.jpg',
+      '/img-webp/School-tools/157.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3303,10 +3303,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/158.jpg',
+      '/img-webp/School-tools/158.webp',
     ],
     gallery: [
-      '/img/School-tools/158.jpg',
+      '/img-webp/School-tools/158.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3323,10 +3323,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/159.jpg',
+      '/img-webp/School-tools/159.webp',
     ],
     gallery: [
-      '/img/School-tools/159.jpg',
+      '/img-webp/School-tools/159.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3343,10 +3343,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/160.jpg',
+      '/img-webp/School-tools/160.webp',
     ],
     gallery: [
-      '/img/School-tools/160.jpg',
+      '/img-webp/School-tools/160.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3363,10 +3363,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/161.jpg',
+      '/img-webp/School-tools/161.webp',
     ],
     gallery: [
-      '/img/School-tools/161.jpg',
+      '/img-webp/School-tools/161.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3383,10 +3383,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/162.jpg',
+      '/img-webp/School-tools/162.webp',
     ],
     gallery: [
-      '/img/School-tools/162.jpg',
+      '/img-webp/School-tools/162.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3403,10 +3403,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/163.jpg',
+      '/img-webp/School-tools/163.webp',
     ],
     gallery: [
-      '/img/School-tools/163.jpg',
+      '/img-webp/School-tools/163.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3423,10 +3423,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/164.jpg',
+      '/img-webp/School-tools/164.webp',
     ],
     gallery: [
-      '/img/School-tools/164.jpg',
+      '/img-webp/School-tools/164.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3443,10 +3443,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/165.jpg',
+      '/img-webp/School-tools/165.webp',
     ],
     gallery: [
-      '/img/School-tools/165.jpg',
+      '/img-webp/School-tools/165.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3463,10 +3463,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/166.jpg',
+      '/img-webp/School-tools/166.webp',
     ],
     gallery: [
-      '/img/School-tools/166.jpg',
+      '/img-webp/School-tools/166.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3483,10 +3483,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/167.jpg',
+      '/img-webp/School-tools/167.webp',
     ],
     gallery: [
-      '/img/School-tools/167.jpg',
+      '/img-webp/School-tools/167.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3503,10 +3503,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/168.jpg',
+      '/img-webp/School-tools/168.webp',
     ],
     gallery: [
-      '/img/School-tools/168.jpg',
+      '/img-webp/School-tools/168.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3523,10 +3523,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/169.jpg',
+      '/img-webp/School-tools/169.webp',
     ],
     gallery: [
-      '/img/School-tools/169.jpg',
+      '/img-webp/School-tools/169.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3543,10 +3543,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/170.jpg',
+      '/img-webp/School-tools/170.webp',
     ],
     gallery: [
-      '/img/School-tools/170.jpg',
+      '/img-webp/School-tools/170.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3563,10 +3563,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/171.jpg',
+      '/img-webp/School-tools/171.webp',
     ],
     gallery: [
-      '/img/School-tools/171.jpg',
+      '/img-webp/School-tools/171.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3583,10 +3583,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/172.jpg',
+      '/img-webp/School-tools/172.webp',
     ],
     gallery: [
-      '/img/School-tools/172.jpg',
+      '/img-webp/School-tools/172.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3603,10 +3603,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/173.jpg',
+      '/img-webp/School-tools/173.webp',
     ],
     gallery: [
-      '/img/School-tools/173.jpg',
+      '/img-webp/School-tools/173.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3623,10 +3623,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/174.jpg',
+      '/img-webp/School-tools/174.webp',
     ],
     gallery: [
-      '/img/School-tools/174.jpg',
+      '/img-webp/School-tools/174.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3643,10 +3643,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/175.jpg',
+      '/img-webp/School-tools/175.webp',
     ],
     gallery: [
-      '/img/School-tools/175.jpg',
+      '/img-webp/School-tools/175.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3663,10 +3663,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/176.jpg',
+      '/img-webp/School-tools/176.webp',
     ],
     gallery: [
-      '/img/School-tools/176.jpg',
+      '/img-webp/School-tools/176.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3683,10 +3683,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/177.jpg',
+      '/img-webp/School-tools/177.webp',
     ],
     gallery: [
-      '/img/School-tools/177.jpg',
+      '/img-webp/School-tools/177.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3703,10 +3703,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/178.jpg',
+      '/img-webp/School-tools/178.webp',
     ],
     gallery: [
-      '/img/School-tools/178.jpg',
+      '/img-webp/School-tools/178.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3723,10 +3723,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/179.jpg',
+      '/img-webp/School-tools/179.webp',
     ],
     gallery: [
-      '/img/School-tools/179.jpg',
+      '/img-webp/School-tools/179.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3743,10 +3743,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/180.jpg',
+      '/img-webp/School-tools/180.webp',
     ],
     gallery: [
-      '/img/School-tools/180.jpg',
+      '/img-webp/School-tools/180.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3763,10 +3763,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/181.jpg',
+      '/img-webp/School-tools/181.webp',
     ],
     gallery: [
-      '/img/School-tools/181.jpg',
+      '/img-webp/School-tools/181.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3783,10 +3783,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/182.jpg',
+      '/img-webp/School-tools/182.webp',
     ],
     gallery: [
-      '/img/School-tools/182.jpg',
+      '/img-webp/School-tools/182.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3803,10 +3803,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/183.jpg',
+      '/img-webp/School-tools/183.webp',
     ],
     gallery: [
-      '/img/School-tools/183.jpg',
+      '/img-webp/School-tools/183.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3823,10 +3823,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/184.jpg',
+      '/img-webp/School-tools/184.webp',
     ],
     gallery: [
-      '/img/School-tools/184.jpg',
+      '/img-webp/School-tools/184.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3843,10 +3843,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/185.jpg',
+      '/img-webp/School-tools/185.webp',
     ],
     gallery: [
-      '/img/School-tools/185.jpg',
+      '/img-webp/School-tools/185.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3863,10 +3863,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/186.jpg',
+      '/img-webp/School-tools/186.webp',
     ],
     gallery: [
-      '/img/School-tools/186.jpg',
+      '/img-webp/School-tools/186.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3883,10 +3883,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/187.jpg',
+      '/img-webp/School-tools/187.webp',
     ],
     gallery: [
-      '/img/School-tools/187.jpg',
+      '/img-webp/School-tools/187.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3903,10 +3903,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/188.jpg',
+      '/img-webp/School-tools/188.webp',
     ],
     gallery: [
-      '/img/School-tools/188.jpg',
+      '/img-webp/School-tools/188.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3923,10 +3923,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/189.jpg',
+      '/img-webp/School-tools/189.webp',
     ],
     gallery: [
-      '/img/School-tools/189.jpg',
+      '/img-webp/School-tools/189.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3943,10 +3943,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/190.jpg',
+      '/img-webp/School-tools/190.webp',
     ],
     gallery: [
-      '/img/School-tools/190.jpg',
+      '/img-webp/School-tools/190.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3963,10 +3963,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/191.jpg',
+      '/img-webp/School-tools/191.webp',
     ],
     gallery: [
-      '/img/School-tools/191.jpg',
+      '/img-webp/School-tools/191.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -3983,10 +3983,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/192.jpg',
+      '/img-webp/School-tools/192.webp',
     ],
     gallery: [
-      '/img/School-tools/192.jpg',
+      '/img-webp/School-tools/192.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4003,10 +4003,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/193.jpg',
+      '/img-webp/School-tools/193.webp',
     ],
     gallery: [
-      '/img/School-tools/193.jpg',
+      '/img-webp/School-tools/193.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4023,10 +4023,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/194.jpg',
+      '/img-webp/School-tools/194.webp',
     ],
     gallery: [
-      '/img/School-tools/194.jpg',
+      '/img-webp/School-tools/194.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4043,10 +4043,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/195.jpg',
+      '/img-webp/School-tools/195.webp',
     ],
     gallery: [
-      '/img/School-tools/195.jpg',
+      '/img-webp/School-tools/195.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4063,10 +4063,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/196.jpg',
+      '/img-webp/School-tools/196.webp',
     ],
     gallery: [
-      '/img/School-tools/196.jpg',
+      '/img-webp/School-tools/196.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4083,10 +4083,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/197.jpg',
+      '/img-webp/School-tools/197.webp',
     ],
     gallery: [
-      '/img/School-tools/197.jpg',
+      '/img-webp/School-tools/197.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4103,10 +4103,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/198.jpg',
+      '/img-webp/School-tools/198.webp',
     ],
     gallery: [
-      '/img/School-tools/198.jpg',
+      '/img-webp/School-tools/198.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4123,10 +4123,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/199.jpg',
+      '/img-webp/School-tools/199.webp',
     ],
     gallery: [
-      '/img/School-tools/199.jpg',
+      '/img-webp/School-tools/199.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4143,10 +4143,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/200.jpg',
+      '/img-webp/School-tools/200.webp',
     ],
     gallery: [
-      '/img/School-tools/200.jpg',
+      '/img-webp/School-tools/200.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4163,10 +4163,10 @@ export const products: Product[] = [
     price: 1900,
     rating: 4.0,
     images: [
-      '/img/School-tools/201.jpg',
+      '/img-webp/School-tools/201.webp',
     ],
     gallery: [
-      '/img/School-tools/201.jpg',
+      '/img-webp/School-tools/201.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4184,10 +4184,10 @@ export const products: Product[] = [
     price: 950,
     rating: 4.0,
     images: [
-      '/img/School-tools/202.jpg',
+      '/img-webp/School-tools/202.webp',
     ],
     gallery: [
-      '/img/School-tools/202.jpg',
+      '/img-webp/School-tools/202.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4205,10 +4205,10 @@ export const products: Product[] = [
     price: 3800,
     rating: 4.0,
     images: [
-      '/img/School-tools/203.jpg',
+      '/img-webp/School-tools/203.webp',
     ],
     gallery: [
-      '/img/School-tools/203.jpg',
+      '/img-webp/School-tools/203.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4226,10 +4226,10 @@ export const products: Product[] = [
     price: 2850,
     rating: 4.0,
     images: [
-      '/img/School-tools/204.jpg',
+      '/img-webp/School-tools/204.webp',
     ],
     gallery: [
-      '/img/School-tools/204.jpg',
+      '/img-webp/School-tools/204.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4247,10 +4247,10 @@ export const products: Product[] = [
     price: 6300,
     rating: 4.0,
     images: [
-      '/img/School-tools/205.jpg',
+      '/img-webp/School-tools/205.webp',
     ],
     gallery: [
-      '/img/School-tools/205.jpg',
+      '/img-webp/School-tools/205.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4268,10 +4268,10 @@ export const products: Product[] = [
     price: 4750,
     rating: 4.0,
     images: [
-      '/img/School-tools/206.jpg',
+      '/img-webp/School-tools/206.webp',
     ],
     gallery: [
-      '/img/School-tools/206.jpg',
+      '/img-webp/School-tools/206.webp',
     ],
     description: 'تتميز أقلام TECHNO بقاعدة كحولية تسمح بمزج الألوان وتداخلها بسلاسة، مما يُسهّل إنشاء جميع أنواع التلوين والرسم والتصميم. بفضل رأسها المزدوج (أحدهما رفيع والآخر عريض)، تُمكّنك من العمل على التفاصيل الدقيقة والمساحات اللونية المسطحة. تحذير: يُستخدم في أماكن جيدة التهوية. يُحفظ بعيدًا عن متناول الأطفال؛ فالأجزاء الصغيرة تُشكّل خطر الاختناق. أغلق الأغطية بإحكام بعد كل استخدام.',
     specs: [
@@ -4289,10 +4289,10 @@ export const products: Product[] = [
     price: 95,
     rating: 4.0,
     images: [
-      '/img/School-tools/207.jpg',
+      '/img-webp/School-tools/207.webp',
     ],
     gallery: [
-      '/img/School-tools/207.jpg',
+      '/img-webp/School-tools/207.webp',
     ],
     description: 'رأس أكريليك مشطوف بسمك 4 مم، يُسلَّم مع خرطوشة حبر واحدة، ويبلغ طول الكتابة حتى 250 مترًا. يمكن استخدام ما يصل إلى 8 خراطيش حبر مع قلم ماركر واحد.',
     specs: [
@@ -4308,7 +4308,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4990',
         images: [
-      '/img/School-tools/207.1.jpg',
+      '/img-webp/School-tools/207.1.webp',
         ],
       },
       {
@@ -4320,7 +4320,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '8504',
         images: [
-      '/img/School-tools/207.2.jpg',
+      '/img-webp/School-tools/207.2.webp',
         ],
       },
       {
@@ -4332,7 +4332,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '8502',
         images: [
-      '/img/School-tools/207.3.jpg',
+      '/img-webp/School-tools/207.3.webp',
         ],
       },
       {
@@ -4344,7 +4344,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '8506',
         images: [
-      '/img/School-tools/207.4.jpg',
+      '/img-webp/School-tools/207.4.webp',
         ],
       },
       {
@@ -4356,7 +4356,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4991',
         images: [
-      '/img/School-tools/207.8.jpg',
+      '/img-webp/School-tools/207.8.webp',
         ],
       },
       {
@@ -4368,7 +4368,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '8501',
         images: [
-      '/img/School-tools/207.9.jpg',
+      '/img-webp/School-tools/207.9.webp',
         ],
       },
       {
@@ -4380,7 +4380,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '8507',
         images: [
-      '/img/School-tools/207.5.jpg',
+      '/img-webp/School-tools/207.5.webp',
         ],
       },
       {
@@ -4392,7 +4392,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4993',
         images: [
-      '/img/School-tools/207.6.jpg',
+      '/img-webp/School-tools/207.6.webp',
         ],
       },
       {
@@ -4404,7 +4404,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4992',
         images: [
-      '/img/School-tools/207.10.jpg',
+      '/img-webp/School-tools/207.10.webp',
         ],
       },
       {
@@ -4416,7 +4416,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4992',
         images: [
-      '/img/School-tools/207.11.jpg',
+      '/img-webp/School-tools/207.11.webp',
         ],
       },
       {
@@ -4428,7 +4428,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4992',
         images: [
-      '/img/School-tools/207.7.jpg',
+      '/img-webp/School-tools/207.7.webp',
         ],
       },
     ],
@@ -4443,10 +4443,10 @@ export const products: Product[] = [
     price: 150,
     rating: 4.0,
     images: [
-      '/img/School-tools/208.jpg',
+      '/img-webp/School-tools/208.webp',
     ],
     gallery: [
-      '/img/School-tools/208.jpg',
+      '/img-webp/School-tools/208.webp',
     ],
     description: 'يُعد قلم Pilot Permanent Marker 400 الخيار المثالي للكتابة الدائمة على مختلف الأسطح مثل الخشب والمعادن والبلاستيك وغيرها. يتميز بحبر عالي الجودة مقاوم للماء والضوء والحرارة والبرودة، كما يحافظ على أدائه حتى عند تركه دون غطاء لمدة تصل إلى 24 ساعة. يأتي بتصميم عصري وأنيق يجمع بين المتانة والموثوقية، مما يجعله مناسبًا للاستخدام اليومي في الأعمال الاحترافية والمكتبية والصناعية.',
     specs: [
@@ -4464,7 +4464,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'SCA-400-L',
         images: [
-      '/img/School-tools/208.jpg',
+      '/img-webp/School-tools/208.webp',
         ],
       },
       {
@@ -4476,7 +4476,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'SCA-400-B',
         images: [
-      '/img/School-tools/208.1.jpg',
+      '/img-webp/School-tools/208.1.webp',
         ],
       },
       {
@@ -4488,7 +4488,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'SCA-400-R',
         images: [
-      '/img/School-tools/208.2.jpg',
+      '/img-webp/School-tools/208.2.webp',
         ],
       },
       {
@@ -4500,7 +4500,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'SCA-400-G',
         images: [
-      '/img/School-tools/208.3.jpg',
+      '/img-webp/School-tools/208.3.webp',
         ],
       },
     ],
@@ -4515,10 +4515,10 @@ export const products: Product[] = [
     price: 3850,
     rating: 4.0,
     images: [
-      '/img/School-tools/209.jpg',
+      '/img-webp/School-tools/209.webp',
     ],
     gallery: [
-      '/img/School-tools/209.jpg',
+      '/img-webp/School-tools/209.webp',
     ],
     description: 'يضمن تصميم كولور آرت عالي الجودة أقصى مقاومة للكسر، وثباتًا ممتازًا للألوان، ومقاومة للماء، وألوانًا زاهية. تتكيف رؤوسها مع تقنيات الرسم المختلفة. كما يمكن استخدام هذه الأقلام على أي نوع من الأسطح الصلبة تقريبًا.',
     specs: [
@@ -4536,10 +4536,10 @@ export const products: Product[] = [
     price: 1150,
     rating: 4.0,
     images: [
-      '/img/School-tools/210.jpg',
+      '/img-webp/School-tools/210.webp',
     ],
     gallery: [
-      '/img/School-tools/210.jpg',
+      '/img-webp/School-tools/210.webp',
     ],
     description: 'يضمن تصميم كولور آرت عالي الجودة أقصى مقاومة للكسر، وثباتًا ممتازًا للألوان، ومقاومة للماء، وألوانًا زاهية. تتكيف رؤوسها مع تقنيات الرسم المختلفة. كما يمكن استخدام هذه الأقلام على أي نوع من الأسطح الصلبة تقريبًا.',
     specs: [
@@ -4557,10 +4557,10 @@ export const products: Product[] = [
     price: 1450,
     rating: 4.0,
     images: [
-      '/img/School-tools/211.jpg',
+      '/img-webp/School-tools/211.webp',
     ],
     gallery: [
-      '/img/School-tools/211.jpg',
+      '/img-webp/School-tools/211.webp',
     ],
     description: 'يضمن تصميم كولور آرت عالي الجودة أقصى مقاومة للكسر، وثباتًا ممتازًا للألوان، ومقاومة للماء، وألوانًا زاهية. تتكيف رؤوسها مع تقنيات الرسم المختلفة. كما يمكن استخدام هذه الأقلام على أي نوع من الأسطح الصلبة تقريبًا.',
     specs: [
@@ -4578,10 +4578,10 @@ export const products: Product[] = [
     price: 2450,
     rating: 4.0,
     images: [
-      '/img/School-tools/212.jpg',
+      '/img-webp/School-tools/212.webp',
     ],
     gallery: [
-      '/img/School-tools/212.jpg',
+      '/img-webp/School-tools/212.webp',
     ],
     description: 'يضمن تصميم كولور آرت عالي الجودة أقصى مقاومة للكسر، وثباتًا ممتازًا للألوان، ومقاومة للماء، وألوانًا زاهية. تتكيف رؤوسها مع تقنيات الرسم المختلفة. كما يمكن استخدام هذه الأقلام على أي نوع من الأسطح الصلبة تقريبًا.',
     specs: [
@@ -4599,10 +4599,10 @@ export const products: Product[] = [
     price: 2650,
     rating: 4.0,
     images: [
-      '/img/School-tools/213.jpg',
+      '/img-webp/School-tools/213.webp',
     ],
     gallery: [
-      '/img/School-tools/213.jpg',
+      '/img-webp/School-tools/213.webp',
     ],
     description: 'يضمن تصميم كولور آرت عالي الجودة أقصى مقاومة للكسر، وثباتًا ممتازًا للألوان، ومقاومة للماء، وألوانًا زاهية. تتكيف رؤوسها مع تقنيات الرسم المختلفة. كما يمكن استخدام هذه الأقلام على أي نوع من الأسطح الصلبة تقريبًا.',
     specs: [
@@ -4620,10 +4620,10 @@ export const products: Product[] = [
     price: 5200,
     rating: 4.0,
     images: [
-      '/img/School-tools/214.jpg',
+      '/img-webp/School-tools/214.webp',
     ],
     gallery: [
-      '/img/School-tools/214.jpg',
+      '/img-webp/School-tools/214.webp',
     ],
     description: 'يضمن تصميم كولور آرت عالي الجودة أقصى مقاومة للكسر، وثباتًا ممتازًا للألوان، ومقاومة للماء، وألوانًا زاهية. تتكيف رؤوسها مع تقنيات الرسم المختلفة. كما يمكن استخدام هذه الأقلام على أي نوع من الأسطح الصلبة تقريبًا.',
     specs: [
@@ -4641,18 +4641,18 @@ export const products: Product[] = [
     price: 850,
     rating: 4.0,
     images: [
-      '/img/School-tools/215.jpg',
+      '/img-webp/School-tools/215.webp',
     ],
     gallery: [
-      '/img/School-tools/215.jpg',
-      '/img/School-tools/215.1.jpg',
-      '/img/School-tools/215.2.jpg',
-      '/img/School-tools/215.3.jpg',
-      '/img/School-tools/215.4.jpg',
-      '/img/School-tools/215.5.jpg',
-      '/img/School-tools/215.6.jpg',
-      '/img/School-tools/215.7.jpg',
-      '/img/School-tools/215.8.jpg',    ],
+      '/img-webp/School-tools/215.webp',
+      '/img-webp/School-tools/215.1.webp',
+      '/img-webp/School-tools/215.2.webp',
+      '/img-webp/School-tools/215.3.webp',
+      '/img-webp/School-tools/215.4.webp',
+      '/img-webp/School-tools/215.5.webp',
+      '/img-webp/School-tools/215.6.webp',
+      '/img-webp/School-tools/215.7.webp',
+      '/img-webp/School-tools/215.8.webp',    ],
     description: 'مجموعة من الدفاتر المدبسة ذات الغلاف الشفاف المصنوع من البولي بروبيلين، صلبة، فائقة المقاومة، ملونة، مطلوبة من قبل المدارس والمدارس الخاصة وغيرها الكثير.',
     specs: [
     ],
@@ -4667,7 +4667,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.jpg',
+      '/img-webp/School-tools/215.webp',
         ],
       },
       {
@@ -4679,7 +4679,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.1.jpg',
+      '/img-webp/School-tools/215.1.webp',
         ],
       },
       {
@@ -4691,7 +4691,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.2.jpg',
+      '/img-webp/School-tools/215.2.webp',
         ],
       },
       {
@@ -4703,7 +4703,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.3.jpg',
+      '/img-webp/School-tools/215.3.webp',
         ],
       },
       {
@@ -4715,7 +4715,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.4.jpg',
+      '/img-webp/School-tools/215.4.webp',
         ],
       },
       {
@@ -4727,7 +4727,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.5.jpg',
+      '/img-webp/School-tools/215.5.webp',
         ],
       },
       {
@@ -4739,7 +4739,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.6.jpg',
+      '/img-webp/School-tools/215.6.webp',
         ],
       },
       {
@@ -4751,7 +4751,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.7.jpg',
+      '/img-webp/School-tools/215.7.webp',
         ],
       },
       {
@@ -4763,7 +4763,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '100105479 / 120697',
         images: [
-      '/img/School-tools/215.8.jpg',
+      '/img-webp/School-tools/215.8.webp',
         ],
       },
     ],
@@ -4778,16 +4778,16 @@ export const products: Product[] = [
     price: 480,
     rating: 4.0,
     images: [
-      '/img/School-tools/216.jpg',
+      '/img-webp/School-tools/216.webp',
     ],
     gallery: [
-      '/img/School-tools/216.jpg',
-      '/img/School-tools/216.1.jpg',
-      '/img/School-tools/216.2.jpg',
-      '/img/School-tools/216.4.jpg',
-      '/img/School-tools/216.5.jpg',
-      '/img/School-tools/216.6.jpg',
-      '/img/School-tools/216.7.jpg',
+      '/img-webp/School-tools/216.webp',
+      '/img-webp/School-tools/216.1.webp',
+      '/img-webp/School-tools/216.2.webp',
+      '/img-webp/School-tools/216.4.webp',
+      '/img-webp/School-tools/216.5.webp',
+      '/img-webp/School-tools/216.6.webp',
+      '/img-webp/School-tools/216.7.webp',
      ],
     description: 'مجموعة من الدفاتر المدبسة ذات الغلاف الشفاف المصنوع من البولي بروبيلين، صلبة، فائقة المقاومة، ملونة، مطلوبة من قبل المدارس والمدارس الخاصة وغيرها الكثير.',
     specs: [
@@ -4803,7 +4803,7 @@ export const products: Product[] = [
         stock: 50,
         sku: ' 100105477 / 020397',
         images: [
-      '/img/School-tools/216.1.jpg',
+      '/img-webp/School-tools/216.1.webp',
         ],
       },
       {
@@ -4815,7 +4815,7 @@ export const products: Product[] = [
         stock: 50,
         sku: ' 100105477 / 020397',
         images: [
-      '/img/School-tools/216.jpg',
+      '/img-webp/School-tools/216.webp',
         ],
       },
       {
@@ -4827,7 +4827,7 @@ export const products: Product[] = [
         stock: 50,
         sku: ' 100105477 / 020397',
         images: [
-      '/img/School-tools/216.2.jpg',
+      '/img-webp/School-tools/216.2.webp',
         ],
       },
       {
@@ -4839,7 +4839,7 @@ export const products: Product[] = [
         stock: 50,
         sku: ' 100105477 / 020397',
         images: [
-      '/img/School-tools/216.4.jpg',
+      '/img-webp/School-tools/216.4.webp',
         ],
       },
       {
@@ -4851,7 +4851,7 @@ export const products: Product[] = [
         stock: 50,
         sku: ' 100105477 / 020397',
         images: [
-      '/img/School-tools/216.6.jpg',
+      '/img-webp/School-tools/216.6.webp',
         ],
       },
       {
@@ -4863,7 +4863,7 @@ export const products: Product[] = [
         stock: 50,
         sku: ' 100105477 / 020397',
         images: [
-      '/img/School-tools/216.5.jpg',
+      '/img-webp/School-tools/216.5.webp',
         ],
       },
       {
@@ -4875,7 +4875,7 @@ export const products: Product[] = [
         stock: 50,
         sku: ' 100105477 / 020397',
         images: [
-      '/img/School-tools/216.7.jpg',
+      '/img-webp/School-tools/216.7.webp',
         ],
       },
     ],
@@ -4890,10 +4890,10 @@ export const products: Product[] = [
     price: 120,
     rating: 4.0,
     images: [
-      '/img/School-tools/217.jpg',
+      '/img-webp/School-tools/217.webp',
     ],
     gallery: [
-      '/img/School-tools/217.jpg',
+      '/img-webp/School-tools/217.webp',
     ],
     description: 'ورق ذو جودة عالية للمساعدة في الواجبات المنزلية والامتحانات.',
     specs: [
@@ -4910,10 +4910,10 @@ export const products: Product[] = [
     price: 120,
     rating: 4.0,
     images: [
-      '/img/School-tools/218.jpg',
+      '/img-webp/School-tools/218.webp',
     ],
     gallery: [
-      '/img/School-tools/218.jpg',
+      '/img-webp/School-tools/218.webp',
     ],
     description: 'ورق ذو جودة عالية للمساعدة في الواجبات المنزلية والامتحانات.',
     specs: [
@@ -4930,10 +4930,10 @@ export const products: Product[] = [
     price: 210,
     rating: 4.0,
     images: [
-      '/img/School-tools/219.jpg',
+      '/img-webp/School-tools/219.webp',
     ],
     gallery: [
-      '/img/School-tools/219.jpg',
+      '/img-webp/School-tools/219.webp',
     ],
     description: 'ورق ذو جودة عالية للمساعدة في الواجبات المنزلية والامتحانات.',
     specs: [
@@ -4950,10 +4950,10 @@ export const products: Product[] = [
     price: 210,
     rating: 4.0,
     images: [
-      '/img/School-tools/220.jpg',
+      '/img-webp/School-tools/220.webp',
     ],
     gallery: [
-      '/img/School-tools/220.jpg',
+      '/img-webp/School-tools/220.webp',
     ],
     description:'مجموعة من الدفاتر المدبسة ذات الغلاف الشفاف المصنوع من البولي بروبيلين، صلبة، فائقة المقاومة، ملونة، مطلوبة من قبل المدارس والمدارس الخاصة وغيرها الكثير.',
     specs: [
@@ -4970,10 +4970,10 @@ export const products: Product[] = [
     price: 145,
     rating: 4.0,
     images: [
-      '/img/School-tools/221.jpg',
+      '/img-webp/School-tools/221.webp',
     ],
     gallery: [
-      '/img/School-tools/221.jpg',
+      '/img-webp/School-tools/221.webp',
     ],
     description:'مجموعة من الدفاتر المدبسة ذات الغلاف الشفاف المصنوع من البولي بروبيلين، صلبة، فائقة المقاومة، ملونة، مطلوبة من قبل المدارس والمدارس الخاصة وغيرها الكثير.',
     specs: [
@@ -4990,10 +4990,10 @@ export const products: Product[] = [
     price: 300,
     rating: 4.0,
     images: [
-      '/img/School-tools/222.jpg',
+      '/img-webp/School-tools/222.webp',
     ],
     gallery: [
-      '/img/School-tools/222.jpg',
+      '/img-webp/School-tools/222.webp',
     ],
     description: 'ورق ذو جودة عالية مناسب لمختلف المراحل الدراسية.',
     specs: [
@@ -5010,10 +5010,10 @@ export const products: Product[] = [
     price: 145,
     rating: 4.0,
     images: [
-      '/img/School-tools/223.jpg',
+      '/img-webp/School-tools/223.webp',
     ],
     gallery: [
-      '/img/School-tools/223.jpg',
+      '/img-webp/School-tools/223.webp',
     ],
     description: 'ورق ذو جودة عالية مناسب لمختلف المراحل الدراسية.',
     specs: [
@@ -5030,10 +5030,10 @@ export const products: Product[] = [
     price: 90,
     rating: 4.0,
     images: [
-      '/img/School-tools/224.jpg',
+      '/img-webp/School-tools/224.webp',
     ],
     gallery: [
-      '/img/School-tools/224.jpg',
+      '/img-webp/School-tools/224.webp',
     ],
     description: 'ورق ذو جودة عالية مناسب لمختلف المراحل الدراسية.',
     specs: [
@@ -5050,12 +5050,12 @@ export const products: Product[] = [
     price: 90,
     rating: 4.0,
     images: [
-      '/img/School-tools/225.jpg',
+      '/img-webp/School-tools/225.webp',
     ],
     gallery: [
-      '/img/School-tools/225.jpg',
-      '/img/School-tools/225.1.jpg',
-      '/img/School-tools/225.2.jpg',
+      '/img-webp/School-tools/225.webp',
+      '/img-webp/School-tools/225.1.webp',
+      '/img-webp/School-tools/225.2.webp',
     ],
     description: 'ورق ذو جودة عالية مناسب لمختلف المراحل الدراسية.',
     specs: [
@@ -5072,7 +5072,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9052',
         images: [
-      '/img/School-tools/225.1.jpg',
+      '/img-webp/School-tools/225.1.webp',
         ],
       },
       {
@@ -5084,7 +5084,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9052',
         images: [
-      '/img/School-tools/225.2.jpg',
+      '/img-webp/School-tools/225.2.webp',
         ],
       },
       {
@@ -5096,7 +5096,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9052',
         images: [
-      '/img/School-tools/225.jpg',
+      '/img-webp/School-tools/225.webp',
         ],
       },
     ],
@@ -5111,10 +5111,10 @@ export const products: Product[] = [
     price: 55,
     rating: 4.0,
     images: [
-      '/img/School-tools/227.jpg',
+      '/img-webp/School-tools/227.webp',
     ],
     gallery: [
-      '/img/School-tools/227.jpg',
+      '/img-webp/School-tools/227.webp',
     ],
     description: 'ورق ذو جودة عالية مناسب لمختلف المراحل الدراسية.',
     specs: [
@@ -5131,17 +5131,17 @@ export const products: Product[] = [
     price: 65,
     rating: 4.0,
     images: [
-      '/img/School-tools/228.jpg',
+      '/img-webp/School-tools/228.webp',
     ],
     gallery: [
-      '/img/School-tools/228.jpg',
-      '/img/School-tools/228.2.jpg',
-      '/img/School-tools/228.3.jpg',
-      '/img/School-tools/228.4.jpg',
-      '/img/School-tools/228.6.jpg',
-      '/img/School-tools/228.1.jpg',
-      '/img/School-tools/228.5.jpg',
-      '/img/School-tools/226.jpg',
+      '/img-webp/School-tools/228.webp',
+      '/img-webp/School-tools/228.2.webp',
+      '/img-webp/School-tools/228.3.webp',
+      '/img-webp/School-tools/228.4.webp',
+      '/img-webp/School-tools/228.6.webp',
+      '/img-webp/School-tools/228.1.webp',
+      '/img-webp/School-tools/228.5.webp',
+      '/img-webp/School-tools/226.webp',
     ],
     description: 'اكتشف دفترنا المدرسي عالي الجودة، المصنوع في الجزائر، والذي يتميز بتسطير سيس الشهير الذي يُسهّل تعلم الكتابة اليدوية وإتقانها. - يحتوي هذا الدفتر على 96 صفحة من ورق أبيض ناصع بوزن 70 غ/م²، مما يوفر تجربة كتابة سلسة وممتعة. - حجمه العملي 17 × 22 سم يجعله سهل الحمل ومناسبًا تمامًا للحقيبة المدرسية. - غلافه الكرتوني المصقول يضمن حماية أفضل ومتانة مُعززة. - مثالي لطلاب المرحلتين الابتدائية والمتوسطة. - حاصل على شهادة صديق للبيئة (علامة الاتحاد الأوروبي البيئية). - منتج جزائري 100%، يجمع بين الجودة والتصميم العصري. - لون الدفتر: رمادي',
     specs: [
@@ -5158,7 +5158,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9810',
         images: [
-      '/img/School-tools/228.jpg',
+      '/img-webp/School-tools/228.webp',
         ],
       },
       {
@@ -5170,7 +5170,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9810',
         images: [
-      '/img/School-tools/228.4.jpg',
+      '/img-webp/School-tools/228.4.webp',
         ],
       },
       {
@@ -5182,7 +5182,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9810',
         images: [
-      '/img/School-tools/228.6.jpg',
+      '/img-webp/School-tools/228.6.webp',
         ],
       },
       {
@@ -5194,7 +5194,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9810',
         images: [
-      '/img/School-tools/228.5.jpg',
+      '/img-webp/School-tools/228.5.webp',
         ],
       },
       {
@@ -5206,7 +5206,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9810',
         images: [
-      '/img/School-tools/228.1.jpg',
+      '/img-webp/School-tools/228.1.webp',
         ],
       },
       {
@@ -5218,7 +5218,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9810',
         images: [
-      '/img/School-tools/228.3.jpg',
+      '/img-webp/School-tools/228.3.webp',
         ],
       },
       {
@@ -5230,7 +5230,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9810',
         images: [
-      '/img/School-tools/228.2.jpg',
+      '/img-webp/School-tools/228.2.webp',
         ],
       },
       {
@@ -5242,7 +5242,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9810',
         images: [
-      '/img/School-tools/226.jpg',
+      '/img-webp/School-tools/226.webp',
         ],
       },
     ],
@@ -5257,12 +5257,12 @@ export const products: Product[] = [
     price: 65,
     rating: 4.0,
     images: [
-      '/img/School-tools/229.jpg',
+      '/img-webp/School-tools/229.webp',
     ],
     gallery: [
-      '/img/School-tools/229.jpg',
-      '/img/School-tools/229.1.jpg',
-      '/img/School-tools/229.2.jpg',
+      '/img-webp/School-tools/229.webp',
+      '/img-webp/School-tools/229.1.webp',
+      '/img-webp/School-tools/229.2.webp',
     ],
     description: 'اكتشف دفترنا المدرسي عالي الجودة، المصنوع في الجزائر، والذي يتميز بتسطير سيس الشهير الذي يُسهّل تعلم الكتابة اليدوية وإتقانها. - يحتوي هذا الدفتر على 96 صفحة من ورق أبيض ناصع بوزن 70 غ/م²، مما يوفر تجربة كتابة سلسة وممتعة. - حجمه العملي 17 × 22 سم يجعله سهل الحمل ومناسبًا تمامًا للحقيبة المدرسية. - غلافه الكرتوني المصقول يضمن حماية أفضل ومتانة مُعززة. - مثالي لطلاب المرحلتين الابتدائية والمتوسطة. - حاصل على شهادة صديق للبيئة (علامة الاتحاد الأوروبي البيئية). - منتج جزائري 100%، يجمع بين الجودة والتصميم العصري. - لون الدفتر: رمادي',
     specs: [
@@ -5279,7 +5279,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9814',
         images: [
-      '/img/School-tools/229.2.jpg',
+      '/img-webp/School-tools/229.2.webp',
         ],
       },
       {
@@ -5291,7 +5291,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9814',
         images: [
-      '/img/School-tools/229.jpg',
+      '/img-webp/School-tools/229.webp',
         ],
       },
       {
@@ -5303,7 +5303,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9814',
         images: [
-      '/img/School-tools/229.1.jpg',
+      '/img-webp/School-tools/229.1.webp',
         ],
       },
     ],
@@ -5318,12 +5318,12 @@ export const products: Product[] = [
     price: 135,
     rating: 4.0,
     images: [
-      '/img/School-tools/230.jpg',
+      '/img-webp/School-tools/230.webp',
     ],
     gallery: [
-      '/img/School-tools/230.jpg',
-      '/img/School-tools/230.1.jpg',
-      '/img/School-tools/230.2.jpg',
+      '/img-webp/School-tools/230.webp',
+      '/img-webp/School-tools/230.1.webp',
+      '/img-webp/School-tools/230.2.webp',
     ],
     description: 'دفتر ملاحظات مُدبّس بغلاف قابل للإزالة (ورق مقوى مغلف)، أكثر مقاومة للتمزق، دفتر عمل عملي 96 صفحة بتنسيق A4 ووزن ورق 70 جرام.',
     specs: [
@@ -5340,7 +5340,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9815',
         images: [
-      '/img/School-tools/230.1.jpg',
+      '/img-webp/School-tools/230.1.webp',
         ],
       },
       {
@@ -5352,7 +5352,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9815',
         images: [
-      '/img/School-tools/230.jpg',
+      '/img-webp/School-tools/230.webp',
         ],
       },
       {
@@ -5364,7 +5364,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9815',
         images: [
-      '/img/School-tools/230.2.jpg',
+      '/img-webp/School-tools/230.2.webp',
         ],
       },
     ],
@@ -5379,17 +5379,17 @@ export const products: Product[] = [
     price: 65,
     rating: 4.0,
     images: [
-      '/img/School-tools/231.jpg',
+      '/img-webp/School-tools/231.webp',
     ],
     gallery: [
-      '/img/School-tools/231.jpg',
-      '/img/School-tools/231.1.jpg',
-      '/img/School-tools/231.2.jpg',
-      '/img/School-tools/231.3.jpg',
-      '/img/School-tools/231.4.jpg',
-      '/img/School-tools/231.5.jpg',
-      '/img/School-tools/231.6.jpg',
-      '/img/School-tools/231.7.jpg',
+      '/img-webp/School-tools/231.webp',
+      '/img-webp/School-tools/231.1.webp',
+      '/img-webp/School-tools/231.2.webp',
+      '/img-webp/School-tools/231.3.webp',
+      '/img-webp/School-tools/231.4.webp',
+      '/img-webp/School-tools/231.5.webp',
+      '/img-webp/School-tools/231.6.webp',
+      '/img-webp/School-tools/231.7.webp',
     ],
     description: 'بياض وشفافية استثنائيان لراحة أفضل في الكتابة والرسم، دفتر عمل عملي مثبت بدبابيس بوزن 70 جرامًا، بتنسيق: 17 × 22 سم من 96 صفحة.',
     specs: [
@@ -5406,7 +5406,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9442',
         images: [
-      '/img/School-tools/231.jpg',
+      '/img-webp/School-tools/231.webp',
         ],
       },
       {
@@ -5418,7 +5418,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9442',
         images: [
-      '/img/School-tools/231.1.jpg',
+      '/img-webp/School-tools/231.1.webp',
         ],
       },
       {
@@ -5430,7 +5430,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9442',
         images: [
-      '/img/School-tools/231.6.jpg',
+      '/img-webp/School-tools/231.6.webp',
         ],
       },
       {
@@ -5442,7 +5442,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9442',
         images: [
-      '/img/School-tools/231.4.jpg',
+      '/img-webp/School-tools/231.4.webp',
         ],
       },
       {
@@ -5454,7 +5454,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9442',
         images: [
-      '/img/School-tools/231.5.jpg',
+      '/img-webp/School-tools/231.5.webp',
         ],
       },
       {
@@ -5466,7 +5466,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9442',
         images: [
-      '/img/School-tools/231.2.jpg',
+      '/img-webp/School-tools/231.2.webp',
         ],
       },
       {
@@ -5478,7 +5478,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9442',
         images: [
-      '/img/School-tools/231.7.jpg',
+      '/img-webp/School-tools/231.7.webp',
         ],
       },
       {
@@ -5490,7 +5490,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9442',
         images: [
-      '/img/School-tools/231.3.jpg',
+      '/img-webp/School-tools/231.3.webp',
         ],
       },
     ],
@@ -5505,20 +5505,20 @@ export const products: Product[] = [
     price: 100,
     rating: 4.0,
     images: [
-      '/img/School-tools/232.jpg',
+      '/img-webp/School-tools/232.webp',
     ],
     gallery: [
-      '/img/School-tools/232.jpg',
-      '/img/School-tools/232.1.jpg',
-      '/img/School-tools/232.2.jpg',
-      '/img/School-tools/232.3.jpg',
-      '/img/School-tools/232.4.jpg',
-      '/img/School-tools/232.5.jpg',
-      '/img/School-tools/232.6.jpg',
-      '/img/School-tools/232.7.jpg',
-      '/img/School-tools/232.8.jpg',
-      '/img/School-tools/232.9.jpg',
-      '/img/School-tools/232.10.jpg',
+      '/img-webp/School-tools/232.webp',
+      '/img-webp/School-tools/232.1.webp',
+      '/img-webp/School-tools/232.2.webp',
+      '/img-webp/School-tools/232.3.webp',
+      '/img-webp/School-tools/232.4.webp',
+      '/img-webp/School-tools/232.5.webp',
+      '/img-webp/School-tools/232.6.webp',
+      '/img-webp/School-tools/232.7.webp',
+      '/img-webp/School-tools/232.8.webp',
+      '/img-webp/School-tools/232.9.webp',
+      '/img-webp/School-tools/232.10.webp',
     ],
     description: 'غلاف ورقي مقوى قابل للغسل ومغلف بطبقة لامعة، بتصميم مناسب للأطفال. دفتر ملاحظات حلزوني ذو 96 صفحة، بقياس 9 × 14 سم، مع مربعات قياس 5 × 5 مم. ورق أبيض بوزن 70 غرام/متر مربع.',
     specs: [
@@ -5535,7 +5535,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.jpg',
+      '/img-webp/School-tools/232.webp',
         ],
       },
      {
@@ -5547,7 +5547,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.1.jpg',
+      '/img-webp/School-tools/232.1.webp',
         ],
       },
      {
@@ -5559,7 +5559,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.2.jpg',
+      '/img-webp/School-tools/232.2.webp',
         ],
       },
      {
@@ -5571,7 +5571,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.3.jpg',
+      '/img-webp/School-tools/232.3.webp',
         ],
       },
      {
@@ -5583,7 +5583,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.4.jpg',
+      '/img-webp/School-tools/232.4.webp',
         ],
       },
      {
@@ -5595,7 +5595,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.5.jpg',
+      '/img-webp/School-tools/232.5.webp',
         ],
       },
      {
@@ -5607,7 +5607,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.6.jpg',
+      '/img-webp/School-tools/232.6.webp',
         ],
       },
      {
@@ -5619,7 +5619,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.7.jpg',
+      '/img-webp/School-tools/232.7.webp',
         ],
       },
      {
@@ -5631,7 +5631,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.8.jpg',
+      '/img-webp/School-tools/232.8.webp',
         ],
       },
      {
@@ -5643,7 +5643,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.9.jpg',
+      '/img-webp/School-tools/232.9.webp',
         ],
       },
      {
@@ -5655,7 +5655,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9558',
         images: [
-      '/img/School-tools/232.10.jpg',
+      '/img-webp/School-tools/232.10.webp',
         ],
       },
     ],
@@ -5670,17 +5670,17 @@ export const products: Product[] = [
     price: 100,
     rating: 4.0,
     images: [
-      '/img/School-tools/233.jpg',
+      '/img-webp/School-tools/233.webp',
     ],
     gallery: [
-      '/img/School-tools/233.jpg',
-      '/img/School-tools/233.1.jpg',
-      '/img/School-tools/233.2.jpg',
-      '/img/School-tools/233.3.jpg',
-      '/img/School-tools/233.4.jpg',
-      '/img/School-tools/233.5.jpg',
-      '/img/School-tools/233.6.jpg',
-      '/img/School-tools/233.7.jpg',
+      '/img-webp/School-tools/233.webp',
+      '/img-webp/School-tools/233.1.webp',
+      '/img-webp/School-tools/233.2.webp',
+      '/img-webp/School-tools/233.3.webp',
+      '/img-webp/School-tools/233.4.webp',
+      '/img-webp/School-tools/233.5.webp',
+      '/img-webp/School-tools/233.6.webp',
+      '/img-webp/School-tools/233.7.webp',
     ],
     description: 'غلاف ورقي مقوى قابل للغسل بتصميم أنيق. دفتر ملاحظات حلزوني ذو 96 صفحة، أبعاده 9 × 14 سم، بشبكة 5 × 5 مم. ورق أبيض 70 غرام/م².',
     specs: [
@@ -5697,7 +5697,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9557',
         images: [
-      '/img/School-tools/233.jpg',
+      '/img-webp/School-tools/233.webp',
         ],
       },
       {
@@ -5709,7 +5709,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9557',
         images: [
-      '/img/School-tools/233.5.jpg',
+      '/img-webp/School-tools/233.5.webp',
         ],
       },
       {
@@ -5721,7 +5721,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9557',
         images: [
-      '/img/School-tools/233.4.jpg',
+      '/img-webp/School-tools/233.4.webp',
         ],
       },
       {
@@ -5733,7 +5733,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9557',
         images: [
-      '/img/School-tools/233.1.jpg',
+      '/img-webp/School-tools/233.1.webp',
         ],
       },
       {
@@ -5745,7 +5745,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9557',
         images: [
-      '/img/School-tools/233.7.jpg',
+      '/img-webp/School-tools/233.7.webp',
         ],
       },
       {
@@ -5757,7 +5757,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9557',
         images: [
-      '/img/School-tools/233.6.jpg',
+      '/img-webp/School-tools/233.6.webp',
         ],
       },
       {
@@ -5769,7 +5769,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9557',
         images: [
-      '/img/School-tools/233.2.jpg',
+      '/img-webp/School-tools/233.2.webp',
         ],
       },
       {
@@ -5781,7 +5781,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9557',
         images: [
-      '/img/School-tools/233.3.jpg',
+      '/img-webp/School-tools/233.3.webp',
         ],
       },
     ],
@@ -5796,10 +5796,10 @@ export const products: Product[] = [
     price: 240,
     rating: 4.0,
     images: [
-      '/img/School-tools/234.jpg',
+      '/img-webp/School-tools/234.webp',
     ],
     gallery: [
-      '/img/School-tools/234.jpg',
+      '/img-webp/School-tools/234.webp',
     ],
     description: 'يُعدّ دفتر CALLIGRAPHE ذو 96 صفحة، بمقاس 17×22 سم ووزن 56 غ، والمُسطّر بورق Seyès، رفيقًا لا غنى عنه للطلاب. صُمّم هذا الدفتر عالي الجودة لتلبية جميع احتياجاتك في الكتابة وتدوين الملاحظات والرسم. بفضل صفحاته الـ 96 بمقاس 17×22 سم، يُوفّر حجمًا مثاليًا للاستخدام اليومي، مع سهولة حمله في الحقيبة أو المجلد. يضمن وزن الورق البالغ 56 غ/م² انسيابية مثالية للكتابة، مع ضمان عدم تسرب الحبر، مما يُوفّر تجربة كتابة ممتعة وسلسة. يتميّز ورق Seyès المُسطّر بخطوطه الواضحة، وهامشه الأحمر، وخطوط الكتابة البنفسجية، والخطوط الزرقاء بين الأسطر، مما يجعله مثاليًا للكتابة الدقيقة والمنظمة، سواءً للواجبات المنزلية أو تمارين الصف أو المراجعة. يُضفي الغلاف المُخيط لمسة من المتانة والصلابة، مما يضمن بقاء دفترك في حالة جيدة طوال فترة استخدامه. سواءً للاستخدام المدرسي أو المهني، يُعدّ هذا الدفتر أداة أساسية لكل من يرغب في الحفاظ على أفكاره وملاحظاته منظمة ويسهل الوصول إليها.',
     specs: [
@@ -5816,12 +5816,12 @@ export const products: Product[] = [
     price: 220,
     rating: 4.0,
     images: [
-      '/img/School-tools/235.jpg',
+      '/img-webp/School-tools/235.webp',
     ],
     gallery: [
-      '/img/School-tools/235.jpg',
-      '/img/School-tools/235.1.jpg',
-      '/img/School-tools/235.2.jpg',
+      '/img-webp/School-tools/235.webp',
+      '/img-webp/School-tools/235.1.webp',
+      '/img-webp/School-tools/235.2.webp',
     ],
     description: 'مقص مدرسي برأس من الفولاذ المقاوم للصدأ بطول 12.7 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، وحلقات ناعمة مريحة للاستخدام.',
     specs: [
@@ -5838,7 +5838,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7068',
         images: [
-      '/img/School-tools/235.jpg',
+      '/img-webp/School-tools/235.webp',
         ],
       },
       {
@@ -5850,7 +5850,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7068',
         images: [
-      '/img/School-tools/235.1.jpg',
+      '/img-webp/School-tools/235.1.webp',
         ],
       },
       {
@@ -5862,7 +5862,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7068',
         images: [
-      '/img/School-tools/235.2.jpg',
+      '/img-webp/School-tools/235.2.webp',
         ],
       },
     ],
@@ -5877,12 +5877,12 @@ export const products: Product[] = [
     price: 220,
     rating: 4.0,
     images: [
-      '/img/School-tools/236.jpg',
+      '/img-webp/School-tools/236.webp',
     ],
     gallery: [
-      '/img/School-tools/236.jpg',
-      '/img/School-tools/236.1.jpg',
-      '/img/School-tools/236.2.jpg',
+      '/img-webp/School-tools/236.webp',
+      '/img-webp/School-tools/236.1.webp',
+      '/img-webp/School-tools/236.2.webp',
     ],
     description: 'مقص مدرسي برؤوس من الفولاذ المقاوم للصدأ بطول 13 سم، مناسب للمستخدمين الذين يستخدمون اليد اليمنى واليسرى، حلقات دائرية مريحة للاستخدام، مصمم خصيصاً لأيدي الأطفال الصغار.',
     specs: [
@@ -5899,7 +5899,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7060',
         images: [
-      '/img/School-tools/236.jpg',
+      '/img-webp/School-tools/236.webp',
         ],
       },
       {
@@ -5911,7 +5911,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7060',
         images: [
-      '/img/School-tools/236.1.jpg',
+      '/img-webp/School-tools/236.1.webp',
         ],
       },
       {
@@ -5923,7 +5923,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7060',
         images: [
-      '/img/School-tools/236.2.jpg',
+      '/img-webp/School-tools/236.2.webp',
         ],
       },
     ],
@@ -5938,12 +5938,12 @@ export const products: Product[] = [
     price: 230,
     rating: 4.0,
     images: [
-      '/img/School-tools/237.jpg',
+      '/img-webp/School-tools/237.webp',
     ],
     gallery: [
-      '/img/School-tools/237.jpg',
-      '/img/School-tools/237.1.jpg',
-      '/img/School-tools/237.2.jpg',
+      '/img-webp/School-tools/237.webp',
+      '/img-webp/School-tools/237.1.webp',
+      '/img-webp/School-tools/237.2.webp',
     ],
     description: 'مقص مدرسي برؤوس من الفولاذ المقاوم للصدأ بطول 13.5 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، حلقات مريحة ذات شكل مربع لتوفير الراحة أثناء الاستخدام.',
     specs: [
@@ -5960,7 +5960,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7062',
         images: [
-      '/img/School-tools/237.jpg',
+      '/img-webp/School-tools/237.webp',
         ],
       },
       {
@@ -5972,7 +5972,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7062',
         images: [
-      '/img/School-tools/237.1.jpg',
+      '/img-webp/School-tools/237.1.webp',
         ],
       },
       {
@@ -5984,7 +5984,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7062',
         images: [
-      '/img/School-tools/237.2.jpg',
+      '/img-webp/School-tools/237.2.webp',
         ],
       },
     ],
@@ -5999,12 +5999,12 @@ export const products: Product[] = [
     price: 230,
     rating: 4.0,
     images: [
-      '/img/School-tools/238.jpg',
+      '/img-webp/School-tools/238.webp',
     ],
     gallery: [
-      '/img/School-tools/238.jpg',
-      '/img/School-tools/238.1.jpg',
-      '/img/School-tools/238.2.jpg',
+      '/img-webp/School-tools/238.webp',
+      '/img-webp/School-tools/238.1.webp',
+      '/img-webp/School-tools/238.2.webp',
     ],
     description: 'مقص مدرسي برؤوس من الفولاذ المقاوم للصدأ بطول 13.5 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، حلقات مريحة ذات شكل مربع لتوفير الراحة أثناء الاستخدام.',
     specs: [
@@ -6021,7 +6021,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7061',
         images: [
-      '/img/School-tools/238.jpg',
+      '/img-webp/School-tools/238.webp',
         ],
       },
       {
@@ -6033,7 +6033,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7061',
         images: [
-      '/img/School-tools/238.1.jpg',
+      '/img-webp/School-tools/238.1.webp',
         ],
       },
       {
@@ -6045,7 +6045,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7061',
         images: [
-      '/img/School-tools/238.2.jpg',
+      '/img-webp/School-tools/238.2.webp',
         ],
       },
     ],
@@ -6060,12 +6060,12 @@ export const products: Product[] = [
     price: 220,
     rating: 4.0,
     images: [
-      '/img/School-tools/239.jpg',
+      '/img-webp/School-tools/239.webp',
     ],
     gallery: [
-      '/img/School-tools/239.jpg',
-      '/img/School-tools/239.1.jpg',
-      '/img/School-tools/239.2.jpg',
+      '/img-webp/School-tools/239.webp',
+      '/img-webp/School-tools/239.1.webp',
+      '/img-webp/School-tools/239.2.webp',
     ],
     description: 'مقص مدرسي برأس من الفولاذ المقاوم للصدأ بطول 13 سم، مناسب للمستخدمين الذين يستخدمون اليد اليمنى واليسرى، حلقات دائرية مريحة للاستخدام.',
     specs: [
@@ -6082,7 +6082,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7064',
         images: [
-      '/img/School-tools/239.jpg',
+      '/img-webp/School-tools/239.webp',
         ],
       },
       {
@@ -6094,7 +6094,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7064',
         images: [
-      '/img/School-tools/239.1.jpg',
+      '/img-webp/School-tools/239.1.webp',
         ],
       },
       {
@@ -6106,7 +6106,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7064',
         images: [
-      '/img/School-tools/239.2.jpg',
+      '/img-webp/School-tools/239.2.webp',
         ],
       },
     ],
@@ -6121,11 +6121,11 @@ export const products: Product[] = [
     price: 230,
     rating: 4.0,
     images: [
-      '/img/School-tools/240.jpg',
+      '/img-webp/School-tools/240.webp',
     ],
     gallery: [
-      '/img/School-tools/240.jpg',
-      '/img/School-tools/240.1.jpg',
+      '/img-webp/School-tools/240.webp',
+      '/img-webp/School-tools/240.1.webp',
     ],
     description: 'مقص مدرسي برؤوس من الفولاذ المقاوم للصدأ بطول 13.5 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، وحلقات مريحة على شكل قلب لتوفير الراحة أثناء الاستخدام.',
     specs: [
@@ -6142,7 +6142,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7063',
         images: [
-      '/img/School-tools/240.jpg',
+      '/img-webp/School-tools/240.webp',
         ],
       },
       {
@@ -6154,7 +6154,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7063',
         images: [
-      '/img/School-tools/240.1.jpg',
+      '/img-webp/School-tools/240.1.webp',
         ],
       },
     ],
@@ -6169,12 +6169,12 @@ export const products: Product[] = [
     price: 220,
     rating: 4.0,
     images: [
-      '/img/School-tools/241.jpg',
+      '/img-webp/School-tools/241.webp',
     ],
     gallery: [
-      '/img/School-tools/241.jpg',
-      '/img/School-tools/241.1.jpg',
-      '/img/School-tools/241.2.jpg',
+      '/img-webp/School-tools/241.webp',
+      '/img-webp/School-tools/241.1.webp',
+      '/img-webp/School-tools/241.2.webp',
     ],
     description: 'مقص مدرسي برأس من الفولاذ المقاوم للصدأ بطول 13 سم، مناسب للمستخدمين الذين يستخدمون اليد اليمنى واليسرى، حلقات دائرية مريحة للاستخدام.',
     specs: [
@@ -6191,7 +6191,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7066',
         images: [
-      '/img/School-tools/241.jpg',
+      '/img-webp/School-tools/241.webp',
         ],
       },
       {
@@ -6203,7 +6203,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7066',
         images: [
-      '/img/School-tools/241.1.jpg',
+      '/img-webp/School-tools/241.1.webp',
         ],
       },
       {
@@ -6215,7 +6215,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7066',
         images: [
-      '/img/School-tools/241.2.jpg',
+      '/img-webp/School-tools/241.2.webp',
         ],
       },
     ],
@@ -6230,12 +6230,12 @@ export const products: Product[] = [
     price: 230,
     rating: 4.0,
     images: [
-      '/img/School-tools/242.jpg',
+      '/img-webp/School-tools/242.webp',
     ],
     gallery: [
-      '/img/School-tools/242.jpg',
-      '/img/School-tools/242.1.jpg',
-      '/img/School-tools/242.2.jpg',
+      '/img-webp/School-tools/242.webp',
+      '/img-webp/School-tools/242.1.webp',
+      '/img-webp/School-tools/242.2.webp',
     ],
     description: 'مقص مدرسي برؤوس من الفولاذ المقاوم للصدأ بطول 14 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، وحلقات ناعمة مريحة للاستخدام.',
     specs: [
@@ -6252,7 +6252,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7065',
         images: [
-      '/img/School-tools/242.jpg',
+      '/img-webp/School-tools/242.webp',
         ],
       },
       {
@@ -6264,7 +6264,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7065',
         images: [
-      '/img/School-tools/242.1.jpg',
+      '/img-webp/School-tools/242.1.webp',
         ],
       },
       {
@@ -6276,7 +6276,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7065',
         images: [
-      '/img/School-tools/242.2.jpg',
+      '/img-webp/School-tools/242.2.webp',
         ],
       },
     ],
@@ -6291,12 +6291,12 @@ export const products: Product[] = [
     price: 220,
     rating: 4.0,
     images: [
-      '/img/School-tools/243.jpg',
+      '/img-webp/School-tools/243.webp',
     ],
     gallery: [
-      '/img/School-tools/243.jpg',
-      '/img/School-tools/243.1.jpg',
-      '/img/School-tools/243.2.jpg',
+      '/img-webp/School-tools/243.webp',
+      '/img-webp/School-tools/243.1.webp',
+      '/img-webp/School-tools/243.2.webp',
     ],
     description: 'مقص مدرسي برأس من الفولاذ المقاوم للصدأ بطول 13 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، حلقات ناعمة غير متماثلة مريحة مع بطاقة اسم.',
     specs: [
@@ -6313,7 +6313,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7067',
         images: [
-      '/img/School-tools/243.jpg',
+      '/img-webp/School-tools/243.webp',
         ],
       },
       {
@@ -6325,7 +6325,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7067',
         images: [
-      '/img/School-tools/243.1.jpg',
+      '/img-webp/School-tools/243.1.webp',
         ],
       },
       {
@@ -6337,7 +6337,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7067',
         images: [
-      '/img/School-tools/243.2.jpg',
+      '/img-webp/School-tools/243.2.webp',
         ],
       },
     ],
@@ -6352,12 +6352,12 @@ export const products: Product[] = [
     price: 160,
     rating: 4.0,
     images: [
-      '/img/School-tools/244.jpg',
+      '/img-webp/School-tools/244.webp',
     ],
     gallery: [
-      '/img/School-tools/244.jpg',
-      '/img/School-tools/244.1.jpg',
-      '/img/School-tools/244.2.jpg',
+      '/img-webp/School-tools/244.webp',
+      '/img-webp/School-tools/244.1.webp',
+      '/img-webp/School-tools/244.2.webp',
     ],
     description: 'مقص مدرسي برأس من الفولاذ المقاوم للصدأ بطول 13 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، بحلقات ناعمة غير متماثلة مصممة هندسياً.',
     specs: [
@@ -6374,7 +6374,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7058',
         images: [
-      '/img/School-tools/244.jpg',
+      '/img-webp/School-tools/244.webp',
         ],
       },
       {
@@ -6386,7 +6386,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7058',
         images: [
-      '/img/School-tools/244.1.jpg',
+      '/img-webp/School-tools/244.1.webp',
         ],
       },
       {
@@ -6398,7 +6398,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7058',
         images: [
-      '/img/School-tools/244.2.jpg',
+      '/img-webp/School-tools/244.2.webp',
         ],
       },
     ],
@@ -6413,12 +6413,12 @@ export const products: Product[] = [
     price: 170,
     rating: 4.0,
     images: [
-      '/img/School-tools/245.jpg',
+      '/img-webp/School-tools/245.webp',
     ],
     gallery: [
-      '/img/School-tools/245.jpg',
-      '/img/School-tools/245.1.jpg',
-      '/img/School-tools/245.2.jpg',
+      '/img-webp/School-tools/245.webp',
+      '/img-webp/School-tools/245.1.webp',
+      '/img-webp/School-tools/245.2.webp',
     ],
     description: 'مقص مدرسي برأس من الفولاذ المقاوم للصدأ بطول 12.7 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، بحلقات ناعمة غير متماثلة مصممة هندسياً.',
     specs: [
@@ -6435,7 +6435,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7072',
         images: [
-      '/img/School-tools/245.jpg',
+      '/img-webp/School-tools/245.webp',
         ],
       },
       {
@@ -6447,7 +6447,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7072',
         images: [
-      '/img/School-tools/245.1.jpg',
+      '/img-webp/School-tools/245.1.webp',
         ],
       },
       {
@@ -6459,7 +6459,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7072',
         images: [
-      '/img/School-tools/245.2.jpg',
+      '/img-webp/School-tools/245.2.webp',
         ],
       },
     ],
@@ -6474,13 +6474,13 @@ export const products: Product[] = [
     price: 150,
     rating: 4.0,
     images: [
-      '/img/School-tools/246.jpg',
+      '/img-webp/School-tools/246.webp',
     ],
     gallery: [
-      '/img/School-tools/246.jpg',
-      '/img/School-tools/246.1.jpg',
-      '/img/School-tools/246.2.jpg',
-      '/img/School-tools/246.3.jpg',
+      '/img-webp/School-tools/246.webp',
+      '/img-webp/School-tools/246.1.webp',
+      '/img-webp/School-tools/246.2.webp',
+      '/img-webp/School-tools/246.3.webp',
     ],
     description: 'مقص مدرسي برؤوس من الفولاذ المقاوم للصدأ بطول 13 سم، مناسب للأشخاص الذين يستخدمون اليد اليمنى، مع حلقات مريحة ومرنة وغير متماثلة.',
     specs: [
@@ -6497,7 +6497,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7059',
         images: [
-      '/img/School-tools/246.1.jpg',
+      '/img-webp/School-tools/246.1.webp',
         ],
       },
       {
@@ -6509,7 +6509,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7059',
         images: [
-      '/img/School-tools/246.2.jpg',
+      '/img-webp/School-tools/246.2.webp',
         ],
       },
       {
@@ -6521,7 +6521,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '7059',
         images: [
-      '/img/School-tools/246.3.jpg',
+      '/img-webp/School-tools/246.3.webp',
         ],
       },
     ],
@@ -6536,10 +6536,10 @@ export const products: Product[] = [
     price: 590,
     rating: 4.0,
     images: [
-      '/img/School-tools/247.jpg',
+      '/img-webp/School-tools/247.webp',
     ],
     gallery: [
-      '/img/School-tools/247.jpg',
+      '/img-webp/School-tools/247.webp',
     ],
     description: '*المقبض مصنوع من بلاستيك عالي الجودة، مما يوفر قبضة مريحة. *شفرات من الفولاذ المقاوم للصدأ ذاتية الشحذ. *الطول الإجمالي 243 مم.',
     specs: [
@@ -6556,10 +6556,10 @@ export const products: Product[] = [
     price: 650,
     rating: 4.0,
     images: [
-      '/img/School-tools/248.jpg',
+      '/img-webp/School-tools/248.webp',
     ],
     gallery: [
-      '/img/School-tools/248.jpg',
+      '/img-webp/School-tools/248.webp',
     ],
     description: '*المقبض مصنوع من بلاستيك عالي الجودة، مما يوفر قبضة مريحة. *شفرات من الفولاذ المقاوم للصدأ ذاتية الشحذ. *الطول الإجمالي 235 مم.',
     specs: [
@@ -6576,10 +6576,10 @@ export const products: Product[] = [
     price: 550,
     rating: 4.0,
     images: [
-      '/img/School-tools/249.jpg',
+      '/img-webp/School-tools/249.webp',
     ],
     gallery: [
-      '/img/School-tools/249.jpg',
+      '/img-webp/School-tools/249.webp',
     ],
     description: '*المقبض مصنوع من بلاستيك عالي الجودة، مما يوفر قبضة مريحة. *شفرات من الفولاذ المقاوم للصدأ ذاتية الشحذ. *الطول الإجمالي 215 مم.',
     specs: [
@@ -6596,10 +6596,10 @@ export const products: Product[] = [
     price: 620,
     rating: 4.0,
     images: [
-      '/img/School-tools/250.jpg',
+      '/img-webp/School-tools/250.webp',
     ],
     gallery: [
-      '/img/School-tools/250.jpg',
+      '/img-webp/School-tools/250.webp',
     ],
     description: '*المقبض مصنوع من بلاستيك عالي الجودة، مما يوفر قبضة مريحة. *شفرات من الفولاذ المقاوم للصدأ ذاتية الشحذ. *الطول الإجمالي 197 مم.',
     specs: [
@@ -6616,10 +6616,10 @@ export const products: Product[] = [
     price: 470,
     rating: 4.0,
     images: [
-      '/img/School-tools/251.jpg',
+      '/img-webp/School-tools/251.webp',
     ],
     gallery: [
-      '/img/School-tools/251.jpg',
+      '/img-webp/School-tools/251.webp',
     ],
     description: '*المقبض مصنوع من بلاستيك عالي الجودة، مما يوفر قبضة مريحة. *شفرات من الفولاذ المقاوم للصدأ ذاتية الشحذ. *الطول الإجمالي 214 مم.',
     specs: [
@@ -6636,10 +6636,10 @@ export const products: Product[] = [
     price: 550,
     rating: 4.0,
     images: [
-      '/img/School-tools/252.jpg',
+      '/img-webp/School-tools/252.webp',
     ],
     gallery: [
-      '/img/School-tools/252.jpg',
+      '/img-webp/School-tools/252.webp',
     ],
     description: '*المقبض مصنوع من بلاستيك عالي الجودة، مما يوفر قبضة مريحة. *شفرات من الفولاذ المقاوم للصدأ ذاتية الشحذ. *الطول الإجمالي 170 مم.',
     specs: [
@@ -6656,10 +6656,10 @@ export const products: Product[] = [
     price: 410,
     rating: 4.0,
     images: [
-      '/img/School-tools/253.jpg',
+      '/img-webp/School-tools/253.webp',
     ],
     gallery: [
-      '/img/School-tools/253.jpg',
+      '/img-webp/School-tools/253.webp',
     ],
     description: '*المقبض مصنوع من بلاستيك عالي الجودة، مما يوفر قبضة مريحة. *شفرات من الفولاذ المقاوم للصدأ ذاتية الشحذ. *الطول الإجمالي 193 مم.',
     specs: [
@@ -6676,10 +6676,10 @@ export const products: Product[] = [
     price: 370,
     rating: 4.0,
     images: [
-      '/img/School-tools/254.jpg',
+      '/img-webp/School-tools/254.webp',
     ],
     gallery: [
-      '/img/School-tools/254.jpg',
+      '/img-webp/School-tools/254.webp',
     ],
     description: '*المقبض مصنوع من بلاستيك عالي الجودة، مما يوفر قبضة مريحة. *شفرات من الفولاذ المقاوم للصدأ ذاتية الشحذ. *الطول الإجمالي 165 مم.',
     specs: [
@@ -6696,13 +6696,13 @@ export const products: Product[] = [
     price: 470,
     rating: 4.0,
     images: [
-      '/img/School-tools/255.jpg',
+      '/img-webp/School-tools/255.webp',
     ],
     gallery: [
-      '/img/School-tools/255.jpg',
-      '/img/School-tools/255.1.jpg',
-      '/img/School-tools/255.2.jpg',
-      '/img/School-tools/255.3.jpg',
+      '/img-webp/School-tools/255.webp',
+      '/img-webp/School-tools/255.1.webp',
+      '/img-webp/School-tools/255.2.webp',
+      '/img-webp/School-tools/255.3.webp',
     ],
     description: 'مدور مدرسي، تتميز بصلابة جيدة، وأذرع معدنية، وألوان متنوعة.',
     specs: [
@@ -6719,7 +6719,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5363',
         images: [
-      '/img/School-tools/255.jpg',
+      '/img-webp/School-tools/255.webp',
         ],
       },
       {
@@ -6731,7 +6731,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5363',
         images: [
-      '/img/School-tools/255.1.jpg',
+      '/img-webp/School-tools/255.1.webp',
         ],
       },
       {
@@ -6743,7 +6743,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5363',
         images: [
-      '/img/School-tools/255.2.jpg',
+      '/img-webp/School-tools/255.2.webp',
         ],
       },
       {
@@ -6755,7 +6755,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5363',
         images: [
-      '/img/School-tools/255.3.jpg',
+      '/img-webp/School-tools/255.3.webp',
         ],
       },
     ],
@@ -6770,13 +6770,13 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/256.jpg',
+      '/img-webp/School-tools/256.webp',
     ],
     gallery: [
-      '/img/School-tools/256.jpg',
-      '/img/School-tools/256.1.jpg',
-      '/img/School-tools/256.2.jpg',
-      '/img/School-tools/256.3.jpg',
+      '/img-webp/School-tools/256.webp',
+      '/img-webp/School-tools/256.1.webp',
+      '/img-webp/School-tools/256.2.webp',
+      '/img-webp/School-tools/256.3.webp',
     ],
     description: 'مجموعة من 3 قطع، هيكل معدني، سهلة الحمل والتخزين، أداة ممتازة لرسم الخطوط العريضة والدوائر، وتستخدم أيضاً لتحديد الحواف.',
     specs: [
@@ -6793,7 +6793,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5324',
         images: [
-      '/img/School-tools/256.1.jpg',
+      '/img-webp/School-tools/256.1.webp',
         ],
       },
       {
@@ -6805,7 +6805,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5324',
         images: [
-      '/img/School-tools/256.2.jpg',
+      '/img-webp/School-tools/256.2.webp',
         ],
       },
       {
@@ -6817,7 +6817,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5324',
         images: [
-      '/img/School-tools/256.3.jpg',
+      '/img-webp/School-tools/256.3.webp',
         ],
       },
       {
@@ -6829,7 +6829,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5324',
         images: [
-      '/img/School-tools/256.4.jpg',
+      '/img-webp/School-tools/256.4.webp',
         ],
       },
     ],
@@ -6844,12 +6844,12 @@ export const products: Product[] = [
     price: 420,
     rating: 4.0,
     images: [
-      '/img/School-tools/257.jpg',
+      '/img-webp/School-tools/257.webp',
     ],
     gallery: [
-      '/img/School-tools/257.jpg',
-      '/img/School-tools/257.1.jpg',
-      '/img/School-tools/257.2.jpg',
+      '/img-webp/School-tools/257.webp',
+      '/img-webp/School-tools/257.1.webp',
+      '/img-webp/School-tools/257.2.webp',
     ],
     description: 'عرض تقليدي وعصري في آن واحد، يجمع بين الخبرة والابتكارات الثورية، مع إمكانية اختيار الكلية + 10 سنوات',
     specs: [
@@ -6866,7 +6866,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '119410',
         images: [
-      '/img/School-tools/257.jpg',
+      '/img-webp/School-tools/257.webp',
         ],
       },
       {
@@ -6878,7 +6878,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '119410',
         images: [
-      '/img/School-tools/257.2.jpg',
+      '/img-webp/School-tools/257.2.webp',
         ],
       },
       {
@@ -6890,7 +6890,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '119410',
         images: [
-      '/img/School-tools/257.1.jpg',
+      '/img-webp/School-tools/257.1.webp',
         ],
       },
     ],
@@ -6905,11 +6905,11 @@ export const products: Product[] = [
     price: 420,
     rating: 4.0,
     images: [
-      '/img/School-tools/258.jpg',
+      '/img-webp/School-tools/258.webp',
     ],
     gallery: [
-      '/img/School-tools/258.jpg',
-      '/img/School-tools/258.1.jpg',
+      '/img-webp/School-tools/258.webp',
+      '/img-webp/School-tools/258.1.webp',
     ],
     description: 'التعلم: مجموعة كاملة من مداور  التعليمية الملونة بتصميم مريح، تراعي جميع جوانب السلامة وبيئة العمل، مناسبة للأعمار من 6 سنوات فما فوق.',
     specs: [
@@ -6926,7 +6926,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '181511',
         images: [
-      '/img/School-tools/258.jpg',
+      '/img-webp/School-tools/258.webp',
         ],
       },
       {
@@ -6938,7 +6938,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '181511',
         images: [
-      '/img/School-tools/258.1.jpg',
+      '/img-webp/School-tools/258.1.webp',
         ],
       },
     ],
@@ -6953,11 +6953,11 @@ export const products: Product[] = [
     price: 290,
     rating: 4.0,
     images: [
-      '/img/School-tools/259.jpg',
+      '/img-webp/School-tools/259.webp',
     ],
     gallery: [
-      '/img/School-tools/259.jpg',
-      '/img/School-tools/259.1.jpg',
+      '/img-webp/School-tools/259.webp',
+      '/img-webp/School-tools/259.1.webp',
     ],
     description: 'التعلم: مجموعة كاملة من المدور المدرسية الملونة بتصميم مطمئن، تعالج جميع قضايا السلامة وبيئة العمل.',
     specs: [
@@ -6974,7 +6974,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '018111',
         images: [
-      '/img/School-tools/259.jpg',
+      '/img-webp/School-tools/259.webp',
         ],
       },
       {
@@ -6986,7 +6986,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '018111',
         images: [
-      '/img/School-tools/259.1.jpg',
+      '/img-webp/School-tools/259.1.webp',
         ],
       },
     ],
@@ -7001,13 +7001,13 @@ export const products: Product[] = [
     price: 370,
     rating: 4.0,
     images: [
-      '/img/School-tools/260.3.jpg',
+      '/img-webp/School-tools/260.3.webp',
     ],
     gallery: [
-      '/img/School-tools/260.3.jpg',
-      '/img/School-tools/260.jpg',
-      '/img/School-tools/260.1.jpg',
-      '/img/School-tools/260.2.jpg',
+      '/img-webp/School-tools/260.3.webp',
+      '/img-webp/School-tools/260.webp',
+      '/img-webp/School-tools/260.1.webp',
+      '/img-webp/School-tools/260.2.webp',
     ],
     description: 'التعلم: مجموعة كاملة من المدوار المدرسية الملونة بتصميم مطمئن، تعالج جميع قضايا السلامة وبيئة العمل.',
     specs: [
@@ -7024,7 +7024,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '191611',
         images: [
-      '/img/School-tools/260.jpg',
+      '/img-webp/School-tools/260.webp',
         ],
       },
       {
@@ -7036,7 +7036,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '191611',
         images: [
-      '/img/School-tools/260.1.jpg',
+      '/img-webp/School-tools/260.1.webp',
         ],
       },
       {
@@ -7048,7 +7048,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '191611',
         images: [
-      '/img/School-tools/260.2.jpg',
+      '/img-webp/School-tools/260.2.webp',
         ],
       },
     ],
@@ -7063,12 +7063,12 @@ export const products: Product[] = [
     price: 985,
     rating: 4.0,
     images: [
-      '/img/School-tools/261.jpg',
+      '/img-webp/School-tools/261.webp',
     ],
     gallery: [
-      '/img/School-tools/261.jpg',
-      '/img/School-tools/261.1.jpg',
-      '/img/School-tools/261.2.jpg',
+      '/img-webp/School-tools/261.webp',
+      '/img-webp/School-tools/261.1.webp',
+      '/img-webp/School-tools/261.2.webp',
     ],
     description: 'التعلم: مجموعة كاملة من المدوار المدرسية الملونة بتصميم مطمئن، تعالج جميع قضايا السلامة وبيئة العمل، + 6 سنوات.',
     specs: [
@@ -7085,7 +7085,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '192611',
         images: [
-      '/img/School-tools/261.jpg',
+      '/img-webp/School-tools/261.webp',
         ],
       },
       {
@@ -7097,7 +7097,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '192611',
         images: [
-      '/img/School-tools/261.1.jpg',
+      '/img-webp/School-tools/261.1.webp',
         ],
       },
       {
@@ -7109,7 +7109,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '192611',
         images: [
-      '/img/School-tools/261.2.jpg',
+      '/img-webp/School-tools/261.2.webp',
         ],
       },
     ],
@@ -7124,17 +7124,17 @@ export const products: Product[] = [
     price: 680,
     rating: 4.0,
     images: [
-      '/img/School-tools/262.3.jpg',
+      '/img-webp/School-tools/262.3.webp',
     ],
     gallery: [
-      '/img/School-tools/262.3.jpg',
-      '/img/School-tools/262.1.jpg',
-      '/img/School-tools/262.2.jpg',
-      '/img/School-tools/262.4.jpg',
-      '/img/School-tools/262.5.jpg',
-      '/img/School-tools/262.6.jpg',
-      '/img/School-tools/262.7.jpg',
-      '/img/School-tools/262.8.jpg',
+      '/img-webp/School-tools/262.3.webp',
+      '/img-webp/School-tools/262.1.webp',
+      '/img-webp/School-tools/262.2.webp',
+      '/img-webp/School-tools/262.4.webp',
+      '/img-webp/School-tools/262.5.webp',
+      '/img-webp/School-tools/262.6.webp',
+      '/img-webp/School-tools/262.7.webp',
+      '/img-webp/School-tools/262.8.webp',
     ],
     description: 'مجموعة تجمع بين الأصالة والحداثة، وتمزج بين الخبرة والابتكارات الثورية، مختارة من قبل خريجي الجامعات لأكثر من 10 سنوات، بأذرع معدنية وغطاء مريح.',
     specs: [
@@ -7151,9 +7151,9 @@ export const products: Product[] = [
         stock: 50,
         sku: '195210',
         images: [
-      '/img/School-tools/262.3.jpg',
-      '/img/School-tools/262.4.jpg',
-      '/img/School-tools/262.5.jpg',
+      '/img-webp/School-tools/262.3.webp',
+      '/img-webp/School-tools/262.4.webp',
+      '/img-webp/School-tools/262.5.webp',
         ],
       },
       {
@@ -7165,9 +7165,9 @@ export const products: Product[] = [
         stock: 50,
         sku: '195210',
         images: [
-      '/img/School-tools/262.6.jpg',
-      '/img/School-tools/262.7.jpg',
-      '/img/School-tools/262.8.jpg',
+      '/img-webp/School-tools/262.6.webp',
+      '/img-webp/School-tools/262.7.webp',
+      '/img-webp/School-tools/262.8.webp',
         ],
       },
       {
@@ -7179,8 +7179,8 @@ export const products: Product[] = [
         stock: 50,
         sku: '195210',
         images: [
-      '/img/School-tools/262.1.jpg',
-      '/img/School-tools/262.2.jpg',
+      '/img-webp/School-tools/262.1.webp',
+      '/img-webp/School-tools/262.2.webp',
         ],
       },
     ],
@@ -7195,17 +7195,17 @@ export const products: Product[] = [
     price: 590,
     rating: 4.0,
     images: [
-      '/img/School-tools/263.jpg',
+      '/img-webp/School-tools/263.webp',
     ],
     gallery: [
-      '/img/School-tools/263.jpg',
-      '/img/School-tools/263.1.jpg',
-      '/img/School-tools/263.2.jpg',
-      '/img/School-tools/263.3.jpg',
-      '/img/School-tools/263.4.jpg',
-      '/img/School-tools/263.5.jpg',
-      '/img/School-tools/263.6.jpg',
-      '/img/School-tools/263.7.jpg',
+      '/img-webp/School-tools/263.webp',
+      '/img-webp/School-tools/263.1.webp',
+      '/img-webp/School-tools/263.2.webp',
+      '/img-webp/School-tools/263.3.webp',
+      '/img-webp/School-tools/263.4.webp',
+      '/img-webp/School-tools/263.5.webp',
+      '/img-webp/School-tools/263.6.webp',
+      '/img-webp/School-tools/263.7.webp',
     ],
     description: 'عرض يجمع بين الأصالة والحداثة، ويجمع بين الخبرة والابتكارات الثورية، مع إمكانية اختيار الكلية + 10 سنوات.',
     specs: [
@@ -7222,9 +7222,9 @@ export const products: Product[] = [
         stock: 50,
         sku: '036910',
         images: [
-      '/img/School-tools/263.jpg',
-      '/img/School-tools/263.1.jpg',
-      '/img/School-tools/263.2.jpg',
+      '/img-webp/School-tools/263.webp',
+      '/img-webp/School-tools/263.1.webp',
+      '/img-webp/School-tools/263.2.webp',
         ],
       },
       {
@@ -7236,9 +7236,9 @@ export const products: Product[] = [
         stock: 50,
         sku: '036910',
         images: [
-      '/img/School-tools/263.6.jpg',
-      '/img/School-tools/263.7.jpg',
-      '/img/School-tools/263.8.jpg',
+      '/img-webp/School-tools/263.6.webp',
+      '/img-webp/School-tools/263.7.webp',
+      '/img-webp/School-tools/263.8.webp',
         ],
       },
       {
@@ -7250,9 +7250,9 @@ export const products: Product[] = [
         stock: 50,
         sku: '036910',
         images: [
-      '/img/School-tools/263.3.jpg',
-      '/img/School-tools/263.4.jpg',
-      '/img/School-tools/263.5.jpg',
+      '/img-webp/School-tools/263.3.webp',
+      '/img-webp/School-tools/263.4.webp',
+      '/img-webp/School-tools/263.5.webp',
         ],
       },
     ],
@@ -7267,12 +7267,12 @@ export const products: Product[] = [
     price: 420,
     rating: 4.0,
     images: [
-      '/img/School-tools/264.jpg',
+      '/img-webp/School-tools/264.webp',
     ],
     gallery: [
-      '/img/School-tools/264.jpg',
-      '/img/School-tools/264.1.jpg',
-      '/img/School-tools/264.2.jpg',
+      '/img-webp/School-tools/264.webp',
+      '/img-webp/School-tools/264.1.webp',
+      '/img-webp/School-tools/264.2.webp',
     ],
     description: 'ورق عالي الجودة لمختلف المراحل الدراسية',
     specs: [
@@ -7289,7 +7289,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9339',
         images: [
-      '/img/School-tools/264.jpg',
+      '/img-webp/School-tools/264.webp',
         ],
       },
       {
@@ -7301,7 +7301,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9339',
         images: [
-      '/img/School-tools/264.1.jpg',
+      '/img-webp/School-tools/264.1.webp',
         ],
       },
       {
@@ -7313,7 +7313,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9339',
         images: [
-      '/img/School-tools/264.2.jpg',
+      '/img-webp/School-tools/264.2.webp',
         ],
       },
     ],
@@ -7328,11 +7328,11 @@ export const products: Product[] = [
     price: 475,
     rating: 4.0,
     images: [
-      '/img/School-tools/265.jpg',
+      '/img-webp/School-tools/265.webp',
     ],
     gallery: [
-      '/img/School-tools/265.jpg',
-      '/img/School-tools/265.1.jpg',
+      '/img-webp/School-tools/265.webp',
+      '/img-webp/School-tools/265.1.webp',
     ],
     description: 'ورق ذو جودة عالية مناسب لمختلف المراحل الدراسية.',
     specs: [
@@ -7349,7 +7349,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9284',
         images: [
-      '/img/School-tools/265.jpg',
+      '/img-webp/School-tools/265.webp',
         ],
       },
       {
@@ -7361,7 +7361,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9284',
         images: [
-      '/img/School-tools/265.1.jpg',
+      '/img-webp/School-tools/265.1.webp',
         ],
       },
     ],
@@ -7376,10 +7376,10 @@ export const products: Product[] = [
     price: 195,
     rating: 4.0,
     images: [
-      '/img/School-tools/266.jpg',
+      '/img-webp/School-tools/266.webp',
     ],
     gallery: [
-      '/img/School-tools/266.jpg',
+      '/img-webp/School-tools/266.webp',
     ],
     description: 'ورق ذو جودة عالية مناسب لمختلف المراحل الدراسية.',
     specs: [
@@ -7397,12 +7397,12 @@ export const products: Product[] = [
     price: 940,
     rating: 4.0,
     images: [
-      '/img/School-tools/267.jpg',
+      '/img-webp/School-tools/267.webp',
     ],
     gallery: [
-      '/img/School-tools/267.jpg',
-      '/img/School-tools/267.1.jpg',
-      '/img/School-tools/267.2.jpg',
+      '/img-webp/School-tools/267.webp',
+      '/img-webp/School-tools/267.1.webp',
+      '/img-webp/School-tools/267.2.webp',
     ],
     description: 'للاستخدام في المدارس والمكاتب.',
     specs: [
@@ -7419,7 +7419,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9287',
         images: [
-      '/img/School-tools/267.jpg',
+      '/img-webp/School-tools/267.webp',
         ],
       },
       {
@@ -7431,7 +7431,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9287',
         images: [
-      '/img/School-tools/267.1.jpg',
+      '/img-webp/School-tools/267.1.webp',
         ],
       },
       {
@@ -7443,7 +7443,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9287',
         images: [
-      '/img/School-tools/267.2.jpg',
+      '/img-webp/School-tools/267.2.webp',
         ],
       },
     ],
@@ -7458,12 +7458,12 @@ export const products: Product[] = [
     price: 290,
     rating: 4.0,
     images: [
-      '/img/School-tools/268.jpg',
+      '/img-webp/School-tools/268.webp',
     ],
     gallery: [
-      '/img/School-tools/268.jpg',
-      '/img/School-tools/268.1.jpg',
-      '/img/School-tools/268.2.jpg',
+      '/img-webp/School-tools/268.webp',
+      '/img-webp/School-tools/268.1.webp',
+      '/img-webp/School-tools/268.2.webp',
     ],
     description: 'للاستخدام في المدارس والمكاتب.',
     specs: [
@@ -7480,7 +7480,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9287',
         images: [
-      '/img/School-tools/268.jpg',
+      '/img-webp/School-tools/268.webp',
         ],
       },
       {
@@ -7492,7 +7492,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9287',
         images: [
-      '/img/School-tools/268.1.jpg',
+      '/img-webp/School-tools/268.1.webp',
         ],
       },
       {
@@ -7504,7 +7504,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9287',
         images: [
-      '/img/School-tools/268.2.jpg',
+      '/img-webp/School-tools/268.2.webp',
         ],
       },
     ],
@@ -7519,10 +7519,10 @@ export const products: Product[] = [
     price: 790,
     rating: 4.0,
     images: [
-      '/img/School-tools/269.jpg',
+      '/img-webp/School-tools/269.webp',
     ],
     gallery: [
-      '/img/School-tools/269.jpg',
+      '/img-webp/School-tools/269.webp',
     ],
     description: 'غطاء مطلي قابل للغسل، مناسب لخمسة أنواع من المواد (3 في 1)، فاصل قابل للإزالة.',
     specs: [
@@ -7539,10 +7539,10 @@ export const products: Product[] = [
     price: 1100,
     rating: 4.0,
     images: [
-      '/img/School-tools/270.jpg',
+      '/img-webp/School-tools/270.webp',
     ],
     gallery: [
-      '/img/School-tools/270.jpg',
+      '/img-webp/School-tools/270.webp',
     ],
     description: 'غطاء مغلف قابل للغسل، قابل للاستخدام مع 5 مواد (5 في 1)، فاصل قابل للإزالة.',
     specs: [
@@ -7559,13 +7559,13 @@ export const products: Product[] = [
     price: 520,
     rating: 4.0,
     images: [
-      '/img/School-tools/271.3.jpg',
+      '/img-webp/School-tools/271.3.webp',
     ],
     gallery: [
-      '/img/School-tools/271.3.jpg',
-      '/img/School-tools/271.1.jpg',
-      '/img/School-tools/271.2.jpg',
-      '/img/School-tools/271.jpg',
+      '/img-webp/School-tools/271.3.webp',
+      '/img-webp/School-tools/271.1.webp',
+      '/img-webp/School-tools/271.2.webp',
+      '/img-webp/School-tools/271.webp',
     ],
     description: 'مسطرة واحدة بطول 15 سم. مثلث قائم الزاوية واحد 60°/15 سم. منقلة واحدة 180°/10 سم.',
     specs: [
@@ -7582,7 +7582,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '895024',
         images: [
-      '/img/School-tools/271.jpg',
+      '/img-webp/School-tools/271.webp',
         ],
       },
       {
@@ -7594,7 +7594,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '895024',
         images: [
-      '/img/School-tools/271.1.jpg',
+      '/img-webp/School-tools/271.1.webp',
         ],
       },
       {
@@ -7606,7 +7606,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '895024',
         images: [
-      '/img/School-tools/271.2.jpg',
+      '/img-webp/School-tools/271.2.webp',
         ],
       },
     ],
@@ -7621,11 +7621,11 @@ export const products: Product[] = [
     price: 460,
     rating: 4.0,
     images: [
-      '/img/School-tools/272.jpg',
+      '/img-webp/School-tools/272.webp',
     ],
     gallery: [
-      '/img/School-tools/272.jpg',
-      '/img/School-tools/272.1.jpg',
+      '/img-webp/School-tools/272.webp',
+      '/img-webp/School-tools/272.1.webp',
     ],
     description: 'مسطرة واحدة بطول 30 سم، ومثلث قائم الزاوية واحد بزاوية 60 درجة/21 سم، ومثلث قائم الزاوية واحد بزاوية 45 درجة/21 سم، ومنقلة واحدة بزاوية 180 درجة/12 سم',
     specs: [
@@ -7642,7 +7642,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '897147',
         images: [
-      '/img/School-tools/272.jpg',
+      '/img-webp/School-tools/272.webp',
         ],
       },
       {
@@ -7654,7 +7654,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '897147',
         images: [
-      '/img/School-tools/272.1.jpg',
+      '/img-webp/School-tools/272.1.webp',
         ],
       },
     ],
@@ -7669,10 +7669,10 @@ export const products: Product[] = [
     price: 155,
     rating: 4.0,
     images: [
-      '/img/School-tools/273.jpg',
+      '/img-webp/School-tools/273.webp',
     ],
     gallery: [
-      '/img/School-tools/273.jpg',
+      '/img-webp/School-tools/273.webp',
     ],
     description: 'تُستخدم منقلة إيزومار في الهندسة لقياس الزوايا ورسم الأشكال الهندسية.',
     specs: [
@@ -7689,10 +7689,10 @@ export const products: Product[] = [
     price: 220,
     rating: 4.0,
     images: [
-      '/img/School-tools/274.jpg',
+      '/img-webp/School-tools/274.webp',
     ],
     gallery: [
-      '/img/School-tools/274.jpg',
+      '/img-webp/School-tools/274.webp',
     ],
     description: 'صُنع جهاز قياس الإيزومارز من بلاستيك شفاف بسماكة 1.5 مم. وهو صلب وهش، لذا لا يمكن ثنيه. ويمكن استخدامه في العديد من التطبيقات الفنية والمعمارية والتقنية والحرفية.',
     specs: [
@@ -7709,10 +7709,10 @@ export const products: Product[] = [
     price: 370,
     rating: 4.0,
     images: [
-      '/img/School-tools/275.jpg',
+      '/img-webp/School-tools/275.webp',
     ],
     gallery: [
-      '/img/School-tools/275.jpg',
+      '/img-webp/School-tools/275.webp',
     ],
     description: 'صُنع جهاز قياس الإيزومارز من بلاستيك شفاف بسماكة 1.5 مم. وهو صلب وهش، لذا لا يمكن ثنيه. ويمكن استخدامه في العديد من التطبيقات الفنية والمعمارية والتقنية والحرفية.',
     specs: [
@@ -7729,10 +7729,10 @@ export const products: Product[] = [
     price: 920,
     rating: 4.0,
     images: [
-      '/img/School-tools/276.jpg',
+      '/img-webp/School-tools/276.webp',
     ],
     gallery: [
-      '/img/School-tools/276.jpg',
+      '/img-webp/School-tools/276.webp',
     ],
     description: 'صُنع جهاز قياس الإيزومارز من بلاستيك شفاف بسماكة 1.5 مم. وهو صلب وهش، لذا لا يمكن ثنيه. ويمكن استخدامه في العديد من التطبيقات الفنية والمعمارية والتقنية والحرفية.',
     specs: [
@@ -7749,13 +7749,13 @@ export const products: Product[] = [
     price: 250,
     rating: 4.0,
     images: [
-      '/img/School-tools/277.2.jpg',
+      '/img-webp/School-tools/277.2.webp',
     ],
     gallery: [
-      '/img/School-tools/277.2.jpg',
-      '/img/School-tools/277.jpg',
-      '/img/School-tools/277.1.jpg',
-      '/img/School-tools/277.3.jpg',
+      '/img-webp/School-tools/277.2.webp',
+      '/img-webp/School-tools/277.webp',
+      '/img-webp/School-tools/277.1.webp',
+      '/img-webp/School-tools/277.3.webp',
     ],
     description: 'مجموعة من 3 قطع معدنية، سهلة الحمل والتخزين، أداة ممتازة لرسم الخطوط العريضة والدوائر، وتستخدم أيضاً لتحديد الحواف.',
     specs: [
@@ -7772,7 +7772,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '3089',
         images: [
-      '/img/School-tools/277.2.jpg',
+      '/img-webp/School-tools/277.2.webp',
         ],
       },
       {
@@ -7784,7 +7784,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '3089',
         images: [
-      '/img/School-tools/277.jpg',
+      '/img-webp/School-tools/277.webp',
         ],
       },
       {
@@ -7796,7 +7796,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '3089',
         images: [
-      '/img/School-tools/277.1.jpg',
+      '/img-webp/School-tools/277.1.webp',
         ],
       },
       {
@@ -7808,7 +7808,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '3089',
         images: [
-      '/img/School-tools/277.3.jpg',
+      '/img-webp/School-tools/277.3.webp',
         ],
       },
     ],
@@ -7823,13 +7823,13 @@ export const products: Product[] = [
     price: 320,
     rating: 4.0,
     images: [
-      '/img/School-tools/278.2.jpg',
+      '/img-webp/School-tools/278.2.webp',
     ],
     gallery: [
-      '/img/School-tools/278.2.jpg',
-      '/img/School-tools/278.jpg',
-      '/img/School-tools/278.1.jpg',
-      '/img/School-tools/278.3.jpg',
+      '/img-webp/School-tools/278.2.webp',
+      '/img-webp/School-tools/278.webp',
+      '/img-webp/School-tools/278.1.webp',
+      '/img-webp/School-tools/278.3.webp',
     ],
     description: 'مجموعة أدوات هندسية ثلاثية؛ مجموعة أدوات مصنوعة من مادة ناعمة وغير قابلة للكسر للرسم الهندسي.',
     specs: [
@@ -7846,7 +7846,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4531',
         images: [
-      '/img/School-tools/278.2.jpg',
+      '/img-webp/School-tools/278.2.webp',
         ],
       },
       {
@@ -7858,7 +7858,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4531',
         images: [
-      '/img/School-tools/278.jpg',
+      '/img-webp/School-tools/278.webp',
         ],
       },
       {
@@ -7870,7 +7870,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4531',
         images: [
-      '/img/School-tools/278.1.jpg',
+      '/img-webp/School-tools/278.1.webp',
         ],
       },
       {
@@ -7882,7 +7882,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4531',
         images: [
-      '/img/School-tools/278.3.jpg',
+      '/img-webp/School-tools/278.3.webp',
         ],
       },
     ],
@@ -7897,13 +7897,13 @@ export const products: Product[] = [
     price: 410,
     rating: 4.0,
     images: [
-      '/img/School-tools/279.2.jpg',
+      '/img-webp/School-tools/279.2.webp',
     ],
     gallery: [
-      '/img/School-tools/279.2.jpg',
-      '/img/School-tools/279.jpg',
-      '/img/School-tools/279.1.jpg',
-      '/img/School-tools/279.3.jpg',
+      '/img-webp/School-tools/279.2.webp',
+      '/img-webp/School-tools/279.webp',
+      '/img-webp/School-tools/279.1.webp',
+      '/img-webp/School-tools/279.3.webp',
     ],
     description: 'مجموعة أدوات هندسية مكونة من 4 ألعاب؛ مجموعة أدوات مصنوعة من مادة مرنة وغير قابلة للكسر للرسم الهندسي.',
     specs: [
@@ -7920,7 +7920,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4533',
         images: [
-      '/img/School-tools/279.2.jpg',
+      '/img-webp/School-tools/279.2.webp',
         ],
       },
       {
@@ -7932,7 +7932,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4533',
         images: [
-      '/img/School-tools/279.jpg',
+      '/img-webp/School-tools/279.webp',
         ],
       },
       {
@@ -7944,7 +7944,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4533',
         images: [
-      '/img/School-tools/279.1.jpg',
+      '/img-webp/School-tools/279.1.webp',
         ],
       },
       {
@@ -7956,7 +7956,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4533',
         images: [
-      '/img/School-tools/279.3.jpg',
+      '/img-webp/School-tools/279.3.webp',
         ],
       },
     ],
@@ -7971,11 +7971,11 @@ export const products: Product[] = [
     price: 490,
     rating: 4.0,
     images: [
-      '/img/School-tools/280.jpg',
+      '/img-webp/School-tools/280.webp',
     ],
     gallery: [
-      '/img/School-tools/280.jpg',
-      '/img/School-tools/280.1.jpg',
+      '/img-webp/School-tools/280.webp',
+      '/img-webp/School-tools/280.1.webp',
     ],
     description: 'تتحمل هذه المنتجات الانحناء والصدمات داخل الحقيبة المدرسية. تتضمن المجموعة: مسطرة مزدوجة التدريج، مسطرة 20 سم، مثلث قائم الزاوية 60°/21 سم، مثلث قائم الزاوية 45°/21 سم، ومنقلة 180°/12 سم',
     specs: [
@@ -7992,7 +7992,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '981703',
         images: [
-      '/img/School-tools/280.jpg',
+      '/img-webp/School-tools/280.webp',
         ],
       },
       {
@@ -8004,7 +8004,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '981703',
         images: [
-      '/img/School-tools/280.1.jpg',
+      '/img-webp/School-tools/280.1.webp',
         ],
       },
     ],
@@ -8019,11 +8019,11 @@ export const products: Product[] = [
     price: 640,
     rating: 4.0,
     images: [
-      '/img/School-tools/281.jpg',
+      '/img-webp/School-tools/281.webp',
     ],
     gallery: [
-      '/img/School-tools/281.jpg',
-      '/img/School-tools/281.1.jpg',
+      '/img-webp/School-tools/281.webp',
+      '/img-webp/School-tools/281.1.webp',
     ],
     description: 'جذاب: تصميم خطي لافت للنظر ومؤثر، مسطرة واحدة بطول 20 سم، مثلث قائم الزاوية واحد بزاوية 60 درجة/21 سم، مثلث قائم الزاوية واحد بزاوية 45 درجة/21 سم، منقلة واحدة بزاوية 180 درجة/12 سم',
     specs: [
@@ -8040,7 +8040,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '897158',
         images: [
-      '/img/School-tools/281.jpg',
+      '/img-webp/School-tools/281.webp',
         ],
       },
       {
@@ -8052,7 +8052,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '897158',
         images: [
-      '/img/School-tools/281.1.jpg',
+      '/img-webp/School-tools/281.1.webp',
         ],
       },
       {
@@ -8064,7 +8064,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '897158',
         images: [
-      '/img/School-tools/281.2.jpg',
+      '/img-webp/School-tools/281.2.webp',
         ],
       },
     ],
@@ -8079,11 +8079,11 @@ export const products: Product[] = [
     price: 710,
     rating: 4.0,
     images: [
-      '/img/School-tools/282.jpg',
+      '/img-webp/School-tools/282.webp',
     ],
     gallery: [
-      '/img/School-tools/282.jpg',
-      '/img/School-tools/282.1.jpg',
+      '/img-webp/School-tools/282.webp',
+      '/img-webp/School-tools/282.1.webp',
     ],
     description: 'مسطرة واحدة بطول 30 سم، ومثلث قائم الزاوية واحد بطول 60 درجة/21 سم، ومثلث قائم الزاوية واحد بطول 45 درجة/21 سم، ومنقلة واحدة بطول 180 درجة/12 سم',
     specs: [
@@ -8100,7 +8100,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '897157',
         images: [
-      '/img/School-tools/282.jpg',
+      '/img-webp/School-tools/282.webp',
         ],
       },
       {
@@ -8112,7 +8112,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '897157',
         images: [
-      '/img/School-tools/282.1.jpg',
+      '/img-webp/School-tools/282.1.webp',
         ],
       },
       {
@@ -8124,7 +8124,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '897157',
         images: [
-      '/img/School-tools/282.2.jpg',
+      '/img-webp/School-tools/282.2.webp',
         ],
       },
     ],
@@ -8139,12 +8139,12 @@ export const products: Product[] = [
     price: 1050,
     rating: 4.0,
     images: [
-      '/img/School-tools/283.jpg',
+      '/img-webp/School-tools/283.webp',
     ],
     gallery: [
-      '/img/School-tools/283.jpg',
-      '/img/School-tools/283.1.jpg',
-      '/img/School-tools/283.2.jpg',
+      '/img-webp/School-tools/283.webp',
+      '/img-webp/School-tools/283.1.webp',
+      '/img-webp/School-tools/283.2.webp',
     ],
     description: 'مسطرة واحدة بطول 30 سم، ومثلث قائم الزاوية واحد بزاوية 60 درجة/21 سم، ومثلث قائم الزاوية واحد بزاوية 45 درجة/21 سم، ومنقلة واحدة بزاوية 180 درجة/12 سم',
     specs: [
@@ -8161,7 +8161,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '231066',
         images: [
-      '/img/School-tools/283.1.jpg',
+      '/img-webp/School-tools/283.1.webp',
         ],
       },
       {
@@ -8173,7 +8173,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '231066',
         images: [
-      '/img/School-tools/283.2.jpg',
+      '/img-webp/School-tools/283.2.webp',
         ],
       },
       {
@@ -8185,7 +8185,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '231066',
         images: [
-      '/img/School-tools/283.3.jpg',
+      '/img-webp/School-tools/283.3.webp',
         ],
       },
     ],
@@ -8200,10 +8200,10 @@ export const products: Product[] = [
     price: 640,
     rating: 4.0,
     images: [
-      '/img/School-tools/284.jpg',
+      '/img-webp/School-tools/284.webp',
     ],
     gallery: [
-      '/img/School-tools/284.jpg',
+      '/img-webp/School-tools/284.webp',
     ],
     description: 'ذعبوة من 7 أقلام تحديد برؤوس إزميلية 4 مم مصنوعة من الأكريليك، مزودة بعبوات الحبر الخاصة بها، طول الكتابة 250 متر. يمكن استخدام ما يصل إلى 8 عبوات حبر لكل قلم.',
     specs: [
@@ -8221,12 +8221,12 @@ export const products: Product[] = [
     price: 750,
     rating: 4.0,
     images: [
-      '/img/School-tools/285.jpg',
+      '/img-webp/School-tools/285.webp',
     ],
     gallery: [
-      '/img/School-tools/285.jpg',
-      '/img/School-tools/285.1.jpg',
-      '/img/School-tools/285.2.jpg',
+      '/img-webp/School-tools/285.webp',
+      '/img-webp/School-tools/285.1.webp',
+      '/img-webp/School-tools/285.2.webp',
     ],
     description: 'للاستخدام في المدارس والمكاتب.',
     specs: [
@@ -8243,7 +8243,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9286',
         images: [
-      '/img/School-tools/285.jpg',
+      '/img-webp/School-tools/285.webp',
         ],
       },
       {
@@ -8255,7 +8255,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9286',
         images: [
-      '/img/School-tools/285.1.jpg',
+      '/img-webp/School-tools/285.1.webp',
         ],
       },
       {
@@ -8267,7 +8267,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9286',
         images: [
-      '/img/School-tools/285.2.jpg',
+      '/img-webp/School-tools/285.2.webp',
         ],
       },
     ],
@@ -8282,12 +8282,12 @@ export const products: Product[] = [
     price: 550,
     rating: 4.0,
     images: [
-      '/img/School-tools/286.jpg',
+      '/img-webp/School-tools/286.webp',
     ],
     gallery: [
-      '/img/School-tools/286.jpg',
-      '/img/School-tools/286.1.jpg',
-      '/img/School-tools/286.2.jpg',
+      '/img-webp/School-tools/286.webp',
+      '/img-webp/School-tools/286.1.webp',
+      '/img-webp/School-tools/286.2.webp',
     ],
     description: 'للاستخدام في المدارس والمكاتب.',
     specs: [
@@ -8304,7 +8304,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9285',
         images: [
-      '/img/School-tools/286.jpg',
+      '/img-webp/School-tools/286.webp',
         ],
       },
       {
@@ -8316,7 +8316,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9285',
         images: [
-      '/img/School-tools/286.1.jpg',
+      '/img-webp/School-tools/286.1.webp',
         ],
       },
       {
@@ -8328,7 +8328,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9285',
         images: [
-      '/img/School-tools/286.2.jpg',
+      '/img-webp/School-tools/286.2.webp',
         ],
       },
     ],
@@ -8343,12 +8343,12 @@ export const products: Product[] = [
     price: 150,
     rating: 4.0,
     images: [
-      '/img/School-tools/287.jpg',
+      '/img-webp/School-tools/287.webp',
     ],
     gallery: [
-      '/img/School-tools/287.jpg',
-      '/img/School-tools/287.1.jpg',
-      '/img/School-tools/287.2.jpg',
+      '/img-webp/School-tools/287.webp',
+      '/img-webp/School-tools/287.1.webp',
+      '/img-webp/School-tools/287.2.webp',
     ],
     description: 'جودة أوروبية؛ تستخدم لرسم أو إعادة إنتاج رسم فني أو تقني.',
     specs: [
@@ -8365,7 +8365,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9070',
         images: [
-      '/img/School-tools/287.2.jpg',
+      '/img-webp/School-tools/287.2.webp',
         ],
       },
       {
@@ -8377,7 +8377,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9071',
         images: [
-      '/img/School-tools/287.1.jpg',
+      '/img-webp/School-tools/287.1.webp',
         ],
       },
     ],
@@ -8392,10 +8392,10 @@ export const products: Product[] = [
     price: 240,
     rating: 4.0,
     images: [
-      '/img/School-tools/288.jpg',
+      '/img-webp/School-tools/288.webp',
     ],
     gallery: [
-      '/img/School-tools/288.jpg',
+      '/img-webp/School-tools/288.webp',
     ],
     description: 'جيب ورقي بشبكة مليمترية؛ يستخدم على نطاق واسع في العلوم لرسم الرسوم البيانية يدويًا؛ جودة أوروبية.',
     specs: [
@@ -8412,10 +8412,10 @@ export const products: Product[] = [
     price: 780,
     rating: 4.0,
     images: [
-      '/img/School-tools/289.jpg',
+      '/img-webp/School-tools/289.webp',
     ],
     gallery: [
-      '/img/School-tools/289.jpg',
+      '/img-webp/School-tools/289.webp',
     ],
     description: 'المحتويات: قلم حبر جل قابل للمسح من فريكسيون بول، أزرق، 0.7 مم. قلم حبر جل قابل للمسح من فريكسيون بول، أسود، 0.7 مم. قلم حبر جل قابل للمسح من فريكسيون بول، أحمر، 0.7 مم. قلم حبر جل قابل للمسح من فريكسيون بول، أخضر، 0.7 مم.',
     specs: [
@@ -8432,12 +8432,12 @@ export const products: Product[] = [
     price: 320,
     rating: 4.0,
     images: [
-      '/img/School-tools/290.1.jpg',
+      '/img-webp/School-tools/290.1.webp',
     ],
     gallery: [
-      '/img/School-tools/290.1.jpg',
-      '/img/School-tools/290.jpg',
-      '/img/School-tools/290.2.jpg',
+      '/img-webp/School-tools/290.1.webp',
+      '/img-webp/School-tools/290.webp',
+      '/img-webp/School-tools/290.2.webp',
     ],
     description: 'انقر... اكتب... امسح... كرر كما تشاء مع قلم فريكسيون! اكتب بسلاسة باستخدام رأس القلم الجاف المتوسط، وامسح بالاحتكاك دون إتلاف الورق، وابدأ من جديد فورًا. بفضل حبره الجديد الحاصل على براءة اختراع والحساس للحرارة، يُحدث قلم فريكسيون ذو رأس القلم الجاف ثورة في عالم الكتابة، محافظًا على تقاليد بايلوت العريقة. آلية النقر القابلة للسحب الفريدة تجعله أكثر سهولة في الاستخدام! قابل لإعادة التعبئة - لا يُستخدم على المستندات الرسمية.',
     specs: [
@@ -8454,11 +8454,11 @@ export const products: Product[] = [
     price: 295,
     rating: 4.0,
     images: [
-      '/img/School-tools/291.jpg',
+      '/img-webp/School-tools/291.webp',
     ],
     gallery: [
-      '/img/School-tools/291.jpg',
-      '/img/School-tools/291.1.jpg',
+      '/img-webp/School-tools/291.webp',
+      '/img-webp/School-tools/291.1.webp',
     ],
     description: 'اكتب... امسح... كرر كما تشاء مع قلم فريكسيون! اكتب بسلاسة مع رأس فريكسيون بول المتوسط، وامسح بالتسخين دون إتلاف الورق، وابدأ من جديد فورًا. بفضل حبره الحراري الجديد الحاصل على براءة اختراع، يُحدث قلم فريكسيون بول، وفاءً لتقاليد بايلوت، ثورة في عالم الكتابة. يتميز بتصميم عصري أنيق مستوحى من فن الوشم، ومتوفر بعشرة ألوان. قابل لإعادة التعبئة - لا يُستخدم على المستندات الرسمية.',
     specs: [
@@ -8475,14 +8475,14 @@ export const products: Product[] = [
     price: 30,
     rating: 4.0,
     images: [
-      '/img/School-tools/293.jpg',
+      '/img-webp/School-tools/293.webp',
     ],
     gallery: [
-      '/img/School-tools/293.jpg',
-      '/img/School-tools/293.1.jpg',
-      '/img/School-tools/293.2.jpg',
-      '/img/School-tools/293.3.jpg',
-      '/img/School-tools/293.4.jpg',
+      '/img-webp/School-tools/293.webp',
+      '/img-webp/School-tools/293.1.webp',
+      '/img-webp/School-tools/293.2.webp',
+      '/img-webp/School-tools/293.3.webp',
+      '/img-webp/School-tools/293.4.webp',
     ],
     description: 'قلم حبر جاف برأس 1 مم، بطول كتابة يصل إلى 1000 متر.',
     specs: [
@@ -8498,7 +8498,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4965',
         images: [
-      '/img/School-tools/293.1.jpg',
+      '/img-webp/School-tools/293.1.webp',
         ],
       },
       {
@@ -8510,7 +8510,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4966',
         images: [
-      '/img/School-tools/293.2.jpg',
+      '/img-webp/School-tools/293.2.webp',
         ],
       },
       {
@@ -8522,7 +8522,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4967',
         images: [
-      '/img/School-tools/293.4.jpg',
+      '/img-webp/School-tools/293.4.webp',
         ],
       },
       {
@@ -8534,7 +8534,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4968',
         images: [
-      '/img/School-tools/293.3.jpg',
+      '/img-webp/School-tools/293.3.webp',
         ],
       },
     ],
@@ -8549,10 +8549,10 @@ export const products: Product[] = [
     price: 720,
     rating: 4.0,
     images: [
-      '/img/School-tools/292.jpg',
+      '/img-webp/School-tools/292.webp',
     ],
     gallery: [
-      '/img/School-tools/292.jpg',
+      '/img-webp/School-tools/292.webp',
     ],
     description: 'مجموعة من 3 عبوات إعادة تعبئة مصممة خصيصًا لأقلام الحبر الجاف القابلة للمسح من نوع FriXion Ball و FriXion Clicker.',
     specs: [
@@ -8569,12 +8569,12 @@ export const products: Product[] = [
     price: 3950,
     rating: 4.0,
     images: [
-      '/img/School-tools/294.jpg',
+      '/img-webp/School-tools/294.webp',
     ],
     gallery: [
-      '/img/School-tools/294.jpg',
-      '/img/School-tools/294.1.jpg',
-      '/img/School-tools/294.2.jpg',
+      '/img-webp/School-tools/294.webp',
+      '/img-webp/School-tools/294.1.webp',
+      '/img-webp/School-tools/294.2.webp',
     ],
     description: 'إننا نسهل تعلم الكتابة باستخدام الأدوات الجيدة. صُمم قلم الحبر STABILO EASYbirdy للأطفال من سن 7 سنوات فما فوق، سواء كانوا يستخدمون اليد اليمنى أو اليسرى. يسمح تصميمه الفريد بتعديل سن القلم على ثلاثة محاور مختلفة: يتكيف القلم مع وضعية الكتابة الطبيعية للطفل، مما يجعل الكتابة أكثر متعة. يتوفر جهاز STABILO EASYbirdy بخمسة تركيبات لونية للمستخدمين الذين يستخدمون اليد اليمنى وثلاثة تركيبات لونية للمستخدمين الذين يستخدمون اليد اليسرى . قابلة لإعادة الشحن ، وتعمل مع خراطيش الحبر القياسية - كما يتم توفير خرطوشة زرقاء قابلة للمسح مع القلم. لضمان عدم نفاد الحبر، يحتوي قلم الحبر على نافذة في جسمه للتحقق من مستوى الحبر. فكرة عملية للغاية، من كان ليتخيلها!',
     specs: [
@@ -8591,13 +8591,13 @@ export const products: Product[] = [
     price: 2100,
     rating: 4.0,
     images: [
-      '/img/School-tools/295.jpg',
+      '/img-webp/School-tools/295.webp',
     ],
     gallery: [
-      '/img/School-tools/295.jpg',
-      '/img/School-tools/295.1.jpg',
-      '/img/School-tools/295.3.jpg',
-      '/img/School-tools/295.2.jpg',
+      '/img-webp/School-tools/295.webp',
+      '/img-webp/School-tools/295.1.webp',
+      '/img-webp/School-tools/295.3.webp',
+      '/img-webp/School-tools/295.2.webp',
     ],
     description: 'قلمٌ يُعزز الإبداع! صُمم قلم STABILO pointMax المبتكر ذو الرأس اللبادي بألوانه الغنية ليمنحك راحةً مثاليةً أثناء الكتابة. مع مرور الوقت، سيصبح رفيقك الإبداعي الأمثل. بالإضافة إلى ألوانه الـ 24 الزاهية التي تتيح لك التعبير عن نفسك بحرية، يتميز قلم STABILO pointMax برأس نايلون متوسط ​​يضمن المتانة والدقة وخطوطًا متناسقة، حتى بعد الاستخدام المكثف. عرض خطه المتوسط ​​0.8 مم مناسب للكتابة والرسم على حد سواء: تدوين الملاحظات، والكتابة، والرسم العفوي، أو حتى إنشاء دفتر يوميات إبداعي. يمكنك تركه بدون غطاء لمدة 24 ساعة دون التأثير على جودة الحبر أو الرأس. ودّع القيود وانطلق نحو الكتابة الإبداعية. متوفر بـ 24 لونًا. الابتكار: رأس نايلون متوسط ​​فائق المتانة بعرض خط 0.8 مم. متعدد الاستخدامات: رأس متعدد الوظائف، مثالي للكتابة والرسم. الجودة: يمكن تركه بدون غطاء لمدة 24 ساعة دون أن يجف - يضمن حبره جفافًا سريعًا دون تلطيخ. مريح: مزود بمشبك لسهولة الحمل. المتانة: 700 متر من الكتابة. صنع في ألمانيا',
     specs: [
@@ -8613,7 +8613,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '488/12-01',
         images: [
-      '/img/School-tools/295.3.jpg',
+      '/img-webp/School-tools/295.3.webp',
         ],
       },
       {
@@ -8625,7 +8625,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '488/24-01',
         images: [
-      '/img/School-tools/295.2.jpg',
+      '/img-webp/School-tools/295.2.webp',
         ],
       },
     ],
@@ -8640,16 +8640,16 @@ export const products: Product[] = [
     price: 160,
     rating: 4.0,
     images: [
-      '/img/School-tools/296.jpg',
+      '/img-webp/School-tools/296.webp',
     ],
     gallery: [
-      '/img/School-tools/296.jpg',
-      '/img/School-tools/296.1.jpg',
-      '/img/School-tools/296.2.jpg',
-      '/img/School-tools/296.3.jpg',
-      '/img/School-tools/296.4.jpg',
-      '/img/School-tools/296.5.jpg',
-      '/img/School-tools/296.6.jpg',
+      '/img-webp/School-tools/296.webp',
+      '/img-webp/School-tools/296.1.webp',
+      '/img-webp/School-tools/296.2.webp',
+      '/img-webp/School-tools/296.3.webp',
+      '/img-webp/School-tools/296.4.webp',
+      '/img-webp/School-tools/296.5.webp',
+      '/img-webp/School-tools/296.6.webp',
     ],
     description: 'هيكل مريح بألوان زاهية، خرطوشة قياسية.',
     specs: [
@@ -8666,7 +8666,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4536',
         images: [
-      '/img/School-tools/296.1.jpg',
+      '/img-webp/School-tools/296.1.webp',
         ],
       },
       {
@@ -8678,7 +8678,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4536',
         images: [
-      '/img/School-tools/296.2.jpg',
+      '/img-webp/School-tools/296.2.webp',
         ],
       },
       {
@@ -8690,7 +8690,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4536',
         images: [
-      '/img/School-tools/296.3.jpg',
+      '/img-webp/School-tools/296.3.webp',
         ],
       },
       {
@@ -8702,7 +8702,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4536',
         images: [
-      '/img/School-tools/296.4.jpg',
+      '/img-webp/School-tools/296.4.webp',
         ],
       },
       {
@@ -8714,7 +8714,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4536',
         images: [
-      '/img/School-tools/296.5.jpg',
+      '/img-webp/School-tools/296.5.webp',
         ],
       },
       {
@@ -8726,7 +8726,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '4536',
         images: [
-      '/img/School-tools/296.6.jpg',
+      '/img-webp/School-tools/296.6.webp',
         ],
       },
     ],
@@ -8741,13 +8741,13 @@ export const products: Product[] = [
     price: 290,
     rating: 4.0,
     images: [
-      '/img/School-tools/297.jpg',
+      '/img-webp/School-tools/297.webp',
     ],
     gallery: [
-      '/img/School-tools/297.jpg',
-      '/img/School-tools/297.1.jpg',
-      '/img/School-tools/297.2.jpg',
-      '/img/School-tools/297.3.jpg',
+      '/img-webp/School-tools/297.webp',
+      '/img-webp/School-tools/297.1.webp',
+      '/img-webp/School-tools/297.2.webp',
+      '/img-webp/School-tools/297.3.webp',
     ],
     description: 'قلم G-2 هو قلم حبر جاف يجمع بين الأداء التقني والتصميم الأنيق. يضمن مقبضه المريح سهولة الاستخدام، بينما يتميز رأس القلم المصنوع من كربيد التنجستن فائق المقاومة بمتانته العالية ومقاومته للتآكل. ستُبهرك انسيابية حبره وكثافة ألوانه.',
     specs: [
@@ -8764,8 +8764,8 @@ export const products: Product[] = [
         stock: 50,
         sku: '',
         images: [
-      '/img/School-tools/297.jpg',
-      '/img/School-tools/297.1.jpg',
+      '/img-webp/School-tools/297.webp',
+      '/img-webp/School-tools/297.1.webp',
         ],
       },
       {
@@ -8777,8 +8777,8 @@ export const products: Product[] = [
         stock: 50,
         sku: '',
         images: [
-      '/img/School-tools/297.2.jpg',
-      '/img/School-tools/297.3.jpg',
+      '/img-webp/School-tools/297.2.webp',
+      '/img-webp/School-tools/297.3.webp',
         ],
       },
     ],
@@ -8793,13 +8793,13 @@ export const products: Product[] = [
     price: 80,
     rating: 4.0,
     images: [
-      '/img/School-tools/298.jpg',
+      '/img-webp/School-tools/298.webp',
     ],
     gallery: [
-      '/img/School-tools/298.jpg',
-      '/img/School-tools/298.1.jpg',
-      '/img/School-tools/298.2.jpg',
-      '/img/School-tools/298.3.jpg',
+      '/img-webp/School-tools/298.webp',
+      '/img-webp/School-tools/298.1.webp',
+      '/img-webp/School-tools/298.2.webp',
+      '/img-webp/School-tools/298.3.webp',
     ],
     description: '* رأس إبرة لخطوط فائقة الدقة وراحة كتابة مذهلة. * رأس معدني، 0.7 مم. * طول الكتابة 1000 متر. * متوفر بأربعة ألوان.',
     specs: [
@@ -8816,7 +8816,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5735',
         images: [
-      '/img/School-tools/298.1.jpg',
+      '/img-webp/School-tools/298.1.webp',
         ],
       },
       {
@@ -8828,7 +8828,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5736',
         images: [
-      '/img/School-tools/298.2.jpg',
+      '/img-webp/School-tools/298.2.webp',
         ],
       },
      {
@@ -8840,7 +8840,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5737',
         images: [
-      '/img/School-tools/298.4.jpg',
+      '/img-webp/School-tools/298.4.webp',
         ],
       },
      {
@@ -8852,7 +8852,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5738',
         images: [
-      '/img/School-tools/298.3.jpg',
+      '/img-webp/School-tools/298.3.webp',
         ],
       },
     ],
@@ -8867,13 +8867,13 @@ export const products: Product[] = [
     price: 395,
     rating: 4.0,
     images: [
-      '/img/School-tools/299.jpg',
+      '/img-webp/School-tools/299.webp',
     ],
     gallery: [
-      '/img/School-tools/299.jpg',
-      '/img/School-tools/299.1.jpg',
-      '/img/School-tools/299.2.jpg',
-      '/img/School-tools/299.3.jpg',
+      '/img-webp/School-tools/299.webp',
+      '/img-webp/School-tools/299.1.webp',
+      '/img-webp/School-tools/299.2.webp',
+      '/img-webp/School-tools/299.3.webp',
     ],
     description: 'يتميز قلم أكروبول بجيل جديد من الحبر يوفر انسيابية فائقة في الكتابة. قابل للسحب وإعادة التعبئة، وهو الآن صديق للبيئة، يتميز أكروبول بمقبض مريح لسهولة الاستخدام وكرة من كربيد التنجستن متينة ومقاومة للتآكل. • منتج قابل لإعادة التعبئة: أكثر اقتصادية وصديقة للبيئة. • رأس قابل للسحب: قلم جاهز للاستخدام بضغطة واحدة، وداعًا للأغطية الضائعة! • مصنوع من 77.4% من البلاستيك المعاد تدويره (باستثناء المواد الاستهلاكية) للحد من تأثيرنا على البيئة. • كفاءة ومتانة وعمر طويل بفضل كرة كربيد التنجستن والأحبار الأكثر سلاسة والأقل لزوجة. • مقبض مطاطي لتحكم أفضل وراحة أكبر أثناء الكتابة: قلم أكثر راحة! • عرض الكتابة: 0.28 مم • قابل لإعادة التعبئة: نعم',
     specs: [
@@ -8890,7 +8890,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'BAB-15M-B-BG',
         images: [
-      '/img/School-tools/299.jpg',
+      '/img-webp/School-tools/299.webp',
         ],
       },
       {
@@ -8902,7 +8902,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'BAB-15M-B-BG',
         images: [
-      '/img/School-tools/299.1.jpg',
+      '/img-webp/School-tools/299.1.webp',
         ],
       },
      {
@@ -8914,7 +8914,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'BAB-15M-G-BG',
         images: [
-      '/img/School-tools/299.3.jpg',
+      '/img-webp/School-tools/299.3.webp',
         ],
       },
      {
@@ -8926,7 +8926,7 @@ export const products: Product[] = [
         stock: 50,
         sku: 'BAB-15M-R-BG',
         images: [
-      '/img/School-tools/299.2.jpg',
+      '/img-webp/School-tools/299.2.webp',
         ],
       },
     ],
@@ -8941,12 +8941,12 @@ export const products: Product[] = [
     price: 150,
     rating: 4.0,
     images: [
-      '/img/School-tools/300.jpg',
+      '/img-webp/School-tools/300.webp',
     ],
     gallery: [
-      '/img/School-tools/300.jpg',
-      '/img/School-tools/300.1.jpg',
-      '/img/School-tools/300.2.jpg',
+      '/img-webp/School-tools/300.webp',
+      '/img-webp/School-tools/300.1.webp',
+      '/img-webp/School-tools/300.2.webp',
     ],
     description: 'هيكل مريح مع آلية نقر، حبر حساس للحرارة يمحو عن طريق الفرك البسيط دون إتلاف الورق، طول الكتابة يصل إلى 200 متر، متوسط ​​حجم الطرف 0.7 مم.',
     specs: [
@@ -8963,7 +8963,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '6693',
         images: [
-      '/img/School-tools/300.1.jpg',
+      '/img-webp/School-tools/300.1.webp',
         ],
       },
      {
@@ -8975,7 +8975,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '6694',
         images: [
-      '/img/School-tools/300.2.jpg',
+      '/img-webp/School-tools/300.2.webp',
         ],
       },
     ],
@@ -8990,13 +8990,13 @@ export const products: Product[] = [
     price: 100,
     rating: 4.0,
     images: [
-      '/img/School-tools/301.jpg',
+      '/img-webp/School-tools/301.webp',
     ],
     gallery: [
-      '/img/School-tools/301.jpg',
-      '/img/School-tools/301.1.jpg',
-      '/img/School-tools/301.2.jpg',
-      '/img/School-tools/301.3.jpg',
+      '/img-webp/School-tools/301.webp',
+      '/img-webp/School-tools/301.1.webp',
+      '/img-webp/School-tools/301.2.webp',
+      '/img-webp/School-tools/301.3.webp',
     ],
     description: 'يضمن هيكلها المطاطي بالكامل قبضة محكمة وراحة مثالية. ينزلق حبر الجل الناعم والمضيء بسلاسة على الورق. رأس متوسط ​​متين 1 مم. طول الكتابة 300 متر. متوفرة بأربعة ألوان.',
     specs: [
@@ -9013,7 +9013,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5840',
         images: [
-      '/img/School-tools/301.1.jpg',
+      '/img-webp/School-tools/301.1.webp',
         ],
       },
       {
@@ -9025,7 +9025,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5841',
         images: [
-      '/img/School-tools/301.2.jpg',
+      '/img-webp/School-tools/301.2.webp',
         ],
       },
      {
@@ -9037,7 +9037,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5842',
         images: [
-      '/img/School-tools/301.4.jpg',
+      '/img-webp/School-tools/301.4.webp',
         ],
       },
      {
@@ -9049,7 +9049,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5843',
         images: [
-      '/img/School-tools/301.3.jpg',
+      '/img-webp/School-tools/301.3.webp',
         ],
       },
     ],
@@ -9064,14 +9064,14 @@ export const products: Product[] = [
     price: 30,
     rating: 4.0,
     images: [
-      '/img/School-tools/302.jpg',
+      '/img-webp/School-tools/302.webp',
     ],
     gallery: [
-      '/img/School-tools/302.jpg',
-      '/img/School-tools/302.1.jpg',
-      '/img/School-tools/302.2.jpg',
-      '/img/School-tools/302.3.jpg',
-      '/img/School-tools/302.4.jpg',
+      '/img-webp/School-tools/302.webp',
+      '/img-webp/School-tools/302.1.webp',
+      '/img-webp/School-tools/302.2.webp',
+      '/img-webp/School-tools/302.3.webp',
+      '/img-webp/School-tools/302.4.webp',
     ],
     description: 'جسم مثلث الشكل، طرف متوسط ​​1.0 مم، طول الكتابة 900 متر، قبضة مريحة، صنع في الهند.',
     specs: [
@@ -9088,7 +9088,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5144',
         images: [
-      '/img/School-tools/302.1.jpg',
+      '/img-webp/School-tools/302.1.webp',
         ],
       },
       {
@@ -9100,7 +9100,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5145',
         images: [
-      '/img/School-tools/302.2.jpg',
+      '/img-webp/School-tools/302.2.webp',
         ],
       },
      {
@@ -9112,7 +9112,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5147',
         images: [
-      '/img/School-tools/302.4.jpg',
+      '/img-webp/School-tools/302.4.webp',
         ],
       },
      {
@@ -9124,7 +9124,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5146',
         images: [
-      '/img/School-tools/302.3.jpg',
+      '/img-webp/School-tools/302.3.webp',
         ],
       },
     ],
@@ -9139,14 +9139,14 @@ export const products: Product[] = [
     price: 30,
     rating: 4.0,
     images: [
-      '/img/School-tools/303.jpg',
+      '/img-webp/School-tools/303.webp',
     ],
     gallery: [
-      '/img/School-tools/303.jpg',
-      '/img/School-tools/303.1.jpg',
-      '/img/School-tools/303.2.jpg',
-      '/img/School-tools/303.3.jpg',
-      '/img/School-tools/303.4.jpg',
+      '/img-webp/School-tools/303.webp',
+      '/img-webp/School-tools/303.1.webp',
+      '/img-webp/School-tools/303.2.webp',
+      '/img-webp/School-tools/303.3.webp',
+      '/img-webp/School-tools/303.4.webp',
     ],
     description: '* حبر لزج لكتابة سلسة وسريعة. * سن متوسط ​​1.0 مم. * حبر هندي.',
     specs: [
@@ -9163,7 +9163,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5140',
         images: [
-      '/img/School-tools/303.1.jpg',
+      '/img-webp/School-tools/303.1.webp',
         ],
       },
       {
@@ -9175,7 +9175,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5141',
         images: [
-      '/img/School-tools/303.2.jpg',
+      '/img-webp/School-tools/303.2.webp',
         ],
       },
      {
@@ -9187,7 +9187,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5143',
         images: [
-      '/img/School-tools/303.4.jpg',
+      '/img-webp/School-tools/303.4.webp',
         ],
       },
      {
@@ -9199,7 +9199,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5142',
         images: [
-      '/img/School-tools/303.3.jpg',
+      '/img-webp/School-tools/303.3.webp',
         ],
       },
     ],
@@ -9214,13 +9214,13 @@ export const products: Product[] = [
     price: 30,
     rating: 4.0,
     images: [
-      '/img/School-tools/304.jpg',
+      '/img-webp/School-tools/304.webp',
     ],
     gallery: [
-      '/img/School-tools/304.jpg',
-      '/img/School-tools/304.1.jpg',
-      '/img/School-tools/304.2.jpg',
-      '/img/School-tools/304.3.jpg',
+      '/img-webp/School-tools/304.webp',
+      '/img-webp/School-tools/304.1.webp',
+      '/img-webp/School-tools/304.2.webp',
+      '/img-webp/School-tools/304.3.webp',
     ],
     description: '* حبر لزج لكتابة سلسة وسريعة. * سن متوسط ​​1.0 مم. * حبر هندي.',
     specs: [
@@ -9237,7 +9237,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9791',
         images: [
-      '/img/School-tools/304.jpg',
+      '/img-webp/School-tools/304.webp',
         ],
       },
       {
@@ -9249,7 +9249,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9794',
         images: [
-      '/img/School-tools/304.2.jpg',
+      '/img-webp/School-tools/304.2.webp',
         ],
       },
      {
@@ -9261,7 +9261,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9793',
         images: [
-      '/img/School-tools/304.2.jpg',
+      '/img-webp/School-tools/304.2.webp',
         ],
       },
      {
@@ -9273,7 +9273,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '9792',
         images: [
-      '/img/School-tools/304.3.jpg',
+      '/img-webp/School-tools/304.3.webp',
         ],
       },
     ],
@@ -9288,14 +9288,14 @@ export const products: Product[] = [
     price: 30,
     rating: 4.0,
     images: [
-      '/img/School-tools/305.jpg',
+      '/img-webp/School-tools/305.webp',
     ],
     gallery: [
-      '/img/School-tools/305.jpg',
-      '/img/School-tools/305.1.jpg',
-      '/img/School-tools/305.2.jpg',
-      '/img/School-tools/305.3.jpg',
-      '/img/School-tools/305.4.jpg',
+      '/img-webp/School-tools/305.webp',
+      '/img-webp/School-tools/305.1.webp',
+      '/img-webp/School-tools/305.2.webp',
+      '/img-webp/School-tools/305.3.webp',
+      '/img-webp/School-tools/305.4.webp',
     ],
     description: 'جسم مثلث الشكل، طرف متوسط ​​1.0 مم، طول الكتابة 800 متر، قبضة مريحة، صنع في الهند.',
     specs: [
@@ -9312,7 +9312,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5693',
         images: [
-      '/img/School-tools/305.1.jpg',
+      '/img-webp/School-tools/305.1.webp',
         ],
       },
       {
@@ -9324,7 +9324,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5694',
         images: [
-      '/img/School-tools/305.2.jpg',
+      '/img-webp/School-tools/305.2.webp',
         ],
       },
      {
@@ -9336,7 +9336,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5695',
         images: [
-      '/img/School-tools/305.4.jpg',
+      '/img-webp/School-tools/305.4.webp',
         ],
       },
      {
@@ -9348,7 +9348,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5696',
         images: [
-      '/img/School-tools/305.3.jpg',
+      '/img-webp/School-tools/305.3.webp',
         ],
       },
     ],
@@ -9363,12 +9363,12 @@ export const products: Product[] = [
     price: 600,
     rating: 4.0,
     images: [
-      '/img/School-tools/306.jpg',
+      '/img-webp/School-tools/306.webp',
     ],
     gallery: [
-      '/img/School-tools/306.jpg',
-      '/img/School-tools/306.1.jpg',
-      '/img/School-tools/306.2.jpg',
+      '/img-webp/School-tools/306.webp',
+      '/img-webp/School-tools/306.1.webp',
+      '/img-webp/School-tools/306.2.webp',
     ],
     description: 'جودة الكتابة: سن فولاذي مزود بطرف من الإيريديوم يضمن انزلاقًا ممتازًا وانتظامًا في الكتابة.',
     specs: [
@@ -9386,8 +9386,8 @@ export const products: Product[] = [
         stock: 50,
         sku: '222612',
         images: [
-      '/img/School-tools/306.1.jpg',
-      '/img/School-tools/306.2.jpg',
+      '/img-webp/School-tools/306.1.webp',
+      '/img-webp/School-tools/306.2.webp',
         ],
       },
       {
@@ -9399,7 +9399,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '222612',
         images: [
-      '/img/School-tools/306.jpg',
+      '/img-webp/School-tools/306.webp',
         ],
       },
     ],
@@ -9414,12 +9414,12 @@ export const products: Product[] = [
     price: 150,
     rating: 4.0,
     images: [
-      '/img/School-tools/307.jpg',
+      '/img-webp/School-tools/307.webp',
     ],
     gallery: [
-      '/img/School-tools/307.jpg',
-      '/img/School-tools/307.1.jpg',
-      '/img/School-tools/307.2.jpg',
+      '/img-webp/School-tools/307.webp',
+      '/img-webp/School-tools/307.1.webp',
+      '/img-webp/School-tools/307.2.webp',
     ],
     description: 'مقبض مريح، طرف 1 مم، حبر جل، طول كتابة 250 متر، متوفر بلونين.',
     specs: [
@@ -9436,7 +9436,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5711',
         images: [
-      '/img/School-tools/307.1.jpg',
+      '/img-webp/School-tools/307.1.webp',
         ],
       },
       {
@@ -9448,7 +9448,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5711',
         images: [
-      '/img/School-tools/307.2.jpg',
+      '/img-webp/School-tools/307.2.webp',
         ],
       },
     ],
@@ -9463,17 +9463,17 @@ export const products: Product[] = [
     price: 35,
     rating: 4.0,
     images: [
-      '/img/School-tools/308.jpg',
+      '/img-webp/School-tools/308.webp',
     ],
     gallery: [
-      '/img/School-tools/308.jpg',
-      '/img/School-tools/308.1.jpg',
-      '/img/School-tools/308.2.jpg',
-      '/img/School-tools/308.3.jpg',
-      '/img/School-tools/308.4.jpg',
-      '/img/School-tools/308.5.jpg',
-      '/img/School-tools/308.6.jpg',
-      '/img/School-tools/308.7.jpg',
+      '/img-webp/School-tools/308.webp',
+      '/img-webp/School-tools/308.1.webp',
+      '/img-webp/School-tools/308.2.webp',
+      '/img-webp/School-tools/308.3.webp',
+      '/img-webp/School-tools/308.4.webp',
+      '/img-webp/School-tools/308.5.webp',
+      '/img-webp/School-tools/308.6.webp',
+      '/img-webp/School-tools/308.7.webp',
     ],
     description: 'جسم مثلث الشكل، طرف متوسط ​​1.0 مم، طول الكتابة 800 متر، قبضة مريحة، صنع في الهند.',
     specs: [
@@ -9490,7 +9490,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '',
         images: [
-      '/img/School-tools/308.2.jpg',
+      '/img-webp/School-tools/308.2.webp',
         ],
       },
       {
@@ -9502,7 +9502,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '',
         images: [
-      '/img/School-tools/308.3.jpg',
+      '/img-webp/School-tools/308.3.webp',
         ],
       },
       {
@@ -9514,7 +9514,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '',
         images: [
-      '/img/School-tools/308.4.jpg',
+      '/img-webp/School-tools/308.4.webp',
         ],
       },
       {
@@ -9526,7 +9526,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '',
         images: [
-      '/img/School-tools/308.5.jpg',
+      '/img-webp/School-tools/308.5.webp',
         ],
       },
       {
@@ -9538,7 +9538,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '',
         images: [
-      '/img/School-tools/308.6.jpg',
+      '/img-webp/School-tools/308.6.webp',
         ],
       },
       {
@@ -9550,7 +9550,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '',
         images: [
-      '/img/School-tools/308.7.jpg',
+      '/img-webp/School-tools/308.7.webp',
         ],
       },
     ],
@@ -9565,12 +9565,12 @@ export const products: Product[] = [
     price: 100,
     rating: 4.0,
     images: [
-      '/img/School-tools/309.jpg',
+      '/img-webp/School-tools/309.webp',
     ],
     gallery: [
-      '/img/School-tools/309.jpg',
-      '/img/School-tools/309.1.jpg',
-      '/img/School-tools/309.2.jpg',
+      '/img-webp/School-tools/309.webp',
+      '/img-webp/School-tools/309.1.webp',
+      '/img-webp/School-tools/309.2.webp',
     ],
     description: 'مقبض مريح، طرف 0.7 مم، حبر جل، طول الكتابة 800 متر.',
     specs: [
@@ -9587,7 +9587,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5731',
         images: [
-      '/img/School-tools/309.1.jpg',
+      '/img-webp/School-tools/309.1.webp',
         ],
       },
       {
@@ -9599,7 +9599,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '5730',
         images: [
-      '/img/School-tools/309.2.jpg',
+      '/img-webp/School-tools/309.2.webp',
         ],
       },
     ],
@@ -9614,13 +9614,13 @@ export const products: Product[] = [
     price: 480,
     rating: 4.0,
     images: [
-      '/img/School-tools/310.jpg',
+      '/img-webp/School-tools/310.webp',
     ],
     gallery: [
-      '/img/School-tools/310.jpg',
-      '/img/School-tools/310.1.jpg',
-      '/img/School-tools/310.2.jpg',
-      '/img/School-tools/310.3.jpg',
+      '/img-webp/School-tools/310.webp',
+      '/img-webp/School-tools/310.1.webp',
+      '/img-webp/School-tools/310.2.webp',
+      '/img-webp/School-tools/310.3.webp',
     ],
     description: 'تصميم أنيق للغاية. غطاء حماية دوار: مطاط محمي بنسبة 100%.',
     specs: [
@@ -9636,7 +9636,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '123211',
         images: [
-      '/img/School-tools/310.1.jpg',
+      '/img-webp/School-tools/310.1.webp',
         ],
       },
       {
@@ -9648,7 +9648,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '123211',
         images: [
-      '/img/School-tools/310.2.jpg',
+      '/img-webp/School-tools/310.2.webp',
         ],
       },
       {
@@ -9660,7 +9660,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '123211',
         images: [
-      '/img/School-tools/310.3.jpg',
+      '/img-webp/School-tools/310.3.webp',
         ],
       },
     ],
@@ -9675,12 +9675,12 @@ export const products: Product[] = [
     price: 240,
     rating: 4.0,
     images: [
-      '/img/School-tools/311.jpg',
+      '/img-webp/School-tools/311.webp',
     ],
     gallery: [
-      '/img/School-tools/311.jpg',
-      '/img/School-tools/311.1.jpg',
-      '/img/School-tools/311.2.jpg',
+      '/img-webp/School-tools/311.webp',
+      '/img-webp/School-tools/311.1.webp',
+      '/img-webp/School-tools/311.2.webp',
     ],
     description: 'تصميم أنيق للغاية. غطاء حماية دوار: مطاط محمي بنسبة 100%.',
     specs: [
@@ -9696,7 +9696,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '112521FM',
         images: [
-      '/img/School-tools/311.1.jpg',
+      '/img-webp/School-tools/311.1.webp',
         ],
       },
       {
@@ -9708,7 +9708,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '112521FM',
         images: [
-      '/img/School-tools/311.2.jpg',
+      '/img-webp/School-tools/311.2.webp',
         ],
       },
     ],
@@ -9723,12 +9723,12 @@ export const products: Product[] = [
     price: 550,
     rating: 4.0,
     images: [
-      '/img/School-tools/312.jpg',
+      '/img-webp/School-tools/312.webp',
     ],
     gallery: [
-      '/img/School-tools/312.jpg',
-      '/img/School-tools/312.1.jpg',
-      '/img/School-tools/312.2.jpg',
+      '/img-webp/School-tools/312.webp',
+      '/img-webp/School-tools/312.1.webp',
+      '/img-webp/School-tools/312.2.webp',
     ],
     description: 'مبراة أقلام نظيفة + ممحاة دوارة خالية من مادة PVC.',
     specs: [
@@ -9744,7 +9744,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '049121',
         images: [
-      '/img/School-tools/312.1.jpg',
+      '/img-webp/School-tools/312.1.webp',
         ],
       },
       {
@@ -9756,7 +9756,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '049121',
         images: [
-      '/img/School-tools/312.2.jpg',
+      '/img-webp/School-tools/312.2.webp',
         ],
       },
       {
@@ -9768,7 +9768,7 @@ export const products: Product[] = [
         stock: 50,
         sku: '049121',
         images: [
-      '/img/School-tools/312.2.jpg',
+      '/img-webp/School-tools/312.2.webp',
         ],
       },
     ],
@@ -9783,10 +9783,10 @@ export const products: Product[] = [
     price: 60,
     rating: 4.0,
     images: [
-      '/img/School-tools/313.jpg',
+      '/img-webp/School-tools/313.webp',
     ],
     gallery: [
-      '/img/School-tools/313.jpg',
+      '/img-webp/School-tools/313.webp',
     ],
     description: 'ممحاة مبتكرة وممتعة تجمع بين التصميم المريح والجمال. جميع هذه الممحاة خالية من الفثالات، والعديد منها خالٍ من مادة PVC.',
     specs: [
@@ -9803,10 +9803,10 @@ export const products: Product[] = [
     price: 90,
     rating: 4.0,
     images: [
-      '/img/School-tools/314.jpg',
+      '/img-webp/School-tools/314.webp',
     ],
     gallery: [
-      '/img/School-tools/314.jpg',
+      '/img-webp/School-tools/314.webp',
     ],
     description: 'ممحاة مبتكرة وممتعة تجمع بين التصميم المريح والجمال. جميع هذه الممحاة خالية من الفثالات، والعديد منها خالٍ من مادة PVC.',
     specs: [
@@ -9823,10 +9823,10 @@ export const products: Product[] = [
     price: 130,
     rating: 4.0,
     images: [
-      '/img/School-tools/315.jpg',
+      '/img-webp/School-tools/315.webp',
     ],
     gallery: [
-      '/img/School-tools/315.jpg',
+      '/img-webp/School-tools/315.webp',
     ],
     description: 'ممحاة كلاسيكية الشكل لتحقيق أقصى قدر من الكفاءة أو للاستخدامات التقنية. جميع هذه الممحاة خالية من الفثالات، والعديد منها خالٍ من مادة PVC. العرض: ٢١٫٨ مم، العمق: ١٢ مم، الارتفاع: ٦١ مم.',
     specs: [
@@ -9860,14 +9860,14 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/0.jpg'],
+    images: ['/img-webp/backpacks/0.webp'],
     gallery: [
-      '/img/backpacks/0.1.jpg',
-      '/img/backpacks/0.2.jpg',
-      '/img/backpacks/0.3.jpg',
-      '/img/backpacks/0.4.jpg',
-      '/img/backpacks/0.5.jpg',
-      '/img/backpacks/0.6.jpg',
+      '/img-webp/backpacks/0.1.webp',
+      '/img-webp/backpacks/0.2.webp',
+      '/img-webp/backpacks/0.3.webp',
+      '/img-webp/backpacks/0.4.webp',
+      '/img-webp/backpacks/0.5.webp',
+      '/img-webp/backpacks/0.6.webp',
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
     specs: [{ label: 'المادة', value: 'بوليستر' }],
@@ -9884,11 +9884,11 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/1.jpg'],
+    images: ['/img-webp/backpacks/1.webp'],
     gallery: [
-      '/img/backpacks/1.1.jpg',
-      '/img/backpacks/1.2.jpg',
-      '/img/backpacks/1.3.jpg',
+      '/img-webp/backpacks/1.1.webp',
+      '/img-webp/backpacks/1.2.webp',
+      '/img-webp/backpacks/1.3.webp',
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
     specs: [{ label: 'المادة', value: 'بوليستر' }],
@@ -9905,7 +9905,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/2.jpg'],
+    images: ['/img-webp/backpacks/2.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -9923,7 +9923,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/3.jpg'],
+    images: ['/img-webp/backpacks/3.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -9941,7 +9941,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/4.jpg'],
+    images: ['/img-webp/backpacks/4.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -9959,7 +9959,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/5.jpg'],
+    images: ['/img-webp/backpacks/5.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -9977,7 +9977,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/6.jpg'],
+    images: ['/img-webp/backpacks/6.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -9995,7 +9995,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/7.jpg'],
+    images: ['/img-webp/backpacks/7.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -10013,7 +10013,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/8.jpg'],
+    images: ['/img-webp/backpacks/8.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -10031,7 +10031,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/9.jpg'],
+    images: ['/img-webp/backpacks/9.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -10049,7 +10049,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/10.jpg'],
+    images: ['/img-webp/backpacks/10.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -10067,7 +10067,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/11.jpg'],
+    images: ['/img-webp/backpacks/11.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -10085,7 +10085,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/12.jpg'],
+    images: ['/img-webp/backpacks/12.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',
@@ -10103,7 +10103,7 @@ export const products: Product[] = [
     price: 120,
     oldPrice: 160,
     rating: 4.5,
-    images: ['/img/backpacks/13.jpg'],
+    images: ['/img-webp/backpacks/13.webp'],
     gallery: [
     ],
     description: 'حقيبة ظهر أنيقة بتصميم عصري للطلاب.',

@@ -244,6 +244,7 @@
     "fullName": "Nom complet",
     "fullNamePlaceholder": "Mohamed Ahmed",
     "phone": "Téléphone",
+    "phoneOptional": "Téléphone (facultatif)",
     "forgotPassword": "Mot de passe oublié ?",
     "forgotTitle": "Récupérer le mot de passe",
     "forgotInstructions": "Entrez votre e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",

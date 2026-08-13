@@ -36,8 +36,7 @@ export default function SignupPage() {
     if (!fullName.trim()) e.fullName = t('auth.errors.fullNameRequired');
     if (!email.trim()) e.email = t('auth.errors.emailRequired');
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) e.email = t('auth.errors.emailInvalid');
-    if (!phone.trim()) e.phone = t('auth.errors.phoneRequired');
-    else if (!/^0\d{8,9}$/.test(phone.replace(/\s/g, ''))) e.phone = t('auth.errors.phoneInvalid');
+    if (phone.trim() && !/^0\d{8,9}$/.test(phone.replace(/\s/g, ''))) e.phone = t('auth.errors.phoneInvalid');
     if (!password) e.password = t('auth.errors.passwordRequired');
     else if (password.length < 6) e.password = t('auth.errors.passwordShort');
     if (password !== confirmPassword) e.confirmPassword = t('auth.errors.passwordMismatch');
@@ -113,7 +112,7 @@ export default function SignupPage() {
 
         {/* Phone */}
         <div>
-          <label className="mb-1.5 block text-sm font-medium text-neutral-700">{t('auth.phone')}</label>
+          <label className="mb-1.5 block text-sm font-medium text-neutral-700">{t('auth.phoneOptional')}</label>
           <div className="relative">
             <Phone className="absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 text-neutral-400" />
             <input
