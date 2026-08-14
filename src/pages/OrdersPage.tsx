@@ -159,6 +159,11 @@ export default function OrdersPage() {
                                 <p className="text-xs text-neutral-400">SKU: {item.sku}</p>
                               )}
                               <p className="text-xs text-neutral-400">{t('orders.quantity')}{item.quantity}</p>
+                              {item.purchase_price != null && item.purchase_price > 0 && (
+                                <p className="text-xs text-neutral-400">
+                                  {t('orders.purchasePrice')}: {formatPrice(item.purchase_price)} × {item.quantity} = {formatPrice(item.purchase_price * item.quantity)}
+                                </p>
+                              )}
                             </div>
                             <div className="text-left">
                               <p className="text-sm font-bold text-primary-700">
@@ -180,6 +185,18 @@ export default function OrdersPage() {
                           <span>{t('orders.subtotal')}</span>
                           <span>{formatPrice(order.subtotal)}</span>
                         </div>
+                        {order.total_purchase_cost != null && order.total_purchase_cost > 0 && (
+                          <div className="flex justify-between text-neutral-500">
+                            <span>{t('orders.totalPurchaseCost')}</span>
+                            <span>{formatPrice(order.total_purchase_cost)}</span>
+                          </div>
+                        )}
+                        {order.profit != null && (
+                          <div className="flex justify-between text-neutral-500">
+                            <span>{t('orders.profit')}</span>
+                            <span className={order.profit >= 0 ? 'text-success-600' : 'text-error-500'}>{formatPrice(order.profit)}</span>
+                          </div>
+                        )}
                         <div className="flex justify-between text-neutral-500">
                           <span>{t('orders.deliveryCost')}</span>
                           <span>{formatPrice(order.shipping_cost ?? order.delivery_fee)}</span>

@@ -16,6 +16,7 @@ export const products: Product[] = [
     subCategory: 'sub-stat-glues',
     brand: 'other',
     price: 450,
+    purchasePrice: 200,
     rating: 4.1,
     images: [
       '/img-webp/School-tools/25.webp',

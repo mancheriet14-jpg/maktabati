@@ -105,6 +105,14 @@ export default function CheckoutPage() {
     const orderNumber = `ORD-${Date.now().toString().slice(-8)}`;
     const finalTotal = subtotal + shipping;
 
+    // Calculate total purchase cost from product data (NOT from user input).
+    // Uses variant.purchasePrice if the item has a variant, otherwise product.purchasePrice.
+    const totalPurchaseCost = items.reduce((sum, item) => {
+      const unitCost = item.variant?.purchasePrice ?? item.product.purchasePrice ?? 0;
+      return sum + unitCost * item.quantity;
+    }, 0);
+    const profit = subtotal - totalPurchaseCost;
+
     // 1. Create a single order row with customer info + shipping snapshot.
     const { data: orderData, error: orderError } = await supabase
       .from('orders')
@@ -127,6 +135,8 @@ export default function CheckoutPage() {
         delivery_fee: shipping,
         shipping_cost: shipping,
         total: finalTotal,
+        total_purchase_cost: totalPurchaseCost,
+        profit,
       })
       .select('id')
       .single();
@@ -145,8 +155,10 @@ export default function CheckoutPage() {
     }
 
     // 2. Insert all order_items with the same order_id + product snapshot.
+    // purchase_price comes from the product/variant data, NOT from user input.
     const orderItems = items.map((item) => {
       const unitPrice = item.variant?.price ?? item.product.price;
+      const unitPurchasePrice = item.variant?.purchasePrice ?? item.product.purchasePrice ?? 0;
       return {
         order_id: orderData.id,
         product_id: item.product.id,
@@ -154,6 +166,7 @@ export default function CheckoutPage() {
         product_image: item.variant?.images?.[0] ?? item.product.images[0] ?? null,
         quantity: item.quantity,
         price: unitPrice,
+        purchase_price: unitPurchasePrice,
         old_price: (item.variant?.oldPrice ?? item.product.oldPrice) ?? null,
         total_price: unitPrice * item.quantity,
         variant_id: item.variant?.id ?? null,

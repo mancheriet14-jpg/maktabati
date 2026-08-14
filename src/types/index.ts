@@ -35,6 +35,7 @@ export interface ProductVariant {
   name: string; // e.g. "غلاف أسود" or "A4"
   optionLabel?: string; // e.g. "اللون" or "الحجم" — shown as group label
   price: number;
+  purchasePrice?: number; // cost price from supplier (per unit)
   oldPrice?: number;
   stock?: number;
   sku?: string;
@@ -49,6 +50,7 @@ export interface Product {
   subCategory: string;
   brand: string;
   price: number;
+  purchasePrice?: number; // cost price from supplier (per unit, no variants)
   oldPrice?: number;
   rating: number;
   images: string[];
@@ -107,6 +109,7 @@ export interface OrderItem {
   color: string | null;
   size: string | null;
   sku: string | null;
+  purchase_price: number | null;
   created_at: string;
 }
 
@@ -128,6 +131,8 @@ export interface Order {
   delivery_fee: number;
   shipping_cost: number | null;
   total: number;
+  total_purchase_cost: number | null;
+  profit: number | null;
   created_at: string;
   order_items?: OrderItem[];
 }
