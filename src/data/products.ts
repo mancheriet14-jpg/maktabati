@@ -4796,7 +4796,7 @@ export const products: Product[] = [
     createdAt: '2024-08-20',
         variants: [
       {
-        id: 'st-196-gray',
+        id: 'st-197-gray',
         name: 'رمادي',
         optionLabel: 'اللون',
         price: 480,
@@ -4808,7 +4808,7 @@ export const products: Product[] = [
         ],
       },
       {
-        id: 'st-196-orange',
+        id: 'st-197-orange',
         name:  'برتقالي',
         optionLabel: 'اللون',
         price: 480,
@@ -4820,7 +4820,7 @@ export const products: Product[] = [
         ],
       },
       {
-        id: 'st-196-yellow',
+        id: 'st-197-yellow',
         name: 'أصفر',
         optionLabel: 'اللون',
         price: 480,
@@ -4832,7 +4832,7 @@ export const products: Product[] = [
         ],
       },
       {
-        id: 'st-196-red',
+        id: 'st-197-red',
         name: 'أحمر',
         optionLabel: 'اللون',
         price: 480,
@@ -4844,7 +4844,7 @@ export const products: Product[] = [
         ],
       },
       {
-        id: 'st-196-green',
+        id: 'st-197-green',
         name: 'أخضر',
         optionLabel: 'اللون',
         price: 480,
@@ -4856,7 +4856,7 @@ export const products: Product[] = [
         ],
       },
       {
-        id: 'st-196-white',
+        id: 'st-197-white',
         name: 'أبيض',
         optionLabel: 'اللون',
         price: 480,
@@ -4868,7 +4868,7 @@ export const products: Product[] = [
         ],
       },
       {
-        id: 'st-196-purpel',
+        id: 'st-197-purpel',
         name: 'بنفسجي',
         optionLabel: 'اللون',
         price: 480,
@@ -4883,7 +4883,7 @@ export const products: Product[] = [
   },
 
 {
-    id: 'st-197',
+    id: 'st-197.',
     name: 'أوراق مزدوجة 96 صفحة',
     mainCategory: 'stationery',
     subCategory: 'sub-stat-notebooks',
