@@ -12,12 +12,24 @@ import { bagCollections, mainCategories } from '@/data/siteData';
 import { productsByBagCollection } from '@/data/products';
 import ProductCard from '@/components/ui/ProductCard';
 import { tMainCategory, tBagCollection } from '@/lib/i18nData';
+import { useSeo, SITE_DOMAIN } from '@/lib/seo';
 
 export default function BagCollectionPage() {
   const { t } = useTranslation();
   const { slug } = useParams<{ slug: string }>();
   const collection = bagCollections.find((c) => c.slug === slug);
   const [sort, setSort] = useState<SortOption>('newest');
+
+  useSeo({
+    title: collection
+      ? `${tBagCollection(collection.slug)} | مكتبتي`
+      : 'تشكيلة الحقائب | مكتبتي',
+    description: collection
+      ? `تسوق ${tBagCollection(collection.slug)} بأفضل الأسعار في الجزائر مع توصيل إلى جميع الولايات.`
+      : 'تصفح تشكيلات الحقائب المدرسية.',
+    path: `/bag-collection/${slug ?? ''}`,
+    image: collection ? `${SITE_DOMAIN}${collection.image}` : undefined,
+  });
 
   const sortOptions: { value: SortOption; label: string }[] = [
     { value: 'newest', label: t('sort.newest') },

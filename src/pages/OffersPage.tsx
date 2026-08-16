@@ -6,11 +6,18 @@ import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { SortOption } from '@/types';
 import { offerProducts } from '@/data/products';
+import { useSeo } from '@/lib/seo';
 import ProductCard from '@/components/ui/ProductCard';
 
 export default function OffersPage() {
   const { t } = useTranslation();
   const offers = useMemo(() => offerProducts(), []);
+
+  useSeo({
+    title: 'العروض والتخفيضات | مكتبتي',
+    description: 'تسوق أحدث العروض والتخفيضات على القرطاسية والحقائب والكتب والأدوات المدرسية في الجزائر مع توصيل إلى جميع الولايات.',
+    path: '/offers',
+  });
 
   const [sort, setSort] = useState<SortOption>('newest');
   const [maxPrice, setMaxPrice] = useState<number | null>(null);

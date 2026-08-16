@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /cart
+Disallow: /checkout
+Disallow: /order-success
+Disallow: /profile
+Disallow: /orders
+Disallow: /login
+Disallow: /signup
+Disallow: /forgot-password
+Disallow: /search
+
+Sitemap: https://maktabati.maktabati-store-dz.workers.dev/sitemap.xml

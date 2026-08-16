@@ -15,6 +15,7 @@ import {
   brandsInSubCategory,
 } from '@/data/products';
 import { tMainCategory, tSubCategory, tBrand } from '@/lib/i18nData';
+import { useSeo, SITE_DOMAIN } from '@/lib/seo';
 import ProductCard from '@/components/ui/ProductCard';
 import HorizontalScroll from '@/components/ui/HorizontalScroll';
 import { SelectableCard } from '@/components/ui/CategoryCard';
@@ -24,12 +25,23 @@ export default function SubCategoryPage() {
   const { slug } = useParams<{ slug: string }>();
   const info = slug ? findSubCategory(slug) : undefined;
 
+  const sub = info?.sub;
+  const mainSlug = info?.mainSlug;
+
+  useSeo({
+    title: sub
+      ? `${tSubCategory(sub.slug)} | مكتبتي`
+      : 'تصنيف فرعي | مكتبتي',
+    description: sub
+      ? `تسوق ${tSubCategory(sub.slug)} بأفضل الأسعار في الجزائر مع توصيل إلى جميع الولايات.`
+      : 'تصفح المنتجات حسب التصنيف الفرعي.',
+    path: `/subcategory/${slug ?? ''}`,
+    image: sub ? `${SITE_DOMAIN}${sub.image}` : undefined,
+  });
+
   const [activeBrands, setActiveBrands] = useState<string[]>([]);
   const [sort, setSort] = useState<SortOption>('newest');
   const [maxPrice, setMaxPrice] = useState<number | null>(null);
-
-  const sub = info?.sub;
-  const mainSlug = info?.mainSlug;
 
   const sortOptions: { value: SortOption; label: string }[] = [
     { value: 'newest', label: t('sort.newest') },

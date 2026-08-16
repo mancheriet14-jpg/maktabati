@@ -3,6 +3,7 @@
 
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { useSeo, SITE_DOMAIN } from '@/lib/seo';
 import HeroSlider from '@/components/home/HeroSlider';
 import CategoryGrid from '@/components/home/CategoryGrid';
 import CategoryProductSection from '@/components/home/CategoryProductSection';
@@ -15,6 +16,25 @@ import { productsByCategory, offerProducts } from '@/data/products';
 export default function HomePage() {
   const { t } = useTranslation();
   const offers = offerProducts();
+
+  useSeo({
+    title: 'مكتبتي | متجر القرطاسية والحقائب والكتب في الجزائر',
+    description: 'مكتبتي متجر إلكتروني للقرطاسية والحقائب والكتب والأدوات المدرسية في الجزائر، مع توصيل إلى جميع الولايات.',
+    path: '/',
+    image: `${SITE_DOMAIN}/img-webp/sliders/logo.webp`,
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'OnlineStore',
+      name: 'مكتبتي',
+      url: SITE_DOMAIN,
+      description: 'متجر إلكتروني للقرطاسية والحقائب والكتب والأدوات المدرسية في الجزائر.',
+      image: `${SITE_DOMAIN}/img-webp/sliders/logo.webp`,
+      email: 'maktabati.store.dz@gmail.com',
+      telephone: '+213773618066',
+      address: { '@type': 'PostalAddress', addressCountry: 'DZ' },
+      sameAs: ['https://www.facebook.com/profile.php?id=61592417535366'],
+    },
+  });
 
   return (
     <div className="space-y-10 py-6">

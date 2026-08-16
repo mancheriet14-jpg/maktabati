@@ -13,12 +13,46 @@ import ProductInfo from '@/components/product/ProductInfo';
 import SimilarProducts from '@/components/product/SimilarProducts';
 import ReviewsSection from '@/components/product/ReviewsSection';
 import { getProductRatingSummary } from '@/lib/reviews';
-import { tProductName } from '@/lib/i18nData';
+import { tProductName, tProductDescription } from '@/lib/i18nData';
+import { useSeo, SITE_DOMAIN } from '@/lib/seo';
 
 export default function ProductPage() {
   const { t } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const product = id ? getProductById(id) : undefined;
+
+  const productName = product ? tProductName(product.id) : '';
+  const productDesc = product ? tProductDescription(product.id) : '';
+  const productImage = product && product.images.length > 0
+    ? `${SITE_DOMAIN}${product.images[0]}`
+    : `${SITE_DOMAIN}/img-webp/sliders/logo.webp`;
+
+  useSeo({
+    title: product
+      ? `${productName} | مكتبتي`
+      : 'المنتج | مكتبتي',
+    description: product
+      ? `${productDesc} — متجر مكتبتي، الجزائر.`
+      : 'المنتج غير موجود.',
+    path: `/product/${id ?? ''}`,
+    image: productImage,
+    type: 'product',
+    jsonLd: product ? {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: productName,
+      description: productDesc,
+      image: product.images.map((img) => `${SITE_DOMAIN}${img}`),
+      url: `${SITE_DOMAIN}/product/${id}`,
+      offers: {
+        '@type': 'Offer',
+        priceCurrency: 'DZD',
+        price: product.price,
+        availability: 'https://schema.org/InStock',
+        seller: { '@type': 'Organization', name: 'مكتبتي' },
+      },
+    } : undefined,
+  });
 
   // No variant is auto-selected on load. The user must pick a variant
   // manually; until then the gallery shows all product images.

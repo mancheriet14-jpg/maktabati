@@ -24,6 +24,7 @@ import {
 } from '@/data/siteData';
 import { productsByCategory } from '@/data/products';
 import { tMainCategory, tSubCategory, tBagCollection, tBrand } from '@/lib/i18nData';
+import { useSeo, SITE_DOMAIN } from '@/lib/seo';
 import ProductCard from '@/components/ui/ProductCard';
 import HorizontalScroll from '@/components/ui/HorizontalScroll';
 import CategoryCard, { SelectableCard } from '@/components/ui/CategoryCard';
@@ -43,6 +44,24 @@ export default function CategoryPage() {
   const { t } = useTranslation();
   const { slug } = useParams<{ slug: string }>();
   const category = mainCategories.find((c) => c.slug === slug);
+
+  useSeo({
+    title: category
+      ? `${tMainCategory(category.slug)} | مكتبتي`
+      : 'التصنيفات | مكتبتي',
+    description: category
+      ? `تسوق ${tMainCategory(category.slug)} بأفضل الأسعار في الجزائر مع توصيل إلى جميع الولايات. منتجات متنوعة من القرطاسية والكتب والألعاب والإلكترونيات.`
+      : 'تصفح جميع تصنيفات متجر مكتبتي.',
+    path: `/category/${slug ?? ''}`,
+    image: category ? `${SITE_DOMAIN}${category.image}` : undefined,
+    jsonLd: category ? {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: tMainCategory(category.slug),
+      url: `${SITE_DOMAIN}/category/${category.slug}`,
+      inLanguage: 'ar',
+    } : undefined,
+  });
 
   const [activeBrands, setActiveBrands] = useState<string[]>([]);
   const [sort, setSort] = useState<SortOption>('newest');
