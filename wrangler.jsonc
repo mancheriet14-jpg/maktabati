@@ -1,0 +1,13 @@
+{
+  // Cloudflare Workers + Static Assets configuration for مكتبتي
+  // Deploys the Vite build output (dist/) as static assets with SPA fallback.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "maktabati",
+  "compatibility_date": "2025-03-01",
+  "assets": {
+    "directory": "./dist",
+    // Serve index.html for any path that doesn't match a static file.
+    // This makes React Router routes like /category/stationery work without 404.
+    "not_found_handling": "single-page-application"
+  }
+}
