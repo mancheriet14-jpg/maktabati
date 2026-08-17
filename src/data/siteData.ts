@@ -6,9 +6,7 @@ import type { MainCategory, SubCategory, Brand, MainCategorySlug } from '@/types
 // ── Home hero slider ──────────────────────────────────────────────
 // Add or remove image paths freely; the slider adapts automatically.
 export const sliderImages: string[] = [
-  'https://images.pexels.com/photos/5650065/pexels-photo-5650065.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  'https://images.pexels.com/photos/2305444/pexels-photo-2305444.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  'https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?auto=compress&cs=tinysrgb&w=1600',
+
 ];
 
 // ── Main categories (home grid + category pages) ───────────────────
@@ -61,23 +59,19 @@ export const mainCategories: MainCategory[] = [
 export const categorySliderImages: Record<MainCategorySlug, string[]> = {
   stationery: [
     '/img-webp/sliders/5.webp',
-    '/img-webp/sliders/6.webp',
+  //  '/img-webp/sliders/6.webp',
   ],
   textbooks: [
     'https://images.pexels.com/photos/159711/books-belt-learning-education-159711.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=1600',
   ],
   books: [
     'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    'https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&w=1600',
   ],
   toys: [
     'https://images.pexels.com/photos/3661193/pexels-photo-3661193.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    'https://images.pexels.com/photos/268840/pexels-photo-268840.jpeg?auto=compress&cs=tinysrgb&w=1600',
   ],
   gifts: [
     'https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    'https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1600',
   ],
   electronics: [
     'https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1600',
@@ -85,7 +79,6 @@ export const categorySliderImages: Record<MainCategorySlug, string[]> = {
   ],
   aprons: [
     'https://images.pexels.com/photos/4210511/pexels-photo-4210511.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    'https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&w=1600',
   ],
 };
 

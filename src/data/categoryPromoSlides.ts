@@ -13,7 +13,7 @@ export interface PromoSlide {
 // Edit this array to change the main slider on the home page.
 export const homePromoSlides: PromoSlide[] = [
   { image: '/img-webp/sliders/20.webp', productId: 'st-25' },
-  { image: '/img-webp/sliders/22.webp', productId: 'st-83' },
+//  { image: '/img-webp/sliders/22.webp', productId: 'st-83' },
 //  { image: '/img-webp/sliders/23.webp', productId: 'st-221' },
 ];
 
@@ -28,24 +28,18 @@ export const categoryPromoSlides: Partial<Record<MainCategorySlug, PromoSlide[]>
   ],
   /* books: [
     { image: 'https://images.pexels.com/photos/8212372/pexels-photo-8212372.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'bk-1' },
-    { image: 'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'bk-2' },
-    { image: 'https://images.pexels.com/photos/4308268/pexels-photo-4308268.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'bk-3' },
-    { image: 'https://images.pexels.com/photos/2308657/pexels-photo-2308657.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'bk-4' },
   ], */
   gifts: [
     { image: 'https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'gf-1' },
     { image: 'https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'gf-2' },
-    { image: 'https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'gf-1' },
   ],
   toys: [
     { image: 'https://images.pexels.com/photos/3661193/pexels-photo-3661193.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'ty-1' },
     { image: 'https://images.pexels.com/photos/268840/pexels-photo-268840.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'ty-2' },
-    { image: 'https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'ty-3' },
   ],
   electronics: [
     { image: 'https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'el-1' },
     { image: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'el-3' },
-    { image: 'https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'el-1' },
   ],
   aprons: [
     { image: 'https://images.pexels.com/photos/4210511/pexels-photo-4210511.jpeg?auto=compress&cs=tinysrgb&w=1600', productId: 'ap-1' },
