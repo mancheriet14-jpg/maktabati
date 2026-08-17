@@ -24,7 +24,10 @@ export const useToastStore = create<ToastState>((set) => ({
   toasts: [],
   addToast: (message, type) => {
     const id = Math.random().toString(36).slice(2);
-    set((state) => ({ toasts: [...state.toasts, { id, message, type }] }));
+    set((state) => {
+      const next = [...state.toasts, { id, message, type }];
+      return { toasts: next.slice(-4) };
+    });
   },
   removeToast: (id) =>
     set((state) => ({ toasts: state.toasts.filter((t) => t.id !== id) })),
@@ -57,7 +60,7 @@ function ToastItem({ toast: t }: { toast: Toast }) {
       className="flex w-[min(92vw,30rem)] items-center gap-4 rounded-2xl bg-white px-6 py-5 shadow-float"
     >
       {icons[t.type]}
-      <span className="text-lg font-semibold text-neutral-700">{t.message}</span>
+      <span className="text-base font-semibold text-neutral-700">{t.message}</span>
       <button
         onClick={() => removeToast(t.id)}
         className="text-neutral-400 hover:text-neutral-600"

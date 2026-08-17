@@ -317,7 +317,7 @@ export default function ProfilePage() {
                         </div>
                       </div>
                       <div className="flex items-center gap-3">
-                        <span className="rounded-full bg-primary-50 px-2.5 py-1 text-xs font-medium text-primary-700">
+                        <span className="rounded-full bg-primary-50 px-3 py-1.5 text-sm font-bold text-primary-700 sm:text-base">
                           {t(`orders.status.${order.status}`, { defaultValue: order.status })}
                         </span>
                         <span className="text-sm font-bold text-primary-700">
