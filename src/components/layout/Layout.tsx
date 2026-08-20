@@ -5,6 +5,7 @@ import { useEffect, useRef } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import FloatingCart from '@/components/ui/FloatingCart';
 import { scrollPositions } from '@/lib/scrollStore';
 
 if ('scrollRestoration' in history) {
@@ -84,6 +85,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <Footer />
+      <FloatingCart />
     </div>
   );
 }
