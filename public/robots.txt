@@ -10,4 +10,4 @@ Disallow: /signup
 Disallow: /forgot-password
 Disallow: /search
 
-Sitemap: https://maktabati.maktabati-store-dz.workers.dev/sitemap.xml
+Sitemap: https://ourmaktaba.workers.dev/sitemap.xml

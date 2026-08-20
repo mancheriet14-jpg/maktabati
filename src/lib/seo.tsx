@@ -5,7 +5,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-const SITE_DOMAIN = 'https://maktabati.maktabati-store-dz.workers.dev';
+const SITE_DOMAIN = 'https://ourmaktaba.workers.dev';
 
 interface SeoOptions {
   title: string;
