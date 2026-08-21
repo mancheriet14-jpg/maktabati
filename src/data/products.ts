@@ -10508,7 +10508,8 @@ export const products: Product[] = [
       },
     ],
   },
-/*
+
+
 {
     id: 'bg19',
     name: 'حقيبة ظهر أطفال LUCK بتصميم أرنب',
@@ -10518,6 +10519,7 @@ export const products: Product[] = [
     price: 2450,
     oldPrice: 2600,
     rating: 4.5,
+    images: ['/img-webp/backpacks/12.jpg'] ,
     gallery: [
       '/img-webp/backpacks/12.jpg',
       '/img-webp/backpacks/12.1.jpg',
@@ -10563,9 +10565,6 @@ export const products: Product[] = [
       },
     ],
   },
-
-*/
-
 
 
 
