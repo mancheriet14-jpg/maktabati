@@ -143,7 +143,7 @@ export default function Header() {
                 alt={siteConfig.name}
                 className="h-12 w-12 rounded-2xl object-cover"
               />
-              <span className="hidden text-lg font-extrabold text-primary-800 sm:block">
+              <span className="hidden text-lg font-extrabold text-success-700 sm:block">
                 {siteConfig.name}
               </span>
             </Link>
